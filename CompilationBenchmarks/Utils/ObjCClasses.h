@@ -28,6 +28,7 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 
 
 @interface ObjCClass : NSObject
+@property (nonatomic) NSInteger i;
 @property (nonatomic) CGRect rect;
 @property (nonatomic) ObjcEnum objcState;
 @property (nonatomic) BOOL flag1, flag2, flag3, flag4;

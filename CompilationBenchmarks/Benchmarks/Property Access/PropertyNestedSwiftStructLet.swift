@@ -8066,6 +8066,7 @@ final class PropertyNestedSwiftStructLet: NSObject {
         result = obj.subLet.subLet.subLet.subLet.subLet.subLet.subLet.i
     }
 
+    /*
     func propertyNestedSwiftStructLet9() {
         let obj = NestedSwiftStruct10()
         var result = 0
@@ -10079,4 +10080,5 @@ final class PropertyNestedSwiftStructLet: NSObject {
         result = obj.subLet.subLet.subLet.subLet.subLet.subLet.subLet.subLet.subLet.i
         result = obj.subLet.subLet.subLet.subLet.subLet.subLet.subLet.subLet.subLet.i
     }
-}
+     */
+ }

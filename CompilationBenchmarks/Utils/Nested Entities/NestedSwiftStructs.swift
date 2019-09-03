@@ -8,32 +8,32 @@
 
 import Foundation
 
-struct NestedSwiftStruct1 {
-    var i = 0
-}
-
-struct NestedSwiftStruct2 {
-    var i = 0
-    let subLet = NestedSwiftStruct1()
-    var subVar = NestedSwiftStruct1()
-    lazy var subLazyVar: NestedSwiftStruct1 = {
-        NestedSwiftStruct1()
-    }()
-    var subCalculatedVar: NestedSwiftStruct1 {
-        return NestedSwiftStruct1()
-    }
-}
+//struct NestedSwiftStruct1 {
+//    var i = 0
+//}
+//
+//struct NestedSwiftStruct2 {
+//    var i = 0
+//    let subLet = NestedSwiftStruct1()
+//    var subVar = NestedSwiftStruct1()
+//    lazy var subLazyVar: NestedSwiftStruct1 = {
+//        NestedSwiftStruct1()
+//    }()
+//    var subCalculatedVar: NestedSwiftStruct1 {
+//        return NestedSwiftStruct1()
+//    }
+//}
 
 struct NestedSwiftStruct3 {
     var i = 0
-    let subLet = NestedSwiftStruct2()
-    var subVar = NestedSwiftStruct2()
-    lazy var subLazyVar: NestedSwiftStruct2 = {
-        NestedSwiftStruct2()
-    }()
-    var subCalculatedVar: NestedSwiftStruct2 {
-        return NestedSwiftStruct2()
-    }
+//    let subLet = NestedSwiftStruct2()
+//    var subVar = NestedSwiftStruct2()
+//    lazy var subLazyVar: NestedSwiftStruct2 = {
+//        NestedSwiftStruct2()
+//    }()
+//    var subCalculatedVar: NestedSwiftStruct2 {
+//        return NestedSwiftStruct2()
+//    }
 }
 
 struct NestedSwiftStruct4 {

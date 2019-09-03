@@ -90,9 +90,7 @@
 		372A962C231EFB8700B1B4E4 /* PropertyNestedSwiftStructVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftStructVar.swift; sourceTree = "<group>"; };
 		372A962D231EFB8700B1B4E4 /* PropertyNestedPublicClassCalculatedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedPublicClassCalculatedVar.swift; sourceTree = "<group>"; };
 		372A962E231EFB8800B1B4E4 /* PropertyNestedFinalClassCalculatedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedFinalClassCalculatedVar.swift; sourceTree = "<group>"; };
-		372A962F231EFB8800B1B4E4 /* PropertyObjCClassLazyVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyObjCClassLazyVar.swift; sourceTree = "<group>"; };
 		372A9630231EFB8800B1B4E4 /* PropertyNestedSwiftNSObjectSubclassCalculatedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassCalculatedVar.swift; sourceTree = "<group>"; };
-		372A9631231EFB8800B1B4E4 /* PropertySwiftBridgedInheritedPropertyClassLazyVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassLazyVar.swift; sourceTree = "<group>"; };
 		372A9632231EFB8800B1B4E4 /* PropertyNestedSwiftNSObjectSubclassLazyVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassLazyVar.swift; sourceTree = "<group>"; };
 		372A9633231EFB8900B1B4E4 /* PropertyNestedSwiftStructLazyVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftStructLazyVar.swift; sourceTree = "<group>"; };
 		372A9634231EFB8900B1B4E4 /* PropertyNestedSwiftNSObjectSubclassVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassVar.swift; sourceTree = "<group>"; };
@@ -250,9 +248,7 @@
 				372A9633231EFB8900B1B4E4 /* PropertyNestedSwiftStructLazyVar.swift */,
 				372A9625231EFB8600B1B4E4 /* PropertyNestedSwiftStructLet.swift */,
 				372A962C231EFB8700B1B4E4 /* PropertyNestedSwiftStructVar.swift */,
-				372A962F231EFB8800B1B4E4 /* PropertyObjCClassLazyVar.swift */,
 				372A962B231EFB8700B1B4E4 /* PropertyObjCClassVar.swift */,
-				372A9631231EFB8800B1B4E4 /* PropertySwiftBridgedInheritedPropertyClassLazyVar.swift */,
 				372A962A231EFB8700B1B4E4 /* PropertySwiftBridgedInheritedPropertyClassVar.swift */,
 			);
 			path = "Property Access";
