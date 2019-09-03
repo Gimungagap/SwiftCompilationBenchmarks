@@ -20,6 +20,13 @@ typedef NS_ENUM(NSUInteger, ObjcEnum) {
 
 
 
+void someObjcFunc1(NSInteger a1);
+void someObjcFunc2(NSInteger a1, NSInteger a2);
+void someObjcFunc3(NSInteger a1, NSInteger a2, NSInteger a3);
+void someObjcFunc4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger a4);
+
+
+
 ObjcEnum objcReturnObjcEnum1(NSInteger a1);
 ObjcEnum objcReturnObjcEnum2(NSInteger a1, NSInteger a2);
 ObjcEnum objcReturnObjcEnum3(NSInteger a1, NSInteger a2, NSInteger a3);

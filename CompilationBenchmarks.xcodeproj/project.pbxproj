@@ -33,7 +33,7 @@
 
 /* Begin PBXBuildFile section */
 		19EDDA5923106E7500FC511D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDDA5823106E7500FC511D /* Utils.swift */; };
-		3702BFE0231F1594009A15AB /* SumToPropertySpecified.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3702BFDE231F146A009A15AB /* SumToPropertySpecified.swift */; };
+		370E4125231F197900785BAB /* ObjcFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370E4124231F197900785BAB /* ObjcFuncs.swift */; };
 		372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29F1231DBE100004408B /* NestedSwiftStructs.swift */; };
 		372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29ED231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift */; };
 		372B29F0231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29EF231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift */; };
@@ -75,6 +75,8 @@
 		19EDDA5C23107E4000FC511D /* UnusedVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusedVars.swift; sourceTree = "<group>"; };
 		3702BFD9231F08F2009A15AB /* SumToPropertyInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumToPropertyInferred.swift; sourceTree = "<group>"; };
 		3702BFDE231F146A009A15AB /* SumToPropertySpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumToPropertySpecified.swift; sourceTree = "<group>"; };
+		3702BFE1231F1644009A15AB /* PropertyAssignFuncResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAssignFuncResult.swift; sourceTree = "<group>"; };
+		370E4124231F197900785BAB /* ObjcFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcFuncs.swift; sourceTree = "<group>"; };
 		372A961F231EFB8500B1B4E4 /* PropertyNestedPublicClassVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedPublicClassVar.swift; sourceTree = "<group>"; };
 		372A9620231EFB8500B1B4E4 /* PropertyNestedFinalClassVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedFinalClassVar.swift; sourceTree = "<group>"; };
 		372A9621231EFB8500B1B4E4 /* PropertyNestedSwiftBridgedClassSubclassVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftBridgedClassSubclassVar.swift; sourceTree = "<group>"; };
@@ -140,6 +142,8 @@
 			children = (
 				19AF54A8231092B70014375B /* Funcs.swift */,
 				19AF54A0231088810014375B /* Inits.swift */,
+				370E4124231F197900785BAB /* ObjcFuncs.swift */,
+				3702BFE1231F1644009A15AB /* PropertyAssignFuncResult.swift */,
 			);
 			path = "Func Calls";
 			sourceTree = "<group>";
@@ -461,12 +465,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				376D8A43231DBB47004495C8 /* NestedPublicClasses.swift in Sources */,
-				3702BFE0231F1594009A15AB /* SumToPropertySpecified.swift in Sources */,
 				37C0E54C2289F82F00DDDB9E /* ObjCClasses.m in Sources */,
 				372B29F0231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift in Sources */,
 				376D8A41231DBB2E004495C8 /* NestedSwiftObjcClasses.swift in Sources */,
 				37FFDDBF22638C1100BAFB9C /* ViewController.swift in Sources */,
 				376D8A45231DBB61004495C8 /* NestedFinalClasses.swift in Sources */,
+				370E4125231F197900785BAB /* ObjcFuncs.swift in Sources */,
 				37FFDDBD22638C1100BAFB9C /* AppDelegate.swift in Sources */,
 				372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */,
 				372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */,

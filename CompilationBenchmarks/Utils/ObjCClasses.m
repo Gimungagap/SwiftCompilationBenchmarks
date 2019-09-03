@@ -8,6 +8,13 @@
 
 #import "ObjCClasses.h"
 
+void someObjcFunc1(NSInteger a1) {}
+void someObjcFunc2(NSInteger a1, NSInteger a2) {}
+void someObjcFunc3(NSInteger a1, NSInteger a2, NSInteger a3) {}
+void someObjcFunc4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger a4) {}
+
+
+
 ObjcEnum objcReturnObjcEnum1(NSInteger a1)  {
     return ObjcEnumS1;
 }
