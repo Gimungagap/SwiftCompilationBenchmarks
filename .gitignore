@@ -16,7 +16,6 @@
 fastlane/report.xml
 fastlane/*report*
 *app.dSYM.zip
- 
-# sonar
-*sonar-reports*
-*compile_commands.json
+
+CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output
+CompilationBenchmarks/CodeGeneration/ReplaceOccurrences/*
