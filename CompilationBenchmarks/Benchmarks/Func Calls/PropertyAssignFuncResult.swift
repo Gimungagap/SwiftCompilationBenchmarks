@@ -11,7 +11,7 @@ import Foundation
 final class PropertyAssignFuncResult: NSObject {
 
     func propertyAssignFuncResult0() {
-        let target = SwiftFinalClass()
+        let target = SwiftPropertiesClass()
         let f: CGFloat = 0
         print(String(describing: target))
 
@@ -1018,7 +1018,7 @@ final class PropertyAssignFuncResult: NSObject {
     }
 
     func propertyAssignFuncResult1() {
-        let target = SwiftFinalClass()
+        let target = SwiftPropertiesClass()
         let obj = ObjCNestedClass1()
         let f: CGFloat = 0
         print(String(describing: target))
@@ -2027,7 +2027,7 @@ final class PropertyAssignFuncResult: NSObject {
     }
 
     func propertyAssignFuncResult2() {
-        let target = SwiftFinalClass()
+        let target = SwiftPropertiesClass()
         let obj = ObjCNestedClass1()
         let f: CGFloat = 0
         print(String(describing: target))
@@ -3036,7 +3036,7 @@ final class PropertyAssignFuncResult: NSObject {
     }
 
     func propertyAssignFuncResult3() {
-        let target = SwiftFinalClass()
+        let target = SwiftPropertiesClass()
         let obj = ObjCNestedClass1()
         let f: CGFloat = 0
         print(String(describing: target))
@@ -4044,7 +4044,7 @@ final class PropertyAssignFuncResult: NSObject {
     }
 
     func propertyAssignFuncResult4() {
-        let target = SwiftFinalClass()
+        let target = SwiftPropertiesClass()
         let obj = ObjCNestedClass1()
         print(String(describing: target))
 

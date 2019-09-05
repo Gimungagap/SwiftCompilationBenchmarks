@@ -1,1 +1,1 @@
-        target.rect = CGRect(x: f, y: f, width: f, height: f)
+        obj = obj.map {}

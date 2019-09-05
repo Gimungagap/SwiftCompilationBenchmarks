@@ -46,6 +46,56 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 
 
 
+@implementation ObjCBlockClass
+
+- (instancetype)map0:(void(^)(void))block {
+    return self;
+}
+
+- (instancetype)map1:(void(^)(NSInteger))block {
+    return self;
+}
+
+- (instancetype)map2:(void(^)(NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map3:(void(^)(NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map4:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map5:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map6:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map7:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map8:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map9:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+- (instancetype)map10:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block {
+    return self;
+}
+
+@end
+
+
+
 @implementation ObjCNestedClass1
 @end
 

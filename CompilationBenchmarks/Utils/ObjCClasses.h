@@ -48,6 +48,22 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 
 
 
+@interface ObjCBlockClass : NSObject
+- (instancetype)map0:(void(^)(void))block;
+- (instancetype)map1:(void(^)(NSInteger))block;
+- (instancetype)map2:(void(^)(NSInteger, NSInteger))block;
+- (instancetype)map3:(void(^)(NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map4:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map5:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map6:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map7:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map8:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map9:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block;
+- (instancetype)map10:(void(^)(NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger, NSInteger))block;
+@end
+
+
+
 @interface ObjCNestedClass1 : NSObject
 @property (nonatomic) NSInteger i;
 @property (nonatomic) CGFloat f;

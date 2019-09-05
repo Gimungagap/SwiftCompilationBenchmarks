@@ -89,9 +89,13 @@ func returnObjcEnum(a1: Int, a2: Int, a3: Int, a4: Int) -> ObjcEnum {
 
 
 
-final class SwiftFinalClass: NSObject {
+final class SwiftPropertiesClass: NSObject {
     var rect = CGRect.zero
+}
 
+
+
+final class SwiftFinalClass: NSObject {
     var swiftState: SomeState = .s1
     var objcState: ObjcEnum = .S1
 }
@@ -150,5 +154,66 @@ final class ClassForInit {
     }
 
     init(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int) {
+    }
+}
+
+
+
+final class SwiftClosureMethodClass: NSObject {
+    var rect = CGRect.zero
+
+    @discardableResult
+    func map(c: () -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int, Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int, Int, Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int, Int, Int, Int, Int, Int) -> ()) -> Self {
+        return self
+    }
+
+    @discardableResult
+    func map(c: (Int, Int, Int, Int, Int, Int, Int, Int, Int, Int) -> ()) -> Self {
+        return self
     }
 }
