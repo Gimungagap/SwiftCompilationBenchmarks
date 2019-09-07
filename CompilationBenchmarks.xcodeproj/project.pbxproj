@@ -32,6 +32,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1938DCC32323E9620019DC04 /* PropertyNestedSwiftStructCalculatedVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A9623231EFB8600B1B4E4 /* PropertyNestedSwiftStructCalculatedVar.swift */; };
+		1938DCC42323E9620019DC04 /* PropertyNestedSwiftStructLazyVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A9633231EFB8900B1B4E4 /* PropertyNestedSwiftStructLazyVar.swift */; };
+		1938DCC52323E9620019DC04 /* PropertyNestedSwiftStructLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A9625231EFB8600B1B4E4 /* PropertyNestedSwiftStructLet.swift */; };
+		1938DCC62323E9620019DC04 /* PropertyNestedSwiftStructVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A962C231EFB8700B1B4E4 /* PropertyNestedSwiftStructVar.swift */; };
 		19EDDA5923106E7500FC511D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDDA5823106E7500FC511D /* Utils.swift */; };
 		372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29F1231DBE100004408B /* NestedSwiftStructs.swift */; };
 		372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29ED231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift */; };
@@ -39,7 +43,6 @@
 		376D8A41231DBB2E004495C8 /* NestedSwiftObjcClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D8A40231DBB2E004495C8 /* NestedSwiftObjcClasses.swift */; };
 		376D8A43231DBB47004495C8 /* NestedPublicClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D8A42231DBB47004495C8 /* NestedPublicClasses.swift */; };
 		376D8A45231DBB61004495C8 /* NestedFinalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D8A44231DBB61004495C8 /* NestedFinalClasses.swift */; };
-		37A15173232063FA00E9BA8F /* ObjcBlockChaining0Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1516B23205D8C00E9BA8F /* ObjcBlockChaining0Params.swift */; };
 		37A8B42E2263B6350058A602 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A8B42D2263B6350058A602 /* Default-568h@2x.png */; };
 		37C0E54C2289F82F00DDDB9E /* ObjCClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C0E54B2289F82F00DDDB9E /* ObjCClasses.m */; };
 		37FFDDBD22638C1100BAFB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FFDDBC22638C1100BAFB9C /* AppDelegate.swift */; };
@@ -482,10 +485,13 @@
 				37C0E54C2289F82F00DDDB9E /* ObjCClasses.m in Sources */,
 				372B29F0231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift in Sources */,
 				376D8A41231DBB2E004495C8 /* NestedSwiftObjcClasses.swift in Sources */,
+				1938DCC42323E9620019DC04 /* PropertyNestedSwiftStructLazyVar.swift in Sources */,
 				37FFDDBF22638C1100BAFB9C /* ViewController.swift in Sources */,
+				1938DCC62323E9620019DC04 /* PropertyNestedSwiftStructVar.swift in Sources */,
+				1938DCC32323E9620019DC04 /* PropertyNestedSwiftStructCalculatedVar.swift in Sources */,
 				376D8A45231DBB61004495C8 /* NestedFinalClasses.swift in Sources */,
-				37A15173232063FA00E9BA8F /* ObjcBlockChaining0Params.swift in Sources */,
 				37FFDDBD22638C1100BAFB9C /* AppDelegate.swift in Sources */,
+				1938DCC52323E9620019DC04 /* PropertyNestedSwiftStructLet.swift in Sources */,
 				372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */,
 				372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */,
 				19EDDA5923106E7500FC511D /* Utils.swift in Sources */,

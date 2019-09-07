@@ -11,7 +11,7 @@ import Foundation
 final class PropertyNestedSwiftStructLazyVar: NSObject {
 
     func propertyNestedSwiftStructLazyVar1() {
-        let obj = NestedSwiftStruct10()
+        let obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -1018,7 +1018,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar2() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -2025,7 +2026,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar3() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -3032,7 +3034,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar4() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -4039,7 +4042,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar5() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -5046,7 +5050,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar6() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -6053,7 +6058,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar7() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -7060,7 +7066,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar8() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -8066,9 +8073,9 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
         result = obj.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.i
     }
 
-    /*
     func propertyNestedSwiftStructLazyVar9() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -9075,7 +9082,8 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
     }
 
     func propertyNestedSwiftStructLazyVar10() {
-        var obj = NestedSwiftStruct10()
+        var obj = NestedSwiftStructLazy10()
+        obj = NestedSwiftStructLazy10()
         var result = 0
         print(String(describing: result))
 
@@ -10080,5 +10088,4 @@ final class PropertyNestedSwiftStructLazyVar: NSObject {
         result = obj.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.i
         result = obj.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.subLazyVar.i
     }
-     */
 }

@@ -8066,7 +8066,6 @@ final class PropertyNestedSwiftStructCalculatedVar: NSObject {
         result = obj.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.i
     }
 
-    /*
     func propertyNestedSwiftStructCalculatedVar9() {
         let obj = NestedSwiftStruct10()
         var result = 0
@@ -10080,5 +10079,4 @@ final class PropertyNestedSwiftStructCalculatedVar: NSObject {
         result = obj.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.i
         result = obj.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.subCalculatedVar.i
     }
-     */
 }

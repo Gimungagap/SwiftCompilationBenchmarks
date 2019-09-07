@@ -8066,7 +8066,6 @@ final class PropertyNestedSwiftStructVar: NSObject {
         result = obj.subVar.subVar.subVar.subVar.subVar.subVar.subVar.i
     }
 
-    /*
     func propertyNestedSwiftStructVar9() {
         let obj = NestedSwiftStruct10()
         var result = 0
@@ -10080,5 +10079,4 @@ final class PropertyNestedSwiftStructVar: NSObject {
         result = obj.subVar.subVar.subVar.subVar.subVar.subVar.subVar.subVar.subVar.i
         result = obj.subVar.subVar.subVar.subVar.subVar.subVar.subVar.subVar.subVar.i
     }
-     */
 }
