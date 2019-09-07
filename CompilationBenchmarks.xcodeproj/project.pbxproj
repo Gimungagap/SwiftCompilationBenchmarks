@@ -52,6 +52,10 @@
 		1908C925231C703600746847 /* EnumSwiftBridgedClassSubclassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftBridgedClassSubclassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		1908C926231C703600746847 /* EnumObjCClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumObjCClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		1908C927231C704D00746847 /* EnumSwiftStructPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftStructPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
+		190CEE30232410C400FE4B71 /* EnumFuncParameterCallInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParameterCallInferred.swift; sourceTree = "<group>"; };
+		190CEE32232410DC00FE4B71 /* EnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
+		190CEE34232410EF00FE4B71 /* ObjcEnumFuncParameterCallInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallInferred.swift; sourceTree = "<group>"; };
+		190CEE36232410FB00FE4B71 /* ObjcEnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
 		198E1F59231C469000BE88FC /* EnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersInferred.swift; sourceTree = "<group>"; };
 		198E1F5B231C474300BE88FC /* EnumFuncParametersSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersSpecified.swift; sourceTree = "<group>"; };
 		198E1F5D231C48FD00BE88FC /* ObjcEnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParametersInferred.swift; sourceTree = "<group>"; };
@@ -156,8 +160,12 @@
 		198E1F58231C466D00BE88FC /* Enum As Func Parameters */ = {
 			isa = PBXGroup;
 			children = (
+				190CEE30232410C400FE4B71 /* EnumFuncParameterCallInferred.swift */,
+				190CEE32232410DC00FE4B71 /* EnumFuncParameterCallSpecified.swift */,
 				198E1F59231C469000BE88FC /* EnumFuncParametersInferred.swift */,
 				198E1F5B231C474300BE88FC /* EnumFuncParametersSpecified.swift */,
+				190CEE34232410EF00FE4B71 /* ObjcEnumFuncParameterCallInferred.swift */,
+				190CEE36232410FB00FE4B71 /* ObjcEnumFuncParameterCallSpecified.swift */,
 				198E1F5D231C48FD00BE88FC /* ObjcEnumFuncParametersInferred.swift */,
 				198E1F5F231C491500BE88FC /* ObjcEnumFuncParametersSpecified.swift */,
 			);
