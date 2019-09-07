@@ -67,7 +67,6 @@
 		199731A3231C7E36006EBC02 /* ObjcEnumPropertyAssignSwiftSpecifiedTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjcEnumPropertyAssignSwiftSpecifiedTernaryResults.swift; sourceTree = "<group>"; };
 		199731A5231C7E91006EBC02 /* ObjcEnumPropertyAssignSwiftInferredTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjcEnumPropertyAssignSwiftInferredTernaryResults.swift; sourceTree = "<group>"; };
 		19AF54A0231088810014375B /* Inits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inits.swift; sourceTree = "<group>"; };
-		19AF54A22310888F0014375B /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
 		19AF54A4231088B40014375B /* SumPropertiesObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesObjc.swift; sourceTree = "<group>"; };
 		19AF54A6231088C10014375B /* SumPropertiesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesSwift.swift; sourceTree = "<group>"; };
 		19AF54A8231092B70014375B /* Funcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcs.swift; sourceTree = "<group>"; };
@@ -218,14 +217,6 @@
 			path = "Enum Assign Complex Expressions";
 			sourceTree = "<group>";
 		};
-		1997319E231C775A006EBC02 /* +Plan */ = {
-			isa = PBXGroup;
-			children = (
-				19AF54A22310888F0014375B /* Plan.swift */,
-			);
-			path = "+Plan";
-			sourceTree = "<group>";
-		};
 		19EDDA5723106E6000FC511D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,7 +276,6 @@
 		375793C322639090004CCE42 /* Benchmarks */ = {
 			isa = PBXGroup;
 			children = (
-				1997319E231C775A006EBC02 /* +Plan */,
 				379583E2232044A5009BBA32 /* Closures */,
 				198E1F58231C466D00BE88FC /* Enum As Func Parameters */,
 				1997319D231C768D006EBC02 /* Enum Assign Complex Expressions */,
