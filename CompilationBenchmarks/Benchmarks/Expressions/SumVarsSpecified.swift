@@ -10,7 +10,7 @@ import UIKit
 
 final class SumVarsSpecified: NSObject {
     
-    func sum2TypesSpecified() {
+    func sumSpecified2Types() {
         let a1: Int = 1
         let a2: Int = 1
         var result: Int = 0
@@ -1020,7 +1020,7 @@ final class SumVarsSpecified: NSObject {
         print(String(describing: result))
     }
     
-    func sum3TypesSpecified() {
+    func sumSpecified3Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -2029,7 +2029,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3
     }
     
-    func sum4TypesSpecified() {
+    func sumSpecified4Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -3039,7 +3039,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4
     }
     
-    func sum5TypesSpecified() {
+    func sumSpecified5Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -4050,7 +4050,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4 + a5
     }
     
-    func sum6TypesSpecified() {
+    func sumSpecified6Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -5062,7 +5062,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6
     }
     
-    func sum7TypesSpecified() {
+    func sumSpecified7Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -6075,7 +6075,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7
     }
     
-    func sum8TypesSpecified() {
+    func sumSpecified8Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -7089,7 +7089,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8
     }
     
-    func sum9TypesSpecified() {
+    func sumSpecified9Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -8104,7 +8104,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9
     }
 
-    func sum10TypesSpecified() {
+    func sumSpecified10Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1
@@ -9120,7 +9120,7 @@ final class SumVarsSpecified: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10
     }
     
-    func sum20TypesSpecified() {
+    func sumSpecified20Types() {
         let a1: Int = 1
         let a2: Int = 1
         let a3: Int = 1

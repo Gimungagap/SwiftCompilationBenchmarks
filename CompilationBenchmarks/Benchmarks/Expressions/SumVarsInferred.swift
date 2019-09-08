@@ -10,7 +10,7 @@ import UIKit
 
 final class SumVarsInferred: NSObject {
 
-    func sum2TypesInferred() {
+    func sumInferred2Types() {
         let a1 = 1
         let a2 = 1
         var result = 0
@@ -1018,7 +1018,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2
     }
 
-    func sum3TypesInferred() {
+    func sumInferred3Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -2027,7 +2027,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3
     }
 
-    func sum4TypesInferred() {
+    func sumInferred4Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -3037,7 +3037,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4
     }
 
-    func sum5TypesInferred() {
+    func sumInferred5Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -4048,7 +4048,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4 + a5
     }
 
-    func sum6TypesInferred() {
+    func sumInferred6Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -5060,7 +5060,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6
     }
 
-    func sum7TypesInferred() {
+    func sumInferred7Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -6073,7 +6073,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7
     }
 
-    func sum8TypesInferred() {
+    func sumInferred8Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -7087,7 +7087,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8
     }
 
-    func sum9TypesInferred() {
+    func sumInferred9Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -8102,7 +8102,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9
     }
 
-    func sum10TypesInferred() {
+    func sumInferred10Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1
@@ -9118,7 +9118,7 @@ final class SumVarsInferred: NSObject {
         result = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10
     }
 
-    func sum20TypesInferred() {
+    func sumInferred20Types() {
         let a1 = 1
         let a2 = 1
         let a3 = 1

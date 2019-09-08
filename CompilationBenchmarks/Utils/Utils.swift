@@ -39,6 +39,12 @@ func someFunc(a1: Int, a2: Int, a3: Int) {
 func someFunc(a1: Int, a2: Int, a3: Int, a4: Int) {
 }
 
+func someFunc(a1: Int, a2: Int, a3: Int, a4: Int, a5: Int) {
+}
+
+func someFunc(a1: Int, a2: Int, a3: Int, a4: Int, a5: Int, a6: Int) {
+}
+
 func someFunc(_ a1: Int) {
 }
 
@@ -49,6 +55,12 @@ func someFunc(_ a1: Int, _ a2: Int, _ a3: Int) {
 }
 
 func someFunc(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int) {
+}
+
+func someFunc(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int, _ a5: Int) {
+}
+
+func someFunc(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int, _ a5: Int, _ a6: Int) {
 }
 
 
@@ -144,6 +156,12 @@ final class ClassForInit {
     init(a1: Int, a2: Int, a3: Int, a4: Int) {
     }
 
+    init(a1: Int, a2: Int, a3: Int, a4: Int, a5: Int) {
+    }
+
+    init(a1: Int, a2: Int, a3: Int, a4: Int, a5: Int, a6: Int) {
+    }
+
     init(_ a1: Int) {
     }
 
@@ -154,6 +172,12 @@ final class ClassForInit {
     }
 
     init(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int) {
+    }
+
+    init(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int, _ a5: Int) {
+    }
+
+    init(_ a1: Int, _ a2: Int, _ a3: Int, _ a4: Int, _ a5: Int, _ a6: Int) {
     }
 }
 
