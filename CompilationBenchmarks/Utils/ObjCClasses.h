@@ -38,7 +38,7 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 @property (nonatomic) NSInteger i;
 @property (nonatomic) CGRect rect;
 @property (nonatomic) ObjcEnum objcState;
-@property (nonatomic) BOOL flag1, flag2, flag3, flag4;
+@property (nonatomic) BOOL flag1, flag2, flag3, flag4, flag5, flag6;
 
 @property (nonatomic, readonly) ObjCClass *sub;
 @end
