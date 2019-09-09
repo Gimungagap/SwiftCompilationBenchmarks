@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */ = {isa = PBXBuildFile; fileRef = 198214B72326B13400D9CB8B /* UnspecifiedNullability.m */; };
 		19EDDA5923106E7500FC511D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDDA5823106E7500FC511D /* Utils.swift */; };
 		372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29F1231DBE100004408B /* NestedSwiftStructs.swift */; };
 		372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29ED231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift */; };
@@ -56,7 +57,14 @@
 		190CEE32232410DC00FE4B71 /* EnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
 		190CEE34232410EF00FE4B71 /* ObjcEnumFuncParameterCallInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallInferred.swift; sourceTree = "<group>"; };
 		190CEE36232410FB00FE4B71 /* ObjcEnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
+		1920568F2326B66B00F03FFC /* ObjcForceUnwrappedVarChainingManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcForceUnwrappedVarChainingManual.swift; sourceTree = "<group>"; };
+		194CDBC42326B86900B7E734 /* ObjcNonnullVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcNonnullVarChaining.swift; sourceTree = "<group>"; };
+		194CDBC62326B8D300B7E734 /* ObjcOptionalVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcOptionalVarChaining.swift; sourceTree = "<group>"; };
 		1967D8F923268CB0001B351C /* FrameExpressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExpressions.swift; sourceTree = "<group>"; };
+		198214B22326AE5C00D9CB8B /* SwiftOptionalVarStructChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalVarStructChaining.swift; sourceTree = "<group>"; };
+		198214B62326B13400D9CB8B /* UnspecifiedNullability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnspecifiedNullability.h; sourceTree = "<group>"; };
+		198214B72326B13400D9CB8B /* UnspecifiedNullability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnspecifiedNullability.m; sourceTree = "<group>"; };
+		198214B92326B46D00D9CB8B /* ObjcForceUnwrappedVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcForceUnwrappedVarChaining.swift; sourceTree = "<group>"; };
 		198E1F59231C469000BE88FC /* EnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersInferred.swift; sourceTree = "<group>"; };
 		198E1F5B231C474300BE88FC /* EnumFuncParametersSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersSpecified.swift; sourceTree = "<group>"; };
 		198E1F5D231C48FD00BE88FC /* ObjcEnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParametersInferred.swift; sourceTree = "<group>"; };
@@ -72,6 +80,7 @@
 		19AF54A4231088B40014375B /* SumPropertiesObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesObjc.swift; sourceTree = "<group>"; };
 		19AF54A6231088C10014375B /* SumPropertiesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesSwift.swift; sourceTree = "<group>"; };
 		19AF54A8231092B70014375B /* Funcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcs.swift; sourceTree = "<group>"; };
+		19AF7F8D2326A9BE0011AFB2 /* SwiftOptionalVarClassChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalVarClassChaining.swift; sourceTree = "<group>"; };
 		19B8A395231C5EDF009FE625 /* EnumSwiftFinalClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftFinalClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		19D2A904231C6C6E000F3F39 /* EnumSwiftPublicClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftPublicClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		19EDDA5823106E7500FC511D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -223,6 +232,19 @@
 			path = "Enum Assign Complex Expressions";
 			sourceTree = "<group>";
 		};
+		19AF7F8A2326A8980011AFB2 /* Optionals */ = {
+			isa = PBXGroup;
+			children = (
+				198214B92326B46D00D9CB8B /* ObjcForceUnwrappedVarChaining.swift */,
+				1920568F2326B66B00F03FFC /* ObjcForceUnwrappedVarChainingManual.swift */,
+				194CDBC42326B86900B7E734 /* ObjcNonnullVarChaining.swift */,
+				194CDBC62326B8D300B7E734 /* ObjcOptionalVarChaining.swift */,
+				19AF7F8D2326A9BE0011AFB2 /* SwiftOptionalVarClassChaining.swift */,
+				198214B22326AE5C00D9CB8B /* SwiftOptionalVarStructChaining.swift */,
+			);
+			path = Optionals;
+			sourceTree = "<group>";
+		};
 		19EDDA5723106E6000FC511D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +253,8 @@
 				37C0E54A2289F82F00DDDB9E /* ObjCClasses.h */,
 				37C0E54B2289F82F00DDDB9E /* ObjCClasses.m */,
 				19EDDA5823106E7500FC511D /* Utils.swift */,
+				198214B62326B13400D9CB8B /* UnspecifiedNullability.h */,
+				198214B72326B13400D9CB8B /* UnspecifiedNullability.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -288,6 +312,7 @@
 				198E1F63231C552B00BE88FC /* Enum Assign Func Results */,
 				198E1F61231C545100BE88FC /* Expressions */,
 				198E1F57231C462A00BE88FC /* Func Calls */,
+				19AF7F8A2326A8980011AFB2 /* Optionals */,
 				198E1F62231C549100BE88FC /* Other */,
 				372A95A2231DC0F600B1B4E4 /* Property Access */,
 			);
@@ -450,7 +475,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/code_template.swift\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
+			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/code_template\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
 		};
 		372A95C4231EF3F400B1B4E4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -480,6 +505,7 @@
 				37C0E54C2289F82F00DDDB9E /* ObjCClasses.m in Sources */,
 				372B29F0231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift in Sources */,
 				376D8A41231DBB2E004495C8 /* NestedSwiftObjcClasses.swift in Sources */,
+				198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */,
 				37FFDDBF22638C1100BAFB9C /* ViewController.swift in Sources */,
 				376D8A45231DBB61004495C8 /* NestedFinalClasses.swift in Sources */,
 				37FFDDBD22638C1100BAFB9C /* AppDelegate.swift in Sources */,

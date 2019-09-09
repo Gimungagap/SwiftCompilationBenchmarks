@@ -1,0 +1,82 @@
+final class ObjcOptionalVarChaining: NSObject {
+    
+    func callObjcOptionalVarChaining1() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+
+{r}
+        obj = obj?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining2() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining3() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining4() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining5() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining6() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining7() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining8() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining9() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+
+    func callObjcOptionalVarChaining10() {
+        var obj: ObjCSpecifiedNullabilityClass? = ObjCSpecifiedNullabilityClass()
+        
+{r}
+        obj = obj?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar?.optionalVar
+{r}
+    }
+}

@@ -241,3 +241,17 @@ final class SwiftClosureMethodClass: NSObject {
         return self
     }
 }
+
+
+
+struct SwiftOptionalVarStruct {
+    var optionalVar: SwiftOptionalVarStruct? {
+        return self
+    }
+}
+
+final class SwiftOptionalVarClass: NSObject {
+    var optionalVar: SwiftOptionalVarClass? {
+        return self
+    }
+}

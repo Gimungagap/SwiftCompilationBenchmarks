@@ -125,4 +125,11 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 @property (nonatomic, readonly) ObjCNestedClass9 *sub;
 @end
 
+
+
+@interface ObjCSpecifiedNullabilityClass : NSObject
+@property (nonatomic, readonly) ObjCSpecifiedNullabilityClass *nonnullVar;
+@property (nonatomic, readonly, nullable) ObjCSpecifiedNullabilityClass *optionalVar;
+@end
+
 NS_ASSUME_NONNULL_END

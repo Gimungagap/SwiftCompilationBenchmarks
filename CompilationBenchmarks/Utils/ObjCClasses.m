@@ -172,3 +172,13 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 }
 
 @end
+
+
+
+@implementation ObjCSpecifiedNullabilityClass
+    
+- (ObjCSpecifiedNullabilityClass *)nonnullVar {
+    return self;
+}
+    
+@end
