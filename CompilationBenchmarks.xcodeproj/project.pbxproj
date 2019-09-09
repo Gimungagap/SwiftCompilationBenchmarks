@@ -18,16 +18,16 @@
 			name = ReplaceOccurrences;
 			productName = ReplaceOccurrences;
 		};
-		375793BE22639074004CCE42 /* GenerateFile */ = {
+		375793BE22639074004CCE42 /* GenerateLines */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 375793BF22639074004CCE42 /* Build configuration list for PBXAggregateTarget "GenerateFile" */;
+			buildConfigurationList = 375793BF22639074004CCE42 /* Build configuration list for PBXAggregateTarget "GenerateLines" */;
 			buildPhases = (
 				375793C7226390ED004CCE42 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = GenerateFile;
-			productName = GenerateFile;
+			name = GenerateLines;
+			productName = GenerateLines;
 		};
 /* End PBXAggregateTarget section */
 
@@ -121,7 +121,7 @@
 		37A1516B23205D8C00E9BA8F /* ObjcBlockChaining0Params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcBlockChaining0Params.swift; sourceTree = "<group>"; };
 		37A1516D23205FF700E9BA8F /* ObjcBlockChaining1Param.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcBlockChaining1Param.swift; sourceTree = "<group>"; };
 		37A1516F2320612B00E9BA8F /* ObjcBlockChaining2Params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcBlockChaining2Params.swift; sourceTree = "<group>"; };
-		37A1517423219C0A00E9BA8F /* GenerateFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GenerateFile; sourceTree = "<group>"; };
+		37A1517423219C0A00E9BA8F /* GenerateLines */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GenerateLines; sourceTree = "<group>"; };
 		37A8B42B2263B0A90058A602 /* Expressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expressions.swift; sourceTree = "<group>"; };
 		37A8B42D2263B6350058A602 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		37C0E5492289F82F00DDDB9E /* CompilationBenchmarks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompilationBenchmarks-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 		376D8A32231DAD1C004495C8 /* CodeGeneration */ = {
 			isa = PBXGroup;
 			children = (
-				37A1517423219C0A00E9BA8F /* GenerateFile */,
+				37A1517423219C0A00E9BA8F /* GenerateLines */,
 				376D8A3B231DB4D6004495C8 /* ReplaceOccurrences */,
 			);
 			path = CodeGeneration;
@@ -414,7 +414,7 @@
 			projectRoot = "";
 			targets = (
 				37FFDDB822638C1100BAFB9C /* CompilationBenchmarks */,
-				375793BE22639074004CCE42 /* GenerateFile */,
+				375793BE22639074004CCE42 /* GenerateLines */,
 				372A95C0231EF3ED00B1B4E4 /* ReplaceOccurrences */,
 			);
 		};
@@ -458,7 +458,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Code Generation/generation_output",
 			);
 			outputFileListPaths = (
 			);
@@ -466,7 +465,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/code_template\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
+			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateLines/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateLines/code_template\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateLines/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -496,6 +495,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -504,6 +504,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -698,7 +699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		375793BF22639074004CCE42 /* Build configuration list for PBXAggregateTarget "GenerateFile" */ = {
+		375793BF22639074004CCE42 /* Build configuration list for PBXAggregateTarget "GenerateLines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				375793C022639074004CCE42 /* Debug */,
