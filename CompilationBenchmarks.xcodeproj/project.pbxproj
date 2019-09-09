@@ -67,6 +67,7 @@
 		190CEE32232410DC00FE4B71 /* EnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
 		190CEE34232410EF00FE4B71 /* ObjcEnumFuncParameterCallInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallInferred.swift; sourceTree = "<group>"; };
 		190CEE36232410FB00FE4B71 /* ObjcEnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
+		1967D8F923268CB0001B351C /* FrameExpressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExpressions.swift; sourceTree = "<group>"; };
 		198E1F59231C469000BE88FC /* EnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersInferred.swift; sourceTree = "<group>"; };
 		198E1F5B231C474300BE88FC /* EnumFuncParametersSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersSpecified.swift; sourceTree = "<group>"; };
 		198E1F5D231C48FD00BE88FC /* ObjcEnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParametersInferred.swift; sourceTree = "<group>"; };
@@ -188,12 +189,13 @@
 			isa = PBXGroup;
 			children = (
 				37A8B42B2263B0A90058A602 /* Expressions.swift */,
+				1967D8F923268CB0001B351C /* FrameExpressions.swift */,
 				19AF54A4231088B40014375B /* SumPropertiesObjc.swift */,
 				19AF54A6231088C10014375B /* SumPropertiesSwift.swift */,
-				37C0E54D2289FB5A00DDDB9E /* SumVarsInferred.swift */,
-				19EDDA5A2310705F00FC511D /* SumVarsSpecified.swift */,
 				3702BFD9231F08F2009A15AB /* SumToPropertyInferred.swift */,
 				3702BFDE231F146A009A15AB /* SumToPropertySpecified.swift */,
+				37C0E54D2289FB5A00DDDB9E /* SumVarsInferred.swift */,
+				19EDDA5A2310705F00FC511D /* SumVarsSpecified.swift */,
 			);
 			path = Expressions;
 			sourceTree = "<group>";
