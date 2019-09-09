@@ -29,17 +29,6 @@
 			name = ReplaceOccurrences;
 			productName = ReplaceOccurrences;
 		};
-		375793BE22639074004CCE42 /* GenerateLines */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 375793BF22639074004CCE42 /* Build configuration list for PBXAggregateTarget "GenerateLines" */;
-			buildPhases = (
-				375793C7226390ED004CCE42 /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = GenerateLines;
-			productName = GenerateLines;
-		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
@@ -134,7 +123,6 @@
 		37A1516B23205D8C00E9BA8F /* ObjcBlockChaining0Params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcBlockChaining0Params.swift; sourceTree = "<group>"; };
 		37A1516D23205FF700E9BA8F /* ObjcBlockChaining1Param.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcBlockChaining1Param.swift; sourceTree = "<group>"; };
 		37A1516F2320612B00E9BA8F /* ObjcBlockChaining2Params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcBlockChaining2Params.swift; sourceTree = "<group>"; };
-		37A1517423219C0A00E9BA8F /* GenerateLines */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GenerateLines; sourceTree = "<group>"; };
 		37A8B42B2263B0A90058A602 /* Expressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expressions.swift; sourceTree = "<group>"; };
 		37A8B42D2263B6350058A602 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		37C0E5492289F82F00DDDB9E /* CompilationBenchmarks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompilationBenchmarks-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -310,7 +298,6 @@
 			isa = PBXGroup;
 			children = (
 				199A263623265FE50005B628 /* GenerateFile */,
-				37A1517423219C0A00E9BA8F /* GenerateLines */,
 				376D8A3B231DB4D6004495C8 /* ReplaceOccurrences */,
 			);
 			path = CodeGeneration;
@@ -409,9 +396,6 @@
 					372A95C0231EF3ED00B1B4E4 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					375793BE22639074004CCE42 = {
-						CreatedOnToolsVersion = 10.2;
-					};
 					37FFDDB822638C1100BAFB9C = {
 						CreatedOnToolsVersion = 10.2;
 						LastSwiftMigration = 1020;
@@ -433,7 +417,6 @@
 			targets = (
 				37FFDDB822638C1100BAFB9C /* CompilationBenchmarks */,
 				199A263C232661B60005B628 /* GenerateFile */,
-				375793BE22639074004CCE42 /* GenerateLines */,
 				372A95C0231EF3ED00B1B4E4 /* ReplaceOccurrences */,
 			);
 		};
@@ -486,23 +469,6 @@
 			shellPath = /bin/sh;
 			shellScript = "cd CompilationBenchmarks/CodeGeneration/ReplaceOccurrences/\n./execute.sh\n";
 		};
-		375793C7226390ED004CCE42 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateLines/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateLines/code_template\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateLines/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -554,24 +520,6 @@
 			name = Debug;
 		};
 		372A95C3231EF3ED00B1B4E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		375793C022639074004CCE42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		375793C122639074004CCE42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -758,15 +706,6 @@
 			buildConfigurations = (
 				372A95C2231EF3ED00B1B4E4 /* Debug */,
 				372A95C3231EF3ED00B1B4E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		375793BF22639074004CCE42 /* Build configuration list for PBXAggregateTarget "GenerateLines" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				375793C022639074004CCE42 /* Debug */,
-				375793C122639074004CCE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
