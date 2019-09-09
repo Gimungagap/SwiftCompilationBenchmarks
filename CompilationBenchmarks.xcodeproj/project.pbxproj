@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		199A263C232661B60005B628 /* GenerateFile */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 199A263D232661B60005B628 /* Build configuration list for PBXAggregateTarget "GenerateFile" */;
+			buildPhases = (
+				199A2640232661CA0005B628 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GenerateFile;
+			productName = GenerateFile;
+		};
 		372A95C0231EF3ED00B1B4E4 /* ReplaceOccurrences */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 372A95C1231EF3ED00B1B4E4 /* Build configuration list for PBXAggregateTarget "ReplaceOccurrences" */;
@@ -66,6 +77,7 @@
 		199731A1231C7C3D006EBC02 /* EnumPropertyAssignSwiftSpecifiedTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumPropertyAssignSwiftSpecifiedTernaryResults.swift; sourceTree = "<group>"; };
 		199731A3231C7E36006EBC02 /* ObjcEnumPropertyAssignSwiftSpecifiedTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjcEnumPropertyAssignSwiftSpecifiedTernaryResults.swift; sourceTree = "<group>"; };
 		199731A5231C7E91006EBC02 /* ObjcEnumPropertyAssignSwiftInferredTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjcEnumPropertyAssignSwiftInferredTernaryResults.swift; sourceTree = "<group>"; };
+		199A263623265FE50005B628 /* GenerateFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GenerateFile; sourceTree = "<group>"; };
 		19AF54A0231088810014375B /* Inits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inits.swift; sourceTree = "<group>"; };
 		19AF54A4231088B40014375B /* SumPropertiesObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesObjc.swift; sourceTree = "<group>"; };
 		19AF54A6231088C10014375B /* SumPropertiesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesSwift.swift; sourceTree = "<group>"; };
@@ -295,6 +307,7 @@
 		376D8A32231DAD1C004495C8 /* CodeGeneration */ = {
 			isa = PBXGroup;
 			children = (
+				199A263623265FE50005B628 /* GenerateFile */,
 				37A1517423219C0A00E9BA8F /* GenerateLines */,
 				376D8A3B231DB4D6004495C8 /* ReplaceOccurrences */,
 			);
@@ -388,6 +401,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Gimungagap;
 				TargetAttributes = {
+					199A263C232661B60005B628 = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					372A95C0231EF3ED00B1B4E4 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -414,6 +430,7 @@
 			projectRoot = "";
 			targets = (
 				37FFDDB822638C1100BAFB9C /* CompilationBenchmarks */,
+				199A263C232661B60005B628 /* GenerateFile */,
 				375793BE22639074004CCE42 /* GenerateLines */,
 				372A95C0231EF3ED00B1B4E4 /* ReplaceOccurrences */,
 			);
@@ -433,6 +450,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		199A2640232661CA0005B628 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/code_template.swift\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
+		};
 		372A95C4231EF3F400B1B4E4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,6 +524,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		199A263E232661B60005B628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		199A263F232661B60005B628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		372A95C2231EF3ED00B1B4E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -690,6 +742,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		199A263D232661B60005B628 /* Build configuration list for PBXAggregateTarget "GenerateFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199A263E232661B60005B628 /* Debug */,
+				199A263F232661B60005B628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		372A95C1231EF3ED00B1B4E4 /* Build configuration list for PBXAggregateTarget "ReplaceOccurrences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

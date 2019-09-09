@@ -17,5 +17,6 @@ fastlane/report.xml
 fastlane/*report*
 *app.dSYM.zip
 
+CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output
 CompilationBenchmarks/CodeGeneration/GenerateLines/generation_output
 CompilationBenchmarks/CodeGeneration/ReplaceOccurrences/*
