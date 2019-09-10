@@ -33,6 +33,7 @@
 
 /* Begin PBXBuildFile section */
 		198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */ = {isa = PBXBuildFile; fileRef = 198214B72326B13400D9CB8B /* UnspecifiedNullability.m */; };
+		19DD01222327D5C8007863CC /* ObjCClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD01212327D5C8007863CC /* ObjCClass.swift */; };
 		19EDDA5923106E7500FC511D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDDA5823106E7500FC511D /* Utils.swift */; };
 		372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29F1231DBE100004408B /* NestedSwiftStructs.swift */; };
 		372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29ED231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift */; };
@@ -62,6 +63,13 @@
 		194CDBC42326B86900B7E734 /* ObjcNonnullVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcNonnullVarChaining.swift; sourceTree = "<group>"; };
 		194CDBC62326B8D300B7E734 /* ObjcOptionalVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcOptionalVarChaining.swift; sourceTree = "<group>"; };
 		1967D8F923268CB0001B351C /* FrameExpressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameExpressions.swift; sourceTree = "<group>"; };
+		1969263F2327E087008437B7 /* PropertyObjCClassObjcExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyObjCClassObjcExtensionVar.swift; sourceTree = "<group>"; };
+		196926402327E087008437B7 /* PropertyNestedSwiftBridgedClassSubclassObjcExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftBridgedClassSubclassObjcExtensionVar.swift; sourceTree = "<group>"; };
+		196926412327E087008437B7 /* PropertyNestedSwiftNSObjectSubclassObjcExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassObjcExtensionVar.swift; sourceTree = "<group>"; };
+		196926422327E087008437B7 /* PropertyNestedSwiftObjcClassObjcExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftObjcClassObjcExtensionVar.swift; sourceTree = "<group>"; };
+		196926432327E087008437B7 /* PropertySwiftBridgedInheritedPropertyClassObjcExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassObjcExtensionVar.swift; sourceTree = "<group>"; };
+		1969264E2327E552008437B7 /* PropertySwiftBridgedInheritedPropertyClassCategoryVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassCategoryVar.swift; sourceTree = "<group>"; };
+		1969264F2327E552008437B7 /* PropertyObjCClassCategoryVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyObjCClassCategoryVar.swift; sourceTree = "<group>"; };
 		198214B22326AE5C00D9CB8B /* SwiftOptionalVarStructChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalVarStructChaining.swift; sourceTree = "<group>"; };
 		198214B62326B13400D9CB8B /* UnspecifiedNullability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnspecifiedNullability.h; sourceTree = "<group>"; };
 		198214B72326B13400D9CB8B /* UnspecifiedNullability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnspecifiedNullability.m; sourceTree = "<group>"; };
@@ -85,6 +93,20 @@
 		19B8A395231C5EDF009FE625 /* EnumSwiftFinalClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftFinalClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		19CCCDC82326DA5600DED0DB /* LayoutCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutCase.swift; sourceTree = "<group>"; };
 		19D2A904231C6C6E000F3F39 /* EnumSwiftPublicClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftPublicClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
+		19DD01212327D5C8007863CC /* ObjCClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCClass.swift; sourceTree = "<group>"; };
+		19DD01332327DBBE007863CC /* PropertyNestedSwiftNSObjectSubclassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD01342327DBBE007863CC /* PropertyNestedFinalClassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedFinalClassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD01352327DBBE007863CC /* PropertyNestedSwiftBridgedClassSubclassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftBridgedClassSubclassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD01362327DBBE007863CC /* PropertyObjCClassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyObjCClassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD01372327DBBE007863CC /* PropertySwiftBridgedInheritedPropertyClassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD01382327DBBE007863CC /* PropertyNestedPublicClassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedPublicClassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD01392327DBBF007863CC /* PropertyNestedSwiftStructExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftStructExtensionVar.swift; sourceTree = "<group>"; };
+		19DD013A2327DBBF007863CC /* PropertyNestedSwiftObjcClassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftObjcClassExtensionVar.swift; sourceTree = "<group>"; };
+		19DD015E2327DD03007863CC /* PropertyNestedSwiftBridgedClassSubclassExtensionObjcVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftBridgedClassSubclassExtensionObjcVar.swift; sourceTree = "<group>"; };
+		19DD015F2327DD03007863CC /* PropertyNestedSwiftObjcClassExtensionObjcVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftObjcClassExtensionObjcVar.swift; sourceTree = "<group>"; };
+		19DD01622327DD03007863CC /* PropertyObjCClassExtensionObjcVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyObjCClassExtensionObjcVar.swift; sourceTree = "<group>"; };
+		19DD01632327DD03007863CC /* PropertySwiftBridgedInheritedPropertyClassExtensionObjcVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassExtensionObjcVar.swift; sourceTree = "<group>"; };
+		19DD01642327DD03007863CC /* PropertyNestedSwiftNSObjectSubclassExtensionObjcVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassExtensionObjcVar.swift; sourceTree = "<group>"; };
 		19EDDA5823106E7500FC511D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		19EDDA5A2310705F00FC511D /* SumVarsSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumVarsSpecified.swift; sourceTree = "<group>"; };
 		19EDDA5C23107E4000FC511D /* UnusedVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusedVars.swift; sourceTree = "<group>"; };
@@ -267,30 +289,50 @@
 			isa = PBXGroup;
 			children = (
 				372A962E231EFB8800B1B4E4 /* PropertyNestedFinalClassCalculatedVar.swift */,
+				19DD01342327DBBE007863CC /* PropertyNestedFinalClassExtensionVar.swift */,
 				372A9638231EFB8A00B1B4E4 /* PropertyNestedFinalClassLazyVar.swift */,
 				372A9635231EFB8900B1B4E4 /* PropertyNestedFinalClassLet.swift */,
 				372A9620231EFB8500B1B4E4 /* PropertyNestedFinalClassVar.swift */,
 				372A962D231EFB8700B1B4E4 /* PropertyNestedPublicClassCalculatedVar.swift */,
+				19DD01382327DBBE007863CC /* PropertyNestedPublicClassExtensionVar.swift */,
 				372A9626231EFB8600B1B4E4 /* PropertyNestedPublicClassLazyVar.swift */,
 				372A9639231EFB8A00B1B4E4 /* PropertyNestedPublicClassLet.swift */,
 				372A961F231EFB8500B1B4E4 /* PropertyNestedPublicClassVar.swift */,
 				372A9622231EFB8600B1B4E4 /* PropertyNestedSwiftBridgedClassSubclassCalculatedVar.swift */,
+				19DD015E2327DD03007863CC /* PropertyNestedSwiftBridgedClassSubclassExtensionObjcVar.swift */,
+				19DD01352327DBBE007863CC /* PropertyNestedSwiftBridgedClassSubclassExtensionVar.swift */,
 				372A9628231EFB8700B1B4E4 /* PropertyNestedSwiftBridgedClassSubclassLazyVar.swift */,
 				372A9624231EFB8600B1B4E4 /* PropertyNestedSwiftBridgedClassSubclassLet.swift */,
+				196926402327E087008437B7 /* PropertyNestedSwiftBridgedClassSubclassObjcExtensionVar.swift */,
 				372A9621231EFB8500B1B4E4 /* PropertyNestedSwiftBridgedClassSubclassVar.swift */,
 				372A9630231EFB8800B1B4E4 /* PropertyNestedSwiftNSObjectSubclassCalculatedVar.swift */,
+				19DD01642327DD03007863CC /* PropertyNestedSwiftNSObjectSubclassExtensionObjcVar.swift */,
+				19DD01332327DBBE007863CC /* PropertyNestedSwiftNSObjectSubclassExtensionVar.swift */,
 				372A9632231EFB8800B1B4E4 /* PropertyNestedSwiftNSObjectSubclassLazyVar.swift */,
 				372A9629231EFB8700B1B4E4 /* PropertyNestedSwiftNSObjectSubclassLet.swift */,
+				196926412327E087008437B7 /* PropertyNestedSwiftNSObjectSubclassObjcExtensionVar.swift */,
 				372A9634231EFB8900B1B4E4 /* PropertyNestedSwiftNSObjectSubclassVar.swift */,
 				372A9636231EFB8900B1B4E4 /* PropertyNestedSwiftObjcClassCalculatedVar.swift */,
+				19DD015F2327DD03007863CC /* PropertyNestedSwiftObjcClassExtensionObjcVar.swift */,
+				19DD013A2327DBBF007863CC /* PropertyNestedSwiftObjcClassExtensionVar.swift */,
 				372A963A231EFB8A00B1B4E4 /* PropertyNestedSwiftObjcClassLazyVar.swift */,
 				372A9627231EFB8700B1B4E4 /* PropertyNestedSwiftObjcClassLet.swift */,
+				196926422327E087008437B7 /* PropertyNestedSwiftObjcClassObjcExtensionVar.swift */,
 				372A9637231EFB8900B1B4E4 /* PropertyNestedSwiftObjcClassVar.swift */,
 				372A9623231EFB8600B1B4E4 /* PropertyNestedSwiftStructCalculatedVar.swift */,
+				19DD01392327DBBF007863CC /* PropertyNestedSwiftStructExtensionVar.swift */,
 				372A9633231EFB8900B1B4E4 /* PropertyNestedSwiftStructLazyVar.swift */,
 				372A9625231EFB8600B1B4E4 /* PropertyNestedSwiftStructLet.swift */,
 				372A962C231EFB8700B1B4E4 /* PropertyNestedSwiftStructVar.swift */,
+				19DD01622327DD03007863CC /* PropertyObjCClassExtensionObjcVar.swift */,
+				19DD01362327DBBE007863CC /* PropertyObjCClassExtensionVar.swift */,
+				1969263F2327E087008437B7 /* PropertyObjCClassObjcExtensionVar.swift */,
 				372A962B231EFB8700B1B4E4 /* PropertyObjCClassVar.swift */,
+				19DD01632327DD03007863CC /* PropertySwiftBridgedInheritedPropertyClassExtensionObjcVar.swift */,
+				1969264F2327E552008437B7 /* PropertyObjCClassCategoryVar.swift */,
+				1969264E2327E552008437B7 /* PropertySwiftBridgedInheritedPropertyClassCategoryVar.swift */,
+				19DD01372327DBBE007863CC /* PropertySwiftBridgedInheritedPropertyClassExtensionVar.swift */,
+				196926432327E087008437B7 /* PropertySwiftBridgedInheritedPropertyClassObjcExtensionVar.swift */,
 				372A962A231EFB8700B1B4E4 /* PropertySwiftBridgedInheritedPropertyClassVar.swift */,
 			);
 			path = "Property Access";
@@ -341,6 +383,7 @@
 				372B29ED231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift */,
 				376D8A40231DBB2E004495C8 /* NestedSwiftObjcClasses.swift */,
 				372B29F1231DBE100004408B /* NestedSwiftStructs.swift */,
+				19DD01212327D5C8007863CC /* ObjCClass.swift */,
 			);
 			path = "Nested Entities";
 			sourceTree = "<group>";
@@ -507,6 +550,7 @@
 			files = (
 				376D8A43231DBB47004495C8 /* NestedPublicClasses.swift in Sources */,
 				37C0E54C2289F82F00DDDB9E /* ObjCClasses.m in Sources */,
+				19DD01222327D5C8007863CC /* ObjCClass.swift in Sources */,
 				372B29F0231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift in Sources */,
 				376D8A41231DBB2E004495C8 /* NestedSwiftObjcClasses.swift in Sources */,
 				198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */,

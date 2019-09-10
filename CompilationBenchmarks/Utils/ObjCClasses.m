@@ -43,6 +43,16 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 
 @end
 
+@implementation ObjCClass (Category)
+
+- (ObjCClass *)subCategoryVar {
+    return [ObjCClass new];
+}
+
+@end
+
+
+
 @implementation ObjCNSObjectSubclass
 @end
 

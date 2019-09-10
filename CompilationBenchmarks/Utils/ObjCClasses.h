@@ -45,6 +45,12 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 @property (nonatomic, readonly) ObjCClass *sub;
 @end
 
+@interface ObjCClass (Category)
+@property (nonatomic, readonly) ObjCClass *subCategoryVar;
+@end
+
+
+
 @interface ObjCNSObjectSubclass : NSObject
 @end
 
