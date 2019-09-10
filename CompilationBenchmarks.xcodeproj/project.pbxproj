@@ -32,7 +32,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		193027AE2326F80700C0016A /* TypeSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193027AB2326E6A900C0016A /* TypeSpecification.swift */; };
 		198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */ = {isa = PBXBuildFile; fileRef = 198214B72326B13400D9CB8B /* UnspecifiedNullability.m */; };
 		19EDDA5923106E7500FC511D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDDA5823106E7500FC511D /* Utils.swift */; };
 		372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372B29F1231DBE100004408B /* NestedSwiftStructs.swift */; };
@@ -512,7 +511,6 @@
 				376D8A41231DBB2E004495C8 /* NestedSwiftObjcClasses.swift in Sources */,
 				198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */,
 				37FFDDBF22638C1100BAFB9C /* ViewController.swift in Sources */,
-				193027AE2326F80700C0016A /* TypeSpecification.swift in Sources */,
 				376D8A45231DBB61004495C8 /* NestedFinalClasses.swift in Sources */,
 				37FFDDBD22638C1100BAFB9C /* AppDelegate.swift in Sources */,
 				372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */,

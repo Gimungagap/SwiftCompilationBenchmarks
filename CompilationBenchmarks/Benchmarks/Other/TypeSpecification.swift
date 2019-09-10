@@ -17,7 +17,7 @@ extension Dictionary {
 }
 
 final class TypeSpecification: NSObject {
-    
+
     func arrayTypeSpecificationWarmup() {
         let values = [1, 2, 3, 4]
         
@@ -1832,1214 +1832,609 @@ final class TypeSpecification: NSObject {
         let arr299 = Array(Array(values[..<2])[..<2])
         print(String(describing: arr299.first?.description))
     }
-    
-    func reduceTypeSpecificationWarmup() {
-        let values = [1, 2, 3, 4]
-        
-        let dict0 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict0.keys.first))
-        let dict1 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict1.keys.first))
-        let dict2 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict2.keys.first))
-        let dict3 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict3.keys.first))
-        let dict4 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict4.keys.first))
-        let dict5 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict5.keys.first))
-        let dict6 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict6.keys.first))
-        let dict7 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict7.keys.first))
-        let dict8 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict8.keys.first))
-        let dict9 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict9.keys.first))
-        let dict10 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict10.keys.first))
-        let dict11 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict11.keys.first))
-        let dict12 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict12.keys.first))
-        let dict13 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict13.keys.first))
-        let dict14 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict14.keys.first))
-        let dict15 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict15.keys.first))
-        let dict16 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict16.keys.first))
-        let dict17 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict17.keys.first))
-        let dict18 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict18.keys.first))
-        let dict19 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict19.keys.first))
-        let dict20 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict20.keys.first))
-        let dict21 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict21.keys.first))
-        let dict22 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict22.keys.first))
-        let dict23 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict23.keys.first))
-        let dict24 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict24.keys.first))
-        let dict25 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict25.keys.first))
-        let dict26 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict26.keys.first))
-        let dict27 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict27.keys.first))
-        let dict28 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict28.keys.first))
-        let dict29 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict29.keys.first))
-        let dict30 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict30.keys.first))
-        let dict31 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict31.keys.first))
-        let dict32 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict32.keys.first))
-        let dict33 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict33.keys.first))
-        let dict34 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict34.keys.first))
-        let dict35 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict35.keys.first))
-        let dict36 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict36.keys.first))
-        let dict37 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict37.keys.first))
-        let dict38 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict38.keys.first))
-        let dict39 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict39.keys.first))
-        let dict40 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict40.keys.first))
-        let dict41 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict41.keys.first))
-        let dict42 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict42.keys.first))
-        let dict43 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict43.keys.first))
-        let dict44 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict44.keys.first))
-        let dict45 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict45.keys.first))
-        let dict46 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict46.keys.first))
-        let dict47 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict47.keys.first))
-        let dict48 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict48.keys.first))
-        let dict49 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict49.keys.first))
-        let dict50 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict50.keys.first))
-        let dict51 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict51.keys.first))
-        let dict52 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict52.keys.first))
-        let dict53 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict53.keys.first))
-        let dict54 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict54.keys.first))
-        let dict55 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict55.keys.first))
-        let dict56 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict56.keys.first))
-        let dict57 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict57.keys.first))
-        let dict58 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict58.keys.first))
-        let dict59 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict59.keys.first))
-        let dict60 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict60.keys.first))
-        let dict61 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict61.keys.first))
-        let dict62 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict62.keys.first))
-        let dict63 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict63.keys.first))
-        let dict64 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict64.keys.first))
-        let dict65 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict65.keys.first))
-        let dict66 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict66.keys.first))
-        let dict67 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict67.keys.first))
-        let dict68 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict68.keys.first))
-        let dict69 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict69.keys.first))
-        let dict70 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict70.keys.first))
-        let dict71 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict71.keys.first))
-        let dict72 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict72.keys.first))
-        let dict73 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict73.keys.first))
-        let dict74 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict74.keys.first))
-        let dict75 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict75.keys.first))
-        let dict76 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict76.keys.first))
-        let dict77 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict77.keys.first))
-        let dict78 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict78.keys.first))
-        let dict79 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict79.keys.first))
-        let dict80 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict80.keys.first))
-        let dict81 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict81.keys.first))
-        let dict82 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict82.keys.first))
-        let dict83 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict83.keys.first))
-        let dict84 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict84.keys.first))
-        let dict85 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict85.keys.first))
-        let dict86 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict86.keys.first))
-        let dict87 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict87.keys.first))
-        let dict88 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict88.keys.first))
-        let dict89 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict89.keys.first))
-        let dict90 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict90.keys.first))
-        let dict91 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict91.keys.first))
-        let dict92 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict92.keys.first))
-        let dict93 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict93.keys.first))
-        let dict94 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict94.keys.first))
-        let dict95 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict95.keys.first))
-        let dict96 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict96.keys.first))
-        let dict97 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict97.keys.first))
-        let dict98 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict98.keys.first))
-        let dict99 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict99.keys.first))
-        let dict100 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict100.keys.first))
-        let dict101 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict101.keys.first))
-        let dict102 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict102.keys.first))
-        let dict103 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict103.keys.first))
-        let dict104 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict104.keys.first))
-        let dict105 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict105.keys.first))
-        let dict106 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict106.keys.first))
-        let dict107 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict107.keys.first))
-        let dict108 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict108.keys.first))
-        let dict109 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict109.keys.first))
-        let dict110 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict110.keys.first))
-        let dict111 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict111.keys.first))
-        let dict112 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict112.keys.first))
-        let dict113 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict113.keys.first))
-        let dict114 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict114.keys.first))
-        let dict115 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict115.keys.first))
-        let dict116 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict116.keys.first))
-        let dict117 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict117.keys.first))
-        let dict118 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict118.keys.first))
-        let dict119 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict119.keys.first))
-        let dict120 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict120.keys.first))
-        let dict121 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict121.keys.first))
-        let dict122 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict122.keys.first))
-        let dict123 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict123.keys.first))
-        let dict124 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict124.keys.first))
-        let dict125 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict125.keys.first))
-        let dict126 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict126.keys.first))
-        let dict127 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict127.keys.first))
-        let dict128 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict128.keys.first))
-        let dict129 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict129.keys.first))
-        let dict130 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict130.keys.first))
-        let dict131 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict131.keys.first))
-        let dict132 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict132.keys.first))
-        let dict133 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict133.keys.first))
-        let dict134 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict134.keys.first))
-        let dict135 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict135.keys.first))
-        let dict136 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict136.keys.first))
-        let dict137 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict137.keys.first))
-        let dict138 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict138.keys.first))
-        let dict139 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict139.keys.first))
-        let dict140 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict140.keys.first))
-        let dict141 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict141.keys.first))
-        let dict142 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict142.keys.first))
-        let dict143 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict143.keys.first))
-        let dict144 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict144.keys.first))
-        let dict145 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict145.keys.first))
-        let dict146 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict146.keys.first))
-        let dict147 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict147.keys.first))
-        let dict148 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict148.keys.first))
-        let dict149 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict149.keys.first))
-        let dict150 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict150.keys.first))
-        let dict151 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict151.keys.first))
-        let dict152 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict152.keys.first))
-        let dict153 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict153.keys.first))
-        let dict154 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict154.keys.first))
-        let dict155 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict155.keys.first))
-        let dict156 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict156.keys.first))
-        let dict157 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict157.keys.first))
-        let dict158 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict158.keys.first))
-        let dict159 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict159.keys.first))
-        let dict160 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict160.keys.first))
-        let dict161 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict161.keys.first))
-        let dict162 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict162.keys.first))
-        let dict163 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict163.keys.first))
-        let dict164 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict164.keys.first))
-        let dict165 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict165.keys.first))
-        let dict166 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict166.keys.first))
-        let dict167 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict167.keys.first))
-        let dict168 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict168.keys.first))
-        let dict169 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict169.keys.first))
-        let dict170 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict170.keys.first))
-        let dict171 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict171.keys.first))
-        let dict172 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict172.keys.first))
-        let dict173 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict173.keys.first))
-        let dict174 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict174.keys.first))
-        let dict175 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict175.keys.first))
-        let dict176 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict176.keys.first))
-        let dict177 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict177.keys.first))
-        let dict178 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict178.keys.first))
-        let dict179 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict179.keys.first))
-        let dict180 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict180.keys.first))
-        let dict181 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict181.keys.first))
-        let dict182 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict182.keys.first))
-        let dict183 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict183.keys.first))
-        let dict184 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict184.keys.first))
-        let dict185 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict185.keys.first))
-        let dict186 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict186.keys.first))
-        let dict187 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict187.keys.first))
-        let dict188 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict188.keys.first))
-        let dict189 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict189.keys.first))
-        let dict190 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict190.keys.first))
-        let dict191 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict191.keys.first))
-        let dict192 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict192.keys.first))
-        let dict193 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict193.keys.first))
-        let dict194 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict194.keys.first))
-        let dict195 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict195.keys.first))
-        let dict196 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict196.keys.first))
-        let dict197 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict197.keys.first))
-        let dict198 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict198.keys.first))
-        let dict199 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict199.keys.first))
-        let dict200 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict200.keys.first))
-        let dict201 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict201.keys.first))
-        let dict202 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict202.keys.first))
-        let dict203 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict203.keys.first))
-        let dict204 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict204.keys.first))
-        let dict205 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict205.keys.first))
-        let dict206 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict206.keys.first))
-        let dict207 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict207.keys.first))
-        let dict208 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict208.keys.first))
-        let dict209 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict209.keys.first))
-        let dict210 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict210.keys.first))
-        let dict211 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict211.keys.first))
-        let dict212 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict212.keys.first))
-        let dict213 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict213.keys.first))
-        let dict214 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict214.keys.first))
-        let dict215 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict215.keys.first))
-        let dict216 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict216.keys.first))
-        let dict217 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict217.keys.first))
-        let dict218 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict218.keys.first))
-        let dict219 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict219.keys.first))
-        let dict220 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict220.keys.first))
-        let dict221 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict221.keys.first))
-        let dict222 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict222.keys.first))
-        let dict223 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict223.keys.first))
-        let dict224 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict224.keys.first))
-        let dict225 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict225.keys.first))
-        let dict226 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict226.keys.first))
-        let dict227 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict227.keys.first))
-        let dict228 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict228.keys.first))
-        let dict229 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict229.keys.first))
-        let dict230 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict230.keys.first))
-        let dict231 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict231.keys.first))
-        let dict232 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict232.keys.first))
-        let dict233 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict233.keys.first))
-        let dict234 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict234.keys.first))
-        let dict235 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict235.keys.first))
-        let dict236 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict236.keys.first))
-        let dict237 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict237.keys.first))
-        let dict238 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict238.keys.first))
-        let dict239 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict239.keys.first))
-        let dict240 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict240.keys.first))
-        let dict241 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict241.keys.first))
-        let dict242 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict242.keys.first))
-        let dict243 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict243.keys.first))
-        let dict244 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict244.keys.first))
-        let dict245 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict245.keys.first))
-        let dict246 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict246.keys.first))
-        let dict247 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict247.keys.first))
-        let dict248 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict248.keys.first))
-        let dict249 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict249.keys.first))
-        let dict250 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict250.keys.first))
-        let dict251 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict251.keys.first))
-        let dict252 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict252.keys.first))
-        let dict253 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict253.keys.first))
-        let dict254 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict254.keys.first))
-        let dict255 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict255.keys.first))
-        let dict256 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict256.keys.first))
-        let dict257 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict257.keys.first))
-        let dict258 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict258.keys.first))
-        let dict259 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict259.keys.first))
-        let dict260 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict260.keys.first))
-        let dict261 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict261.keys.first))
-        let dict262 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict262.keys.first))
-        let dict263 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict263.keys.first))
-        let dict264 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict264.keys.first))
-        let dict265 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict265.keys.first))
-        let dict266 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict266.keys.first))
-        let dict267 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict267.keys.first))
-        let dict268 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict268.keys.first))
-        let dict269 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict269.keys.first))
-        let dict270 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict270.keys.first))
-        let dict271 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict271.keys.first))
-        let dict272 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict272.keys.first))
-        let dict273 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict273.keys.first))
-        let dict274 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict274.keys.first))
-        let dict275 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict275.keys.first))
-        let dict276 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict276.keys.first))
-        let dict277 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict277.keys.first))
-        let dict278 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict278.keys.first))
-        let dict279 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict279.keys.first))
-        let dict280 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict280.keys.first))
-        let dict281 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict281.keys.first))
-        let dict282 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict282.keys.first))
-        let dict283 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict283.keys.first))
-        let dict284 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict284.keys.first))
-        let dict285 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict285.keys.first))
-        let dict286 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict286.keys.first))
-        let dict287 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict287.keys.first))
-        let dict288 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict288.keys.first))
-        let dict289 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict289.keys.first))
-        let dict290 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict290.keys.first))
-        let dict291 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict291.keys.first))
-        let dict292 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict292.keys.first))
-        let dict293 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict293.keys.first))
-        let dict294 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict294.keys.first))
-        let dict295 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict295.keys.first))
-        let dict296 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict296.keys.first))
-        let dict297 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict297.keys.first))
-        let dict298 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict298.keys.first))
-        let dict299 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict299.keys.first))
-    }
-    
+
     func reduceTypeSpecification() {
         let values = [1, 2, 3, 4]
         
-        let dict0 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict0: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict0.keys.first))
-        let dict1 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict1: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict1.keys.first))
-        let dict2 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict2: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict2.keys.first))
-        let dict3 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict3: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict3.keys.first))
-        let dict4 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict4: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict4.keys.first))
-        let dict5 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict5: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict5.keys.first))
-        let dict6 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict6: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict6.keys.first))
-        let dict7 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict7: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict7.keys.first))
-        let dict8 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict8: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict8.keys.first))
-        let dict9 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict9: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict9.keys.first))
-        let dict10 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict10: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict10.keys.first))
-        let dict11 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict11: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict11.keys.first))
-        let dict12 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict12: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict12.keys.first))
-        let dict13 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict13: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict13.keys.first))
-        let dict14 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict14: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict14.keys.first))
-        let dict15 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict15: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict15.keys.first))
-        let dict16 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict16: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict16.keys.first))
-        let dict17 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict17: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict17.keys.first))
-        let dict18 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict18: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict18.keys.first))
-        let dict19 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict19: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict19.keys.first))
-        let dict20 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict20: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict20.keys.first))
-        let dict21 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict21: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict21.keys.first))
-        let dict22 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict22: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict22.keys.first))
-        let dict23 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict23: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict23.keys.first))
-        let dict24 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict24: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict24.keys.first))
-        let dict25 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict25: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict25.keys.first))
-        let dict26 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict26: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict26.keys.first))
-        let dict27 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict27: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict27.keys.first))
-        let dict28 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict28: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict28.keys.first))
-        let dict29 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict29: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict29.keys.first))
-        let dict30 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict30: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict30.keys.first))
-        let dict31 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict31: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict31.keys.first))
-        let dict32 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict32: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict32.keys.first))
-        let dict33 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict33: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict33.keys.first))
-        let dict34 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict34: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict34.keys.first))
-        let dict35 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict35: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict35.keys.first))
-        let dict36 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict36: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict36.keys.first))
-        let dict37 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict37: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict37.keys.first))
-        let dict38 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict38: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict38.keys.first))
-        let dict39 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict39: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict39.keys.first))
-        let dict40 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict40: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict40.keys.first))
-        let dict41 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict41: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict41.keys.first))
-        let dict42 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict42: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict42.keys.first))
-        let dict43 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict43: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict43.keys.first))
-        let dict44 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict44: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict44.keys.first))
-        let dict45 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict45: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict45.keys.first))
-        let dict46 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict46: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict46.keys.first))
-        let dict47 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict47: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict47.keys.first))
-        let dict48 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict48: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict48.keys.first))
-        let dict49 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict49: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict49.keys.first))
-        let dict50 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict50: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict50.keys.first))
-        let dict51 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict51: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict51.keys.first))
-        let dict52 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict52: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict52.keys.first))
-        let dict53 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict53: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict53.keys.first))
-        let dict54 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict54: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict54.keys.first))
-        let dict55 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict55: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict55.keys.first))
-        let dict56 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict56: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict56.keys.first))
-        let dict57 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict57: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict57.keys.first))
-        let dict58 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict58: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict58.keys.first))
-        let dict59 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict59: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict59.keys.first))
-        let dict60 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict60: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict60.keys.first))
-        let dict61 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict61: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict61.keys.first))
-        let dict62 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict62: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict62.keys.first))
-        let dict63 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict63: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict63.keys.first))
-        let dict64 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict64: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict64.keys.first))
-        let dict65 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict65: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict65.keys.first))
-        let dict66 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict66: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict66.keys.first))
-        let dict67 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict67: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict67.keys.first))
-        let dict68 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict68: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict68.keys.first))
-        let dict69 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict69: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict69.keys.first))
-        let dict70 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict70: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict70.keys.first))
-        let dict71 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict71: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict71.keys.first))
-        let dict72 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict72: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict72.keys.first))
-        let dict73 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict73: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict73.keys.first))
-        let dict74 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict74: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict74.keys.first))
-        let dict75 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict75: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict75.keys.first))
-        let dict76 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict76: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict76.keys.first))
-        let dict77 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict77: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict77.keys.first))
-        let dict78 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict78: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict78.keys.first))
-        let dict79 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict79: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict79.keys.first))
-        let dict80 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict80: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict80.keys.first))
-        let dict81 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict81: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict81.keys.first))
-        let dict82 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict82: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict82.keys.first))
-        let dict83 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict83: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict83.keys.first))
-        let dict84 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict84: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict84.keys.first))
-        let dict85 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict85: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict85.keys.first))
-        let dict86 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict86: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict86.keys.first))
-        let dict87 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict87: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict87.keys.first))
-        let dict88 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict88: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict88.keys.first))
-        let dict89 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict89: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict89.keys.first))
-        let dict90 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict90: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict90.keys.first))
-        let dict91 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict91: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict91.keys.first))
-        let dict92 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict92: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict92.keys.first))
-        let dict93 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict93: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict93.keys.first))
-        let dict94 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict94: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict94.keys.first))
-        let dict95 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict95: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict95.keys.first))
-        let dict96 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict96: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict96.keys.first))
-        let dict97 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict97: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict97.keys.first))
-        let dict98 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict98: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict98.keys.first))
-        let dict99 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict99: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict99.keys.first))
-        let dict100 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict100: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict100.keys.first))
-        let dict101 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict101: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict101.keys.first))
-        let dict102 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict102: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict102.keys.first))
-        let dict103 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict103: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict103.keys.first))
-        let dict104 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict104: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict104.keys.first))
-        let dict105 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict105: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict105.keys.first))
-        let dict106 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict106: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict106.keys.first))
-        let dict107 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict107: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict107.keys.first))
-        let dict108 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict108: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict108.keys.first))
-        let dict109 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict109: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict109.keys.first))
-        let dict110 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict110: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict110.keys.first))
-        let dict111 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict111: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict111.keys.first))
-        let dict112 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict112: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict112.keys.first))
-        let dict113 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict113: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict113.keys.first))
-        let dict114 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict114: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict114.keys.first))
-        let dict115 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict115: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict115.keys.first))
-        let dict116 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict116: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict116.keys.first))
-        let dict117 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict117: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict117.keys.first))
-        let dict118 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict118: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict118.keys.first))
-        let dict119 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict119: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict119.keys.first))
-        let dict120 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict120: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict120.keys.first))
-        let dict121 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict121: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict121.keys.first))
-        let dict122 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict122: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict122.keys.first))
-        let dict123 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict123: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict123.keys.first))
-        let dict124 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict124: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict124.keys.first))
-        let dict125 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict125: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict125.keys.first))
-        let dict126 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict126: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict126.keys.first))
-        let dict127 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict127: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict127.keys.first))
-        let dict128 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict128: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict128.keys.first))
-        let dict129 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict129: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict129.keys.first))
-        let dict130 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict130: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict130.keys.first))
-        let dict131 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict131: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict131.keys.first))
-        let dict132 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict132: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict132.keys.first))
-        let dict133 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict133: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict133.keys.first))
-        let dict134 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict134: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict134.keys.first))
-        let dict135 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict135: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict135.keys.first))
-        let dict136 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict136: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict136.keys.first))
-        let dict137 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict137: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict137.keys.first))
-        let dict138 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict138: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict138.keys.first))
-        let dict139 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict139: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict139.keys.first))
-        let dict140 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict140: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict140.keys.first))
-        let dict141 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict141: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict141.keys.first))
-        let dict142 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict142: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict142.keys.first))
-        let dict143 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict143: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict143.keys.first))
-        let dict144 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict144: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict144.keys.first))
-        let dict145 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict145: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict145.keys.first))
-        let dict146 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict146: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict146.keys.first))
-        let dict147 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict147: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict147.keys.first))
-        let dict148 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict148: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict148.keys.first))
-        let dict149 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict149: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict149.keys.first))
-        let dict150 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict150: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict150.keys.first))
-        let dict151 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict151: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict151.keys.first))
-        let dict152 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict152: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict152.keys.first))
-        let dict153 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict153: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict153.keys.first))
-        let dict154 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict154: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict154.keys.first))
-        let dict155 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict155: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict155.keys.first))
-        let dict156 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict156: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict156.keys.first))
-        let dict157 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict157: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict157.keys.first))
-        let dict158 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict158: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict158.keys.first))
-        let dict159 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict159: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict159.keys.first))
-        let dict160 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict160: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict160.keys.first))
-        let dict161 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict161: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict161.keys.first))
-        let dict162 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict162: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict162.keys.first))
-        let dict163 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict163: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict163.keys.first))
-        let dict164 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict164: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict164.keys.first))
-        let dict165 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict165: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict165.keys.first))
-        let dict166 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict166: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict166.keys.first))
-        let dict167 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict167: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict167.keys.first))
-        let dict168 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict168: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict168.keys.first))
-        let dict169 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict169: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict169.keys.first))
-        let dict170 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict170: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict170.keys.first))
-        let dict171 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict171: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict171.keys.first))
-        let dict172 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict172: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict172.keys.first))
-        let dict173 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict173: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict173.keys.first))
-        let dict174 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict174: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict174.keys.first))
-        let dict175 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict175: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict175.keys.first))
-        let dict176 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict176: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict176.keys.first))
-        let dict177 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict177: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict177.keys.first))
-        let dict178 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict178: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict178.keys.first))
-        let dict179 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict179: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict179.keys.first))
-        let dict180 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict180: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict180.keys.first))
-        let dict181 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict181: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict181.keys.first))
-        let dict182 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict182: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict182.keys.first))
-        let dict183 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict183: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict183.keys.first))
-        let dict184 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict184: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict184.keys.first))
-        let dict185 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict185: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict185.keys.first))
-        let dict186 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict186: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict186.keys.first))
-        let dict187 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict187: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict187.keys.first))
-        let dict188 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict188: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict188.keys.first))
-        let dict189 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict189: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict189.keys.first))
-        let dict190 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict190: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict190.keys.first))
-        let dict191 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict191: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict191.keys.first))
-        let dict192 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict192: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict192.keys.first))
-        let dict193 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict193: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict193.keys.first))
-        let dict194 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict194: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict194.keys.first))
-        let dict195 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict195: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict195.keys.first))
-        let dict196 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict196: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict196.keys.first))
-        let dict197 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict197: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict197.keys.first))
-        let dict198 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict198: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict198.keys.first))
-        let dict199 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict199: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict199.keys.first))
-        let dict200 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict200: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict200.keys.first))
-        let dict201 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict201: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict201.keys.first))
-        let dict202 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict202: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict202.keys.first))
-        let dict203 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict203: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict203.keys.first))
-        let dict204 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict204: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict204.keys.first))
-        let dict205 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict205: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict205.keys.first))
-        let dict206 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict206: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict206.keys.first))
-        let dict207 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict207: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict207.keys.first))
-        let dict208 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict208: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict208.keys.first))
-        let dict209 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict209: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict209.keys.first))
-        let dict210 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict210: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict210.keys.first))
-        let dict211 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict211: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict211.keys.first))
-        let dict212 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict212: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict212.keys.first))
-        let dict213 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict213: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict213.keys.first))
-        let dict214 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict214: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict214.keys.first))
-        let dict215 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict215: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict215.keys.first))
-        let dict216 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict216: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict216.keys.first))
-        let dict217 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict217: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict217.keys.first))
-        let dict218 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict218: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict218.keys.first))
-        let dict219 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict219: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict219.keys.first))
-        let dict220 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict220: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict220.keys.first))
-        let dict221 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict221: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict221.keys.first))
-        let dict222 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict222: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict222.keys.first))
-        let dict223 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict223: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict223.keys.first))
-        let dict224 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict224: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict224.keys.first))
-        let dict225 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict225: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict225.keys.first))
-        let dict226 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict226: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict226.keys.first))
-        let dict227 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict227: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict227.keys.first))
-        let dict228 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict228: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict228.keys.first))
-        let dict229 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict229: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict229.keys.first))
-        let dict230 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict230: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict230.keys.first))
-        let dict231 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict231: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict231.keys.first))
-        let dict232 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict232: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict232.keys.first))
-        let dict233 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict233: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict233.keys.first))
-        let dict234 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict234: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict234.keys.first))
-        let dict235 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict235: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict235.keys.first))
-        let dict236 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict236: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict236.keys.first))
-        let dict237 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict237: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict237.keys.first))
-        let dict238 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict238: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict238.keys.first))
-        let dict239 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict239: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict239.keys.first))
-        let dict240 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict240: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict240.keys.first))
-        let dict241 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict241: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict241.keys.first))
-        let dict242 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict242: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict242.keys.first))
-        let dict243 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict243: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict243.keys.first))
-        let dict244 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict244: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict244.keys.first))
-        let dict245 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict245: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict245.keys.first))
-        let dict246 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict246: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict246.keys.first))
-        let dict247 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict247: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict247.keys.first))
-        let dict248 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict248: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict248.keys.first))
-        let dict249 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict249: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict249.keys.first))
-        let dict250 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict250: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict250.keys.first))
-        let dict251 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict251: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict251.keys.first))
-        let dict252 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict252: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict252.keys.first))
-        let dict253 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict253: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict253.keys.first))
-        let dict254 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict254: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict254.keys.first))
-        let dict255 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict255: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict255.keys.first))
-        let dict256 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict256: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict256.keys.first))
-        let dict257 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict257: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict257.keys.first))
-        let dict258 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict258: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict258.keys.first))
-        let dict259 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict259: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict259.keys.first))
-        let dict260 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict260: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict260.keys.first))
-        let dict261 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict261: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict261.keys.first))
-        let dict262 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict262: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict262.keys.first))
-        let dict263 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict263: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict263.keys.first))
-        let dict264 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict264: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict264.keys.first))
-        let dict265 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict265: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict265.keys.first))
-        let dict266 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict266: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict266.keys.first))
-        let dict267 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict267: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict267.keys.first))
-        let dict268 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict268: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict268.keys.first))
-        let dict269 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict269: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict269.keys.first))
-        let dict270 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict270: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict270.keys.first))
-        let dict271 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict271: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict271.keys.first))
-        let dict272 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict272: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict272.keys.first))
-        let dict273 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict273: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict273.keys.first))
-        let dict274 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict274: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict274.keys.first))
-        let dict275 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict275: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict275.keys.first))
-        let dict276 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict276: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict276.keys.first))
-        let dict277 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict277: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict277.keys.first))
-        let dict278 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict278: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict278.keys.first))
-        let dict279 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict279: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict279.keys.first))
-        let dict280 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict280: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict280.keys.first))
-        let dict281 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict281: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict281.keys.first))
-        let dict282 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict282: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict282.keys.first))
-        let dict283 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict283: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict283.keys.first))
-        let dict284 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict284: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict284.keys.first))
-        let dict285 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict285: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict285.keys.first))
-        let dict286 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict286: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict286.keys.first))
-        let dict287 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict287: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict287.keys.first))
-        let dict288 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict288: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict288.keys.first))
-        let dict289 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict289: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict289.keys.first))
-        let dict290 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict290: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict290.keys.first))
-        let dict291 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict291: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict291.keys.first))
-        let dict292 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict292: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict292.keys.first))
-        let dict293 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict293: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict293.keys.first))
-        let dict294 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict294: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict294.keys.first))
-        let dict295 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict295: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict295.keys.first))
-        let dict296 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict296: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict296.keys.first))
-        let dict297 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict297: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict297.keys.first))
-        let dict298 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict298: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict298.keys.first))
-        let dict299 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        let dict299: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict299.keys.first))
     }
     
@@ -3646,5 +3041,1035 @@ final class TypeSpecification: NSObject {
         print(String(describing: dict298.keys.first))
         let dict299 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict299.keys.first))
+    }
+
+    func reduceForEachInterimVar() {
+        let values = [1, 2, 3, 4]
+
+        let dict0 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict0.forEach { print(String(describing: $0)) }
+        let dict1 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict1.forEach { print(String(describing: $0)) }
+        let dict2 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict2.forEach { print(String(describing: $0)) }
+        let dict3 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict3.forEach { print(String(describing: $0)) }
+        let dict4 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict4.forEach { print(String(describing: $0)) }
+        let dict5 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict5.forEach { print(String(describing: $0)) }
+        let dict6 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict6.forEach { print(String(describing: $0)) }
+        let dict7 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict7.forEach { print(String(describing: $0)) }
+        let dict8 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict8.forEach { print(String(describing: $0)) }
+        let dict9 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict9.forEach { print(String(describing: $0)) }
+        let dict10 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict10.forEach { print(String(describing: $0)) }
+        let dict11 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict11.forEach { print(String(describing: $0)) }
+        let dict12 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict12.forEach { print(String(describing: $0)) }
+        let dict13 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict13.forEach { print(String(describing: $0)) }
+        let dict14 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict14.forEach { print(String(describing: $0)) }
+        let dict15 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict15.forEach { print(String(describing: $0)) }
+        let dict16 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict16.forEach { print(String(describing: $0)) }
+        let dict17 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict17.forEach { print(String(describing: $0)) }
+        let dict18 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict18.forEach { print(String(describing: $0)) }
+        let dict19 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict19.forEach { print(String(describing: $0)) }
+        let dict20 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict20.forEach { print(String(describing: $0)) }
+        let dict21 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict21.forEach { print(String(describing: $0)) }
+        let dict22 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict22.forEach { print(String(describing: $0)) }
+        let dict23 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict23.forEach { print(String(describing: $0)) }
+        let dict24 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict24.forEach { print(String(describing: $0)) }
+        let dict25 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict25.forEach { print(String(describing: $0)) }
+        let dict26 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict26.forEach { print(String(describing: $0)) }
+        let dict27 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict27.forEach { print(String(describing: $0)) }
+        let dict28 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict28.forEach { print(String(describing: $0)) }
+        let dict29 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict29.forEach { print(String(describing: $0)) }
+        let dict30 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict30.forEach { print(String(describing: $0)) }
+        let dict31 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict31.forEach { print(String(describing: $0)) }
+        let dict32 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict32.forEach { print(String(describing: $0)) }
+        let dict33 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict33.forEach { print(String(describing: $0)) }
+        let dict34 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict34.forEach { print(String(describing: $0)) }
+        let dict35 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict35.forEach { print(String(describing: $0)) }
+        let dict36 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict36.forEach { print(String(describing: $0)) }
+        let dict37 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict37.forEach { print(String(describing: $0)) }
+        let dict38 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict38.forEach { print(String(describing: $0)) }
+        let dict39 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict39.forEach { print(String(describing: $0)) }
+        let dict40 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict40.forEach { print(String(describing: $0)) }
+        let dict41 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict41.forEach { print(String(describing: $0)) }
+        let dict42 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict42.forEach { print(String(describing: $0)) }
+        let dict43 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict43.forEach { print(String(describing: $0)) }
+        let dict44 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict44.forEach { print(String(describing: $0)) }
+        let dict45 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict45.forEach { print(String(describing: $0)) }
+        let dict46 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict46.forEach { print(String(describing: $0)) }
+        let dict47 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict47.forEach { print(String(describing: $0)) }
+        let dict48 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict48.forEach { print(String(describing: $0)) }
+        let dict49 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict49.forEach { print(String(describing: $0)) }
+        let dict50 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict50.forEach { print(String(describing: $0)) }
+        let dict51 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict51.forEach { print(String(describing: $0)) }
+        let dict52 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict52.forEach { print(String(describing: $0)) }
+        let dict53 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict53.forEach { print(String(describing: $0)) }
+        let dict54 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict54.forEach { print(String(describing: $0)) }
+        let dict55 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict55.forEach { print(String(describing: $0)) }
+        let dict56 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict56.forEach { print(String(describing: $0)) }
+        let dict57 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict57.forEach { print(String(describing: $0)) }
+        let dict58 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict58.forEach { print(String(describing: $0)) }
+        let dict59 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict59.forEach { print(String(describing: $0)) }
+        let dict60 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict60.forEach { print(String(describing: $0)) }
+        let dict61 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict61.forEach { print(String(describing: $0)) }
+        let dict62 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict62.forEach { print(String(describing: $0)) }
+        let dict63 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict63.forEach { print(String(describing: $0)) }
+        let dict64 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict64.forEach { print(String(describing: $0)) }
+        let dict65 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict65.forEach { print(String(describing: $0)) }
+        let dict66 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict66.forEach { print(String(describing: $0)) }
+        let dict67 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict67.forEach { print(String(describing: $0)) }
+        let dict68 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict68.forEach { print(String(describing: $0)) }
+        let dict69 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict69.forEach { print(String(describing: $0)) }
+        let dict70 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict70.forEach { print(String(describing: $0)) }
+        let dict71 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict71.forEach { print(String(describing: $0)) }
+        let dict72 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict72.forEach { print(String(describing: $0)) }
+        let dict73 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict73.forEach { print(String(describing: $0)) }
+        let dict74 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict74.forEach { print(String(describing: $0)) }
+        let dict75 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict75.forEach { print(String(describing: $0)) }
+        let dict76 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict76.forEach { print(String(describing: $0)) }
+        let dict77 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict77.forEach { print(String(describing: $0)) }
+        let dict78 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict78.forEach { print(String(describing: $0)) }
+        let dict79 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict79.forEach { print(String(describing: $0)) }
+        let dict80 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict80.forEach { print(String(describing: $0)) }
+        let dict81 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict81.forEach { print(String(describing: $0)) }
+        let dict82 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict82.forEach { print(String(describing: $0)) }
+        let dict83 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict83.forEach { print(String(describing: $0)) }
+        let dict84 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict84.forEach { print(String(describing: $0)) }
+        let dict85 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict85.forEach { print(String(describing: $0)) }
+        let dict86 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict86.forEach { print(String(describing: $0)) }
+        let dict87 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict87.forEach { print(String(describing: $0)) }
+        let dict88 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict88.forEach { print(String(describing: $0)) }
+        let dict89 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict89.forEach { print(String(describing: $0)) }
+        let dict90 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict90.forEach { print(String(describing: $0)) }
+        let dict91 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict91.forEach { print(String(describing: $0)) }
+        let dict92 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict92.forEach { print(String(describing: $0)) }
+        let dict93 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict93.forEach { print(String(describing: $0)) }
+        let dict94 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict94.forEach { print(String(describing: $0)) }
+        let dict95 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict95.forEach { print(String(describing: $0)) }
+        let dict96 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict96.forEach { print(String(describing: $0)) }
+        let dict97 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict97.forEach { print(String(describing: $0)) }
+        let dict98 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict98.forEach { print(String(describing: $0)) }
+        let dict99 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict99.forEach { print(String(describing: $0)) }
+    }
+
+    func reduceForEachInterimVarSpecifiedType() {
+        let values = [1, 2, 3, 4]
+
+        let dict0: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict0.forEach { print(String(describing: $0)) }
+        let dict1: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict1.forEach { print(String(describing: $0)) }
+        let dict2: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict2.forEach { print(String(describing: $0)) }
+        let dict3: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict3.forEach { print(String(describing: $0)) }
+        let dict4: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict4.forEach { print(String(describing: $0)) }
+        let dict5: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict5.forEach { print(String(describing: $0)) }
+        let dict6: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict6.forEach { print(String(describing: $0)) }
+        let dict7: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict7.forEach { print(String(describing: $0)) }
+        let dict8: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict8.forEach { print(String(describing: $0)) }
+        let dict9: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict9.forEach { print(String(describing: $0)) }
+        let dict10: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict10.forEach { print(String(describing: $0)) }
+        let dict11: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict11.forEach { print(String(describing: $0)) }
+        let dict12: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict12.forEach { print(String(describing: $0)) }
+        let dict13: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict13.forEach { print(String(describing: $0)) }
+        let dict14: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict14.forEach { print(String(describing: $0)) }
+        let dict15: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict15.forEach { print(String(describing: $0)) }
+        let dict16: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict16.forEach { print(String(describing: $0)) }
+        let dict17: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict17.forEach { print(String(describing: $0)) }
+        let dict18: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict18.forEach { print(String(describing: $0)) }
+        let dict19: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict19.forEach { print(String(describing: $0)) }
+        let dict20: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict20.forEach { print(String(describing: $0)) }
+        let dict21: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict21.forEach { print(String(describing: $0)) }
+        let dict22: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict22.forEach { print(String(describing: $0)) }
+        let dict23: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict23.forEach { print(String(describing: $0)) }
+        let dict24: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict24.forEach { print(String(describing: $0)) }
+        let dict25: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict25.forEach { print(String(describing: $0)) }
+        let dict26: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict26.forEach { print(String(describing: $0)) }
+        let dict27: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict27.forEach { print(String(describing: $0)) }
+        let dict28: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict28.forEach { print(String(describing: $0)) }
+        let dict29: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict29.forEach { print(String(describing: $0)) }
+        let dict30: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict30.forEach { print(String(describing: $0)) }
+        let dict31: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict31.forEach { print(String(describing: $0)) }
+        let dict32: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict32.forEach { print(String(describing: $0)) }
+        let dict33: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict33.forEach { print(String(describing: $0)) }
+        let dict34: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict34.forEach { print(String(describing: $0)) }
+        let dict35: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict35.forEach { print(String(describing: $0)) }
+        let dict36: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict36.forEach { print(String(describing: $0)) }
+        let dict37: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict37.forEach { print(String(describing: $0)) }
+        let dict38: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict38.forEach { print(String(describing: $0)) }
+        let dict39: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict39.forEach { print(String(describing: $0)) }
+        let dict40: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict40.forEach { print(String(describing: $0)) }
+        let dict41: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict41.forEach { print(String(describing: $0)) }
+        let dict42: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict42.forEach { print(String(describing: $0)) }
+        let dict43: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict43.forEach { print(String(describing: $0)) }
+        let dict44: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict44.forEach { print(String(describing: $0)) }
+        let dict45: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict45.forEach { print(String(describing: $0)) }
+        let dict46: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict46.forEach { print(String(describing: $0)) }
+        let dict47: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict47.forEach { print(String(describing: $0)) }
+        let dict48: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict48.forEach { print(String(describing: $0)) }
+        let dict49: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict49.forEach { print(String(describing: $0)) }
+        let dict50: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict50.forEach { print(String(describing: $0)) }
+        let dict51: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict51.forEach { print(String(describing: $0)) }
+        let dict52: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict52.forEach { print(String(describing: $0)) }
+        let dict53: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict53.forEach { print(String(describing: $0)) }
+        let dict54: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict54.forEach { print(String(describing: $0)) }
+        let dict55: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict55.forEach { print(String(describing: $0)) }
+        let dict56: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict56.forEach { print(String(describing: $0)) }
+        let dict57: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict57.forEach { print(String(describing: $0)) }
+        let dict58: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict58.forEach { print(String(describing: $0)) }
+        let dict59: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict59.forEach { print(String(describing: $0)) }
+        let dict60: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict60.forEach { print(String(describing: $0)) }
+        let dict61: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict61.forEach { print(String(describing: $0)) }
+        let dict62: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict62.forEach { print(String(describing: $0)) }
+        let dict63: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict63.forEach { print(String(describing: $0)) }
+        let dict64: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict64.forEach { print(String(describing: $0)) }
+        let dict65: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict65.forEach { print(String(describing: $0)) }
+        let dict66: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict66.forEach { print(String(describing: $0)) }
+        let dict67: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict67.forEach { print(String(describing: $0)) }
+        let dict68: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict68.forEach { print(String(describing: $0)) }
+        let dict69: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict69.forEach { print(String(describing: $0)) }
+        let dict70: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict70.forEach { print(String(describing: $0)) }
+        let dict71: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict71.forEach { print(String(describing: $0)) }
+        let dict72: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict72.forEach { print(String(describing: $0)) }
+        let dict73: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict73.forEach { print(String(describing: $0)) }
+        let dict74: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict74.forEach { print(String(describing: $0)) }
+        let dict75: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict75.forEach { print(String(describing: $0)) }
+        let dict76: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict76.forEach { print(String(describing: $0)) }
+        let dict77: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict77.forEach { print(String(describing: $0)) }
+        let dict78: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict78.forEach { print(String(describing: $0)) }
+        let dict79: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict79.forEach { print(String(describing: $0)) }
+        let dict80: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict80.forEach { print(String(describing: $0)) }
+        let dict81: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict81.forEach { print(String(describing: $0)) }
+        let dict82: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict82.forEach { print(String(describing: $0)) }
+        let dict83: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict83.forEach { print(String(describing: $0)) }
+        let dict84: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict84.forEach { print(String(describing: $0)) }
+        let dict85: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict85.forEach { print(String(describing: $0)) }
+        let dict86: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict86.forEach { print(String(describing: $0)) }
+        let dict87: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict87.forEach { print(String(describing: $0)) }
+        let dict88: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict88.forEach { print(String(describing: $0)) }
+        let dict89: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict89.forEach { print(String(describing: $0)) }
+        let dict90: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict90.forEach { print(String(describing: $0)) }
+        let dict91: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict91.forEach { print(String(describing: $0)) }
+        let dict92: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict92.forEach { print(String(describing: $0)) }
+        let dict93: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict93.forEach { print(String(describing: $0)) }
+        let dict94: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict94.forEach { print(String(describing: $0)) }
+        let dict95: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict95.forEach { print(String(describing: $0)) }
+        let dict96: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict96.forEach { print(String(describing: $0)) }
+        let dict97: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict97.forEach { print(String(describing: $0)) }
+        let dict98: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict98.forEach { print(String(describing: $0)) }
+        let dict99: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
+        dict99.forEach { print(String(describing: $0)) }
+    }
+
+    func reduceForEachTypeInferrence() {
+        let values = [1, 2, 3, 4]
+
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
+    }
+
+    func reduceNestedResultInterimVar() {
+        let values = [1, 2, 3, 4]
+
+        let dict0 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict0.forEach { print(String(describing: $0)) }
+        let dict1 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict1.forEach { print(String(describing: $0)) }
+        let dict2 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict2.forEach { print(String(describing: $0)) }
+        let dict3 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict3.forEach { print(String(describing: $0)) }
+        let dict4 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict4.forEach { print(String(describing: $0)) }
+        let dict5 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict5.forEach { print(String(describing: $0)) }
+        let dict6 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict6.forEach { print(String(describing: $0)) }
+        let dict7 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict7.forEach { print(String(describing: $0)) }
+        let dict8 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict8.forEach { print(String(describing: $0)) }
+        let dict9 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict9.forEach { print(String(describing: $0)) }
+        let dict10 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict10.forEach { print(String(describing: $0)) }
+        let dict11 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict11.forEach { print(String(describing: $0)) }
+        let dict12 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict12.forEach { print(String(describing: $0)) }
+        let dict13 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict13.forEach { print(String(describing: $0)) }
+        let dict14 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict14.forEach { print(String(describing: $0)) }
+        let dict15 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict15.forEach { print(String(describing: $0)) }
+        let dict16 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict16.forEach { print(String(describing: $0)) }
+        let dict17 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict17.forEach { print(String(describing: $0)) }
+        let dict18 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict18.forEach { print(String(describing: $0)) }
+        let dict19 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict19.forEach { print(String(describing: $0)) }
+        let dict20 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict20.forEach { print(String(describing: $0)) }
+        let dict21 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict21.forEach { print(String(describing: $0)) }
+        let dict22 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict22.forEach { print(String(describing: $0)) }
+        let dict23 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict23.forEach { print(String(describing: $0)) }
+        let dict24 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict24.forEach { print(String(describing: $0)) }
+        let dict25 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict25.forEach { print(String(describing: $0)) }
+        let dict26 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict26.forEach { print(String(describing: $0)) }
+        let dict27 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict27.forEach { print(String(describing: $0)) }
+        let dict28 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict28.forEach { print(String(describing: $0)) }
+        let dict29 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict29.forEach { print(String(describing: $0)) }
+        let dict30 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict30.forEach { print(String(describing: $0)) }
+        let dict31 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict31.forEach { print(String(describing: $0)) }
+        let dict32 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict32.forEach { print(String(describing: $0)) }
+        let dict33 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict33.forEach { print(String(describing: $0)) }
+        let dict34 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict34.forEach { print(String(describing: $0)) }
+        let dict35 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict35.forEach { print(String(describing: $0)) }
+        let dict36 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict36.forEach { print(String(describing: $0)) }
+        let dict37 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict37.forEach { print(String(describing: $0)) }
+        let dict38 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict38.forEach { print(String(describing: $0)) }
+        let dict39 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict39.forEach { print(String(describing: $0)) }
+        let dict40 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict40.forEach { print(String(describing: $0)) }
+        let dict41 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict41.forEach { print(String(describing: $0)) }
+        let dict42 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict42.forEach { print(String(describing: $0)) }
+        let dict43 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict43.forEach { print(String(describing: $0)) }
+        let dict44 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict44.forEach { print(String(describing: $0)) }
+        let dict45 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict45.forEach { print(String(describing: $0)) }
+        let dict46 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict46.forEach { print(String(describing: $0)) }
+        let dict47 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict47.forEach { print(String(describing: $0)) }
+        let dict48 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict48.forEach { print(String(describing: $0)) }
+        let dict49 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict49.forEach { print(String(describing: $0)) }
+        let dict50 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict50.forEach { print(String(describing: $0)) }
+        let dict51 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict51.forEach { print(String(describing: $0)) }
+        let dict52 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict52.forEach { print(String(describing: $0)) }
+        let dict53 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict53.forEach { print(String(describing: $0)) }
+        let dict54 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict54.forEach { print(String(describing: $0)) }
+        let dict55 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict55.forEach { print(String(describing: $0)) }
+        let dict56 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict56.forEach { print(String(describing: $0)) }
+        let dict57 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict57.forEach { print(String(describing: $0)) }
+        let dict58 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict58.forEach { print(String(describing: $0)) }
+        let dict59 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict59.forEach { print(String(describing: $0)) }
+        let dict60 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict60.forEach { print(String(describing: $0)) }
+        let dict61 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict61.forEach { print(String(describing: $0)) }
+        let dict62 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict62.forEach { print(String(describing: $0)) }
+        let dict63 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict63.forEach { print(String(describing: $0)) }
+        let dict64 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict64.forEach { print(String(describing: $0)) }
+        let dict65 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict65.forEach { print(String(describing: $0)) }
+        let dict66 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict66.forEach { print(String(describing: $0)) }
+        let dict67 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict67.forEach { print(String(describing: $0)) }
+        let dict68 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict68.forEach { print(String(describing: $0)) }
+        let dict69 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict69.forEach { print(String(describing: $0)) }
+        let dict70 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict70.forEach { print(String(describing: $0)) }
+        let dict71 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict71.forEach { print(String(describing: $0)) }
+        let dict72 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict72.forEach { print(String(describing: $0)) }
+        let dict73 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict73.forEach { print(String(describing: $0)) }
+        let dict74 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict74.forEach { print(String(describing: $0)) }
+        let dict75 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict75.forEach { print(String(describing: $0)) }
+        let dict76 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict76.forEach { print(String(describing: $0)) }
+        let dict77 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict77.forEach { print(String(describing: $0)) }
+        let dict78 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict78.forEach { print(String(describing: $0)) }
+        let dict79 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict79.forEach { print(String(describing: $0)) }
+        let dict80 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict80.forEach { print(String(describing: $0)) }
+        let dict81 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict81.forEach { print(String(describing: $0)) }
+        let dict82 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict82.forEach { print(String(describing: $0)) }
+        let dict83 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict83.forEach { print(String(describing: $0)) }
+        let dict84 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict84.forEach { print(String(describing: $0)) }
+        let dict85 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict85.forEach { print(String(describing: $0)) }
+        let dict86 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict86.forEach { print(String(describing: $0)) }
+        let dict87 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict87.forEach { print(String(describing: $0)) }
+        let dict88 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict88.forEach { print(String(describing: $0)) }
+        let dict89 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict89.forEach { print(String(describing: $0)) }
+        let dict90 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict90.forEach { print(String(describing: $0)) }
+        let dict91 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict91.forEach { print(String(describing: $0)) }
+        let dict92 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict92.forEach { print(String(describing: $0)) }
+        let dict93 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict93.forEach { print(String(describing: $0)) }
+        let dict94 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict94.forEach { print(String(describing: $0)) }
+        let dict95 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict95.forEach { print(String(describing: $0)) }
+        let dict96 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict96.forEach { print(String(describing: $0)) }
+        let dict97 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict97.forEach { print(String(describing: $0)) }
+        let dict98 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict98.forEach { print(String(describing: $0)) }
+        let dict99 = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict99.forEach { print(String(describing: $0)) }
+    }
+
+    func reduceNestedResultInterimVarSpecifiedType() {
+        let values = [1, 2, 3, 4]
+
+        let dict0: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict0.forEach { print(String(describing: $0)) }
+        let dict1: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict1.forEach { print(String(describing: $0)) }
+        let dict2: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict2.forEach { print(String(describing: $0)) }
+        let dict3: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict3.forEach { print(String(describing: $0)) }
+        let dict4: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict4.forEach { print(String(describing: $0)) }
+        let dict5: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict5.forEach { print(String(describing: $0)) }
+        let dict6: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict6.forEach { print(String(describing: $0)) }
+        let dict7: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict7.forEach { print(String(describing: $0)) }
+        let dict8: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict8.forEach { print(String(describing: $0)) }
+        let dict9: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict9.forEach { print(String(describing: $0)) }
+        let dict10: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict10.forEach { print(String(describing: $0)) }
+        let dict11: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict11.forEach { print(String(describing: $0)) }
+        let dict12: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict12.forEach { print(String(describing: $0)) }
+        let dict13: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict13.forEach { print(String(describing: $0)) }
+        let dict14: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict14.forEach { print(String(describing: $0)) }
+        let dict15: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict15.forEach { print(String(describing: $0)) }
+        let dict16: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict16.forEach { print(String(describing: $0)) }
+        let dict17: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict17.forEach { print(String(describing: $0)) }
+        let dict18: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict18.forEach { print(String(describing: $0)) }
+        let dict19: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict19.forEach { print(String(describing: $0)) }
+        let dict20: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict20.forEach { print(String(describing: $0)) }
+        let dict21: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict21.forEach { print(String(describing: $0)) }
+        let dict22: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict22.forEach { print(String(describing: $0)) }
+        let dict23: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict23.forEach { print(String(describing: $0)) }
+        let dict24: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict24.forEach { print(String(describing: $0)) }
+        let dict25: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict25.forEach { print(String(describing: $0)) }
+        let dict26: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict26.forEach { print(String(describing: $0)) }
+        let dict27: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict27.forEach { print(String(describing: $0)) }
+        let dict28: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict28.forEach { print(String(describing: $0)) }
+        let dict29: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict29.forEach { print(String(describing: $0)) }
+        let dict30: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict30.forEach { print(String(describing: $0)) }
+        let dict31: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict31.forEach { print(String(describing: $0)) }
+        let dict32: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict32.forEach { print(String(describing: $0)) }
+        let dict33: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict33.forEach { print(String(describing: $0)) }
+        let dict34: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict34.forEach { print(String(describing: $0)) }
+        let dict35: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict35.forEach { print(String(describing: $0)) }
+        let dict36: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict36.forEach { print(String(describing: $0)) }
+        let dict37: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict37.forEach { print(String(describing: $0)) }
+        let dict38: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict38.forEach { print(String(describing: $0)) }
+        let dict39: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict39.forEach { print(String(describing: $0)) }
+        let dict40: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict40.forEach { print(String(describing: $0)) }
+        let dict41: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict41.forEach { print(String(describing: $0)) }
+        let dict42: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict42.forEach { print(String(describing: $0)) }
+        let dict43: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict43.forEach { print(String(describing: $0)) }
+        let dict44: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict44.forEach { print(String(describing: $0)) }
+        let dict45: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict45.forEach { print(String(describing: $0)) }
+        let dict46: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict46.forEach { print(String(describing: $0)) }
+        let dict47: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict47.forEach { print(String(describing: $0)) }
+        let dict48: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict48.forEach { print(String(describing: $0)) }
+        let dict49: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict49.forEach { print(String(describing: $0)) }
+        let dict50: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict50.forEach { print(String(describing: $0)) }
+        let dict51: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict51.forEach { print(String(describing: $0)) }
+        let dict52: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict52.forEach { print(String(describing: $0)) }
+        let dict53: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict53.forEach { print(String(describing: $0)) }
+        let dict54: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict54.forEach { print(String(describing: $0)) }
+        let dict55: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict55.forEach { print(String(describing: $0)) }
+        let dict56: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict56.forEach { print(String(describing: $0)) }
+        let dict57: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict57.forEach { print(String(describing: $0)) }
+        let dict58: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict58.forEach { print(String(describing: $0)) }
+        let dict59: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict59.forEach { print(String(describing: $0)) }
+        let dict60: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict60.forEach { print(String(describing: $0)) }
+        let dict61: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict61.forEach { print(String(describing: $0)) }
+        let dict62: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict62.forEach { print(String(describing: $0)) }
+        let dict63: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict63.forEach { print(String(describing: $0)) }
+        let dict64: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict64.forEach { print(String(describing: $0)) }
+        let dict65: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict65.forEach { print(String(describing: $0)) }
+        let dict66: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict66.forEach { print(String(describing: $0)) }
+        let dict67: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict67.forEach { print(String(describing: $0)) }
+        let dict68: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict68.forEach { print(String(describing: $0)) }
+        let dict69: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict69.forEach { print(String(describing: $0)) }
+        let dict70: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict70.forEach { print(String(describing: $0)) }
+        let dict71: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict71.forEach { print(String(describing: $0)) }
+        let dict72: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict72.forEach { print(String(describing: $0)) }
+        let dict73: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict73.forEach { print(String(describing: $0)) }
+        let dict74: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict74.forEach { print(String(describing: $0)) }
+        let dict75: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict75.forEach { print(String(describing: $0)) }
+        let dict76: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict76.forEach { print(String(describing: $0)) }
+        let dict77: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict77.forEach { print(String(describing: $0)) }
+        let dict78: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict78.forEach { print(String(describing: $0)) }
+        let dict79: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict79.forEach { print(String(describing: $0)) }
+        let dict80: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict80.forEach { print(String(describing: $0)) }
+        let dict81: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict81.forEach { print(String(describing: $0)) }
+        let dict82: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict82.forEach { print(String(describing: $0)) }
+        let dict83: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict83.forEach { print(String(describing: $0)) }
+        let dict84: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict84.forEach { print(String(describing: $0)) }
+        let dict85: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict85.forEach { print(String(describing: $0)) }
+        let dict86: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict86.forEach { print(String(describing: $0)) }
+        let dict87: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict87.forEach { print(String(describing: $0)) }
+        let dict88: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict88.forEach { print(String(describing: $0)) }
+        let dict89: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict89.forEach { print(String(describing: $0)) }
+        let dict90: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict90.forEach { print(String(describing: $0)) }
+        let dict91: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict91.forEach { print(String(describing: $0)) }
+        let dict92: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict92.forEach { print(String(describing: $0)) }
+        let dict93: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict93.forEach { print(String(describing: $0)) }
+        let dict94: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict94.forEach { print(String(describing: $0)) }
+        let dict95: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict95.forEach { print(String(describing: $0)) }
+        let dict96: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict96.forEach { print(String(describing: $0)) }
+        let dict97: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict97.forEach { print(String(describing: $0)) }
+        let dict98: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict98.forEach { print(String(describing: $0)) }
+        let dict99: [Int: [Int]] = values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}
+        dict99.forEach { print(String(describing: $0)) }
+    }
+
+    func reduceNestedResultTypeInferrence() {
+        let values = [1, 2, 3, 4]
+
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+        values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
     }
 }
