@@ -98,7 +98,7 @@ import Foundation
 
 @objc class NestedSwiftObjcClass9: NSObject {
     var i = 0
-    let subLet = NestedSwiftObjcClass8()
+    let subLet = NestedSwiftObjcClass8()    
     var subVar = NestedSwiftObjcClass8()
     lazy var subLazyVar: NestedSwiftObjcClass8 = {
         NestedSwiftObjcClass8()
@@ -116,6 +116,154 @@ import Foundation
         NestedSwiftObjcClass9()
     }()
     var subCalculatedVar: NestedSwiftObjcClass9 {
+        return NestedSwiftObjcClass9()
+    }
+}
+
+
+
+extension NestedSwiftObjcClass2 {
+    var subExtVar: NestedSwiftObjcClass1 {
+        return NestedSwiftObjcClass1()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass1 {
+        return NestedSwiftObjcClass1()
+    }
+}
+
+extension NestedSwiftObjcClass3 {
+    var subExtVar: NestedSwiftObjcClass2 {
+        return NestedSwiftObjcClass2()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass2 {
+        return NestedSwiftObjcClass2()
+    }
+}
+
+extension NestedSwiftObjcClass4 {
+    var subExtVar: NestedSwiftObjcClass3 {
+        return NestedSwiftObjcClass3()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass3 {
+        return NestedSwiftObjcClass3()
+    }
+}
+
+extension NestedSwiftObjcClass5 {
+    var subExtVar: NestedSwiftObjcClass4 {
+        return NestedSwiftObjcClass4()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass4 {
+        return NestedSwiftObjcClass4()
+    }
+}
+
+extension NestedSwiftObjcClass6 {
+    var subExtVar: NestedSwiftObjcClass5 {
+        return NestedSwiftObjcClass5()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass5 {
+        return NestedSwiftObjcClass5()
+    }
+}
+
+extension NestedSwiftObjcClass7 {
+    var subExtVar: NestedSwiftObjcClass6 {
+        return NestedSwiftObjcClass6()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass6 {
+        return NestedSwiftObjcClass6()
+    }
+}
+
+extension NestedSwiftObjcClass8 {
+    var subExtVar: NestedSwiftObjcClass7 {
+        return NestedSwiftObjcClass7()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass7 {
+        return NestedSwiftObjcClass7()
+    }
+}
+
+extension NestedSwiftObjcClass9 {
+    var subExtVar: NestedSwiftObjcClass8 {
+        return NestedSwiftObjcClass8()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass8 {
+        return NestedSwiftObjcClass8()
+    }
+}
+
+extension NestedSwiftObjcClass10 {
+    var subExtVar: NestedSwiftObjcClass9 {
+        return NestedSwiftObjcClass9()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftObjcClass9 {
+        return NestedSwiftObjcClass9()
+    }
+}
+
+
+
+@objc extension NestedSwiftObjcClass2 {
+    var subObjcExtVar: NestedSwiftObjcClass1 {
+        return NestedSwiftObjcClass1()
+    }
+}
+
+@objc extension NestedSwiftObjcClass3 {
+    var subObjcExtVar: NestedSwiftObjcClass2 {
+        return NestedSwiftObjcClass2()
+    }
+}
+
+@objc extension NestedSwiftObjcClass4 {
+    var subObjcExtVar: NestedSwiftObjcClass3 {
+        return NestedSwiftObjcClass3()
+    }
+}
+
+@objc extension NestedSwiftObjcClass5 {
+    var subObjcExtVar: NestedSwiftObjcClass4 {
+        return NestedSwiftObjcClass4()
+    }
+}
+
+@objc extension NestedSwiftObjcClass6 {
+    var subObjcExtVar: NestedSwiftObjcClass5 {
+        return NestedSwiftObjcClass5()
+    }
+}
+
+@objc extension NestedSwiftObjcClass7 {
+    var subObjcExtVar: NestedSwiftObjcClass6 {
+        return NestedSwiftObjcClass6()
+    }
+}
+
+@objc extension NestedSwiftObjcClass8 {
+    var subObjcExtVar: NestedSwiftObjcClass7 {
+        return NestedSwiftObjcClass7()
+    }
+}
+
+@objc extension NestedSwiftObjcClass9 {
+    var subObjcExtVar: NestedSwiftObjcClass8 {
+        return NestedSwiftObjcClass8()
+    }
+}
+
+@objc extension NestedSwiftObjcClass10 {
+    var subObjcExtVar: NestedSwiftObjcClass9 {
         return NestedSwiftObjcClass9()
     }
 }

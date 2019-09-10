@@ -1,5 +1,5 @@
 //
-//  NestedFinalClasses.swift
+//  NestedPublicClasses.swift
 //  CompilationBenchmarks
 //
 //  Created by Sergey Rakov on 03/09/2019.
@@ -116,6 +116,62 @@ public class NestedPublicClass10 {
         NestedPublicClass9()
     }()
     var subCalculatedVar: NestedPublicClass9 {
+        return NestedPublicClass9()
+    }
+}
+
+
+
+extension NestedPublicClass2 {
+    var subExtVar: NestedPublicClass1 {
+        return NestedPublicClass1()
+    }
+}
+
+extension NestedPublicClass3 {
+    var subExtVar: NestedPublicClass2 {
+        return NestedPublicClass2()
+    }
+}
+
+extension NestedPublicClass4 {
+    var subExtVar: NestedPublicClass3 {
+        return NestedPublicClass3()
+    }
+}
+
+extension NestedPublicClass5 {
+    var subExtVar: NestedPublicClass4 {
+        return NestedPublicClass4()
+    }
+}
+
+extension NestedPublicClass6 {
+    var subExtVar: NestedPublicClass5 {
+        return NestedPublicClass5()
+    }
+}
+
+extension NestedPublicClass7 {
+    var subExtVar: NestedPublicClass6 {
+        return NestedPublicClass6()
+    }
+}
+
+extension NestedPublicClass8 {
+    var subExtVar: NestedPublicClass7 {
+        return NestedPublicClass7()
+    }
+}
+
+extension NestedPublicClass9 {
+    var subExtVar: NestedPublicClass8 {
+        return NestedPublicClass8()
+    }
+}
+
+extension NestedPublicClass10 {
+    var subExtVar: NestedPublicClass9 {
         return NestedPublicClass9()
     }
 }

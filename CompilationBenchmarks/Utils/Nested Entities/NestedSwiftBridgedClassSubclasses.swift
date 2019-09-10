@@ -119,3 +119,151 @@ final class NestedSwiftBridgedClassSubclass10: ObjCNSObjectSubclass {
         return NestedSwiftBridgedClassSubclass9()
     }
 }
+
+
+
+extension NestedSwiftBridgedClassSubclass2 {
+    var subExtVar: NestedSwiftBridgedClassSubclass1 {
+        return NestedSwiftBridgedClassSubclass1()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass1 {
+        return NestedSwiftBridgedClassSubclass1()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass3 {
+    var subExtVar: NestedSwiftBridgedClassSubclass2 {
+        return NestedSwiftBridgedClassSubclass2()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass2 {
+        return NestedSwiftBridgedClassSubclass2()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass4 {
+    var subExtVar: NestedSwiftBridgedClassSubclass3 {
+        return NestedSwiftBridgedClassSubclass3()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass3 {
+        return NestedSwiftBridgedClassSubclass3()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass5 {
+    var subExtVar: NestedSwiftBridgedClassSubclass4 {
+        return NestedSwiftBridgedClassSubclass4()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass4 {
+        return NestedSwiftBridgedClassSubclass4()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass6 {
+    var subExtVar: NestedSwiftBridgedClassSubclass5 {
+        return NestedSwiftBridgedClassSubclass5()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass5 {
+        return NestedSwiftBridgedClassSubclass5()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass7 {
+    var subExtVar: NestedSwiftBridgedClassSubclass6 {
+        return NestedSwiftBridgedClassSubclass6()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass6 {
+        return NestedSwiftBridgedClassSubclass6()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass8 {
+    var subExtVar: NestedSwiftBridgedClassSubclass7 {
+        return NestedSwiftBridgedClassSubclass7()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass7 {
+        return NestedSwiftBridgedClassSubclass7()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass9 {
+    var subExtVar: NestedSwiftBridgedClassSubclass8 {
+        return NestedSwiftBridgedClassSubclass8()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass8 {
+        return NestedSwiftBridgedClassSubclass8()
+    }
+}
+
+extension NestedSwiftBridgedClassSubclass10 {
+    var subExtVar: NestedSwiftBridgedClassSubclass9 {
+        return NestedSwiftBridgedClassSubclass9()
+    }
+
+    @objc var subExtObjcVar: NestedSwiftBridgedClassSubclass9 {
+        return NestedSwiftBridgedClassSubclass9()
+    }
+}
+
+
+
+@objc extension NestedSwiftBridgedClassSubclass2 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass1 {
+        return NestedSwiftBridgedClassSubclass1()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass3 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass2 {
+        return NestedSwiftBridgedClassSubclass2()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass4 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass3 {
+        return NestedSwiftBridgedClassSubclass3()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass5 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass4 {
+        return NestedSwiftBridgedClassSubclass4()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass6 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass5 {
+        return NestedSwiftBridgedClassSubclass5()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass7 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass6 {
+        return NestedSwiftBridgedClassSubclass6()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass8 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass7 {
+        return NestedSwiftBridgedClassSubclass7()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass9 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass8 {
+        return NestedSwiftBridgedClassSubclass8()
+    }
+}
+
+@objc extension NestedSwiftBridgedClassSubclass10 {
+    var subObjcExtVar: NestedSwiftBridgedClassSubclass9 {
+        return NestedSwiftBridgedClassSubclass9()
+    }
+}

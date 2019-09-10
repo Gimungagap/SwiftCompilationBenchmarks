@@ -157,3 +157,59 @@ struct NestedSwiftStructLazy10 {
         NestedSwiftStructLazy9()
     }()
 }
+
+
+
+extension NestedSwiftStruct2 {
+    var subExtVar: NestedSwiftStruct1 {
+        return NestedSwiftStruct1()
+    }
+}
+
+extension NestedSwiftStruct3 {
+    var subExtVar: NestedSwiftStruct2 {
+        return NestedSwiftStruct2()
+    }
+}
+
+extension NestedSwiftStruct4 {
+    var subExtVar: NestedSwiftStruct3 {
+        return NestedSwiftStruct3()
+    }
+}
+
+extension NestedSwiftStruct5 {
+    var subExtVar: NestedSwiftStruct4 {
+        return NestedSwiftStruct4()
+    }
+}
+
+extension NestedSwiftStruct6 {
+    var subExtVar: NestedSwiftStruct5 {
+        return NestedSwiftStruct5()
+    }
+}
+
+extension NestedSwiftStruct7 {
+    var subExtVar: NestedSwiftStruct6 {
+        return NestedSwiftStruct6()
+    }
+}
+
+extension NestedSwiftStruct8 {
+    var subExtVar: NestedSwiftStruct7 {
+        return NestedSwiftStruct7()
+    }
+}
+
+extension NestedSwiftStruct9 {
+    var subExtVar: NestedSwiftStruct8 {
+        return NestedSwiftStruct8()
+    }
+}
+
+extension NestedSwiftStruct10 {
+    var subExtVar: NestedSwiftStruct9 {
+        return NestedSwiftStruct9()
+    }
+}

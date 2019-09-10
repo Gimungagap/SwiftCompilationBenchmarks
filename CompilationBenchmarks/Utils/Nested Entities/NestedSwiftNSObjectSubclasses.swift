@@ -119,3 +119,151 @@ final class NestedSwiftNSObjectSubclass10: NSObject {
         return NestedSwiftNSObjectSubclass9()
     }
 }
+
+
+
+extension NestedSwiftNSObjectSubclass2 {
+    var subExtVar: NestedSwiftNSObjectSubclass1 {
+        return NestedSwiftNSObjectSubclass1()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass1 {
+        return NestedSwiftNSObjectSubclass1()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass3 {
+    var subExtVar: NestedSwiftNSObjectSubclass2 {
+        return NestedSwiftNSObjectSubclass2()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass2 {
+        return NestedSwiftNSObjectSubclass2()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass4 {
+    var subExtVar: NestedSwiftNSObjectSubclass3 {
+        return NestedSwiftNSObjectSubclass3()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass3 {
+        return NestedSwiftNSObjectSubclass3()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass5 {
+    var subExtVar: NestedSwiftNSObjectSubclass4 {
+        return NestedSwiftNSObjectSubclass4()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass4 {
+        return NestedSwiftNSObjectSubclass4()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass6 {
+    var subExtVar: NestedSwiftNSObjectSubclass5 {
+        return NestedSwiftNSObjectSubclass5()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass5 {
+        return NestedSwiftNSObjectSubclass5()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass7 {
+    var subExtVar: NestedSwiftNSObjectSubclass6 {
+        return NestedSwiftNSObjectSubclass6()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass6 {
+        return NestedSwiftNSObjectSubclass6()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass8 {
+    var subExtVar: NestedSwiftNSObjectSubclass7 {
+        return NestedSwiftNSObjectSubclass7()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass7 {
+        return NestedSwiftNSObjectSubclass7()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass9 {
+    var subExtVar: NestedSwiftNSObjectSubclass8 {
+        return NestedSwiftNSObjectSubclass8()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass8 {
+        return NestedSwiftNSObjectSubclass8()
+    }
+}
+
+extension NestedSwiftNSObjectSubclass10 {
+    var subExtVar: NestedSwiftNSObjectSubclass9 {
+        return NestedSwiftNSObjectSubclass9()
+    }
+    
+    @objc var subExtObjcVar: NestedSwiftNSObjectSubclass9 {
+        return NestedSwiftNSObjectSubclass9()
+    }
+}
+
+
+
+@objc extension NestedSwiftNSObjectSubclass2 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass1 {
+        return NestedSwiftNSObjectSubclass1()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass3 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass2 {
+        return NestedSwiftNSObjectSubclass2()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass4 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass3 {
+        return NestedSwiftNSObjectSubclass3()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass5 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass4 {
+        return NestedSwiftNSObjectSubclass4()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass6 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass5 {
+        return NestedSwiftNSObjectSubclass5()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass7 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass6 {
+        return NestedSwiftNSObjectSubclass6()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass8 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass7 {
+        return NestedSwiftNSObjectSubclass7()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass9 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass8 {
+        return NestedSwiftNSObjectSubclass8()
+    }
+}
+
+@objc extension NestedSwiftNSObjectSubclass10 {
+    var subObjcExtVar: NestedSwiftNSObjectSubclass9 {
+        return NestedSwiftNSObjectSubclass9()
+    }
+}

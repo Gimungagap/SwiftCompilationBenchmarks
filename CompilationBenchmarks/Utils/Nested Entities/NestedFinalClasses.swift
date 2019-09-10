@@ -119,3 +119,59 @@ final class NestedFinalClass10 {
         return NestedFinalClass9()
     }
 }
+
+
+
+extension NestedFinalClass2 {
+    var subExtVar: NestedFinalClass1 {
+        return NestedFinalClass1()
+    }
+}
+
+extension NestedFinalClass3 {
+    var subExtVar: NestedFinalClass2 {
+        return NestedFinalClass2()
+    }
+}
+
+extension NestedFinalClass4 {
+    var subExtVar: NestedFinalClass3 {
+        return NestedFinalClass3()
+    }
+}
+
+extension NestedFinalClass5 {
+    var subExtVar: NestedFinalClass4 {
+        return NestedFinalClass4()
+    }
+}
+
+extension NestedFinalClass6 {
+    var subExtVar: NestedFinalClass5 {
+        return NestedFinalClass5()
+    }
+}
+
+extension NestedFinalClass7 {
+    var subExtVar: NestedFinalClass6 {
+        return NestedFinalClass6()
+    }
+}
+
+extension NestedFinalClass8 {
+    var subExtVar: NestedFinalClass7 {
+        return NestedFinalClass7()
+    }
+}
+
+extension NestedFinalClass9 {
+    var subExtVar: NestedFinalClass8 {
+        return NestedFinalClass8()
+    }
+}
+
+extension NestedFinalClass10 {
+    var subExtVar: NestedFinalClass9 {
+        return NestedFinalClass9()
+    }
+}
