@@ -41,12 +41,20 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
     return [ObjCClass new];
 }
 
+- (BOOL)objcMethod {
+    return NO;
+}
+
 @end
 
 @implementation ObjCClass (Category)
 
 - (ObjCClass *)subCategoryVar {
     return [ObjCClass new];
+}
+
+- (BOOL)categoryMethod {
+    return NO;
 }
 
 @end
@@ -191,4 +199,12 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
     return self;
 }
     
+@end
+
+
+
+@implementation ObjCSinglePropertyClass
+@end
+
+@implementation ObjCMultiplePropertiesClass
 @end

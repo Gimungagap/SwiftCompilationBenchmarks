@@ -32,6 +32,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1904301C232813EA00187814 /* MethodClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904301B232813EA00187814 /* MethodClasses.swift */; };
 		198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */ = {isa = PBXBuildFile; fileRef = 198214B72326B13400D9CB8B /* UnspecifiedNullability.m */; };
 		19DD01222327D5C8007863CC /* ObjCClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DD01212327D5C8007863CC /* ObjCClass.swift */; };
 		19EDDA5923106E7500FC511D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDDA5823106E7500FC511D /* Utils.swift */; };
@@ -49,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1904301923280AFE00187814 /* MethodCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodCalls.swift; sourceTree = "<group>"; };
+		1904301B232813EA00187814 /* MethodClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodClasses.swift; sourceTree = "<group>"; };
+		19043022232832E500187814 /* InterfacesQuantity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfacesQuantity.swift; sourceTree = "<group>"; };
 		1908C920231C6DE200746847 /* EnumSwiftObjcClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftObjcClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		1908C922231C6F1F00746847 /* EnumSwiftNSObjectSubclassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftNSObjectSubclassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		1908C925231C703600746847 /* EnumSwiftBridgedClassSubclassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftBridgedClassSubclassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 			children = (
 				19AF54A8231092B70014375B /* Funcs.swift */,
 				19AF54A0231088810014375B /* Inits.swift */,
+				1904301923280AFE00187814 /* MethodCalls.swift */,
 				370E4124231F197900785BAB /* ObjcFuncs.swift */,
 				3702BFE1231F1644009A15AB /* PropertyAssignFuncResult.swift */,
 			);
@@ -227,6 +232,7 @@
 				19CCCDC82326DA5600DED0DB /* LayoutCase.swift */,
 				193027AB2326E6A900C0016A /* TypeSpecification.swift */,
 				19EDDA5C23107E4000FC511D /* UnusedVars.swift */,
+				19043022232832E500187814 /* InterfacesQuantity.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 				19EDDA5823106E7500FC511D /* Utils.swift */,
 				198214B62326B13400D9CB8B /* UnspecifiedNullability.h */,
 				198214B72326B13400D9CB8B /* UnspecifiedNullability.m */,
+				1904301B232813EA00187814 /* MethodClasses.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -556,6 +563,7 @@
 				198214B82326B13400D9CB8B /* UnspecifiedNullability.m in Sources */,
 				37FFDDBF22638C1100BAFB9C /* ViewController.swift in Sources */,
 				376D8A45231DBB61004495C8 /* NestedFinalClasses.swift in Sources */,
+				1904301C232813EA00187814 /* MethodClasses.swift in Sources */,
 				37FFDDBD22638C1100BAFB9C /* AppDelegate.swift in Sources */,
 				372A95A1231DBF7200B1B4E4 /* NestedSwiftStructs.swift in Sources */,
 				372B29EE231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift in Sources */,

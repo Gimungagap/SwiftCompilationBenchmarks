@@ -43,10 +43,12 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 @property (nonatomic) BOOL flag1, flag2, flag3, flag4, flag5, flag6;
 
 @property (nonatomic, readonly) ObjCClass *sub;
+- (BOOL)objcMethod;
 @end
 
 @interface ObjCClass (Category)
 @property (nonatomic, readonly) ObjCClass *subCategoryVar;
+- (BOOL)categoryMethod;
 @end
 
 
@@ -136,6 +138,55 @@ ObjcEnum objcReturnObjcEnum4(NSInteger a1, NSInteger a2, NSInteger a3, NSInteger
 @interface ObjCSpecifiedNullabilityClass : NSObject
 @property (nonatomic, readonly) ObjCSpecifiedNullabilityClass *nonnullVar;
 @property (nonatomic, readonly, nullable) ObjCSpecifiedNullabilityClass *optionalVar;
+@end
+
+
+
+@interface ObjCSinglePropertyClass : NSObject
+@property (nonatomic, readonly) NSInteger i0;
+@end
+
+@interface ObjCMultiplePropertiesClass : NSObject
+@property (nonatomic, readonly) NSInteger i0;
+@property (nonatomic, readonly) CGFloat j0;
+@property (nonatomic, readonly) CGRect rect0;
+@property (nonatomic, readonly) NSObject *obj0;
+@property (nonatomic, readonly) NSInteger i1;
+@property (nonatomic, readonly) CGFloat j1;
+@property (nonatomic, readonly) CGRect rect1;
+@property (nonatomic, readonly) NSObject *obj1;
+@property (nonatomic, readonly) NSInteger i2;
+@property (nonatomic, readonly) CGFloat j2;
+@property (nonatomic, readonly) CGRect rect2;
+@property (nonatomic, readonly) NSObject *obj2;
+@property (nonatomic, readonly) NSInteger i3;
+@property (nonatomic, readonly) CGFloat j3;
+@property (nonatomic, readonly) CGRect rect3;
+@property (nonatomic, readonly) NSObject *obj3;
+@property (nonatomic, readonly) NSInteger i4;
+@property (nonatomic, readonly) CGFloat j4;
+@property (nonatomic, readonly) CGRect rect4;
+@property (nonatomic, readonly) NSObject *obj4;
+@property (nonatomic, readonly) NSInteger i5;
+@property (nonatomic, readonly) CGFloat j5;
+@property (nonatomic, readonly) CGRect rect5;
+@property (nonatomic, readonly) NSObject *obj5;
+@property (nonatomic, readonly) NSInteger i6;
+@property (nonatomic, readonly) CGFloat j6;
+@property (nonatomic, readonly) CGRect rect6;
+@property (nonatomic, readonly) NSObject *obj6;
+@property (nonatomic, readonly) NSInteger i7;
+@property (nonatomic, readonly) CGFloat j7;
+@property (nonatomic, readonly) CGRect rect7;
+@property (nonatomic, readonly) NSObject *obj7;
+@property (nonatomic, readonly) NSInteger i8;
+@property (nonatomic, readonly) CGFloat j8;
+@property (nonatomic, readonly) CGRect rect8;
+@property (nonatomic, readonly) NSObject *obj8;
+@property (nonatomic, readonly) NSInteger i9;
+@property (nonatomic, readonly) CGFloat j9;
+@property (nonatomic, readonly) CGRect rect9;
+@property (nonatomic, readonly) NSObject *obj9;
 @end
 
 NS_ASSUME_NONNULL_END

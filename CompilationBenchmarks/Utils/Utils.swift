@@ -255,3 +255,51 @@ final class SwiftOptionalVarClass: NSObject {
         return self
     }
 }
+
+
+final class SwiftSinglePropertyClass {
+    var i0 = 0
+}
+
+final class SwiftMultiplePropertiesClass {
+    var i0 = 0
+    var j0: CGFloat = 0
+    var rect0 = CGRect.zero
+    var obj0 = NSObject()
+    var i1 = 0
+    var j1: CGFloat = 0
+    var rect1 = CGRect.zero
+    var obj1 = NSObject()
+    var i2 = 0
+    var j2: CGFloat = 0
+    var rect2 = CGRect.zero
+    var obj2 = NSObject()
+    var i3 = 0
+    var j3: CGFloat = 0
+    var rect3 = CGRect.zero
+    var obj3 = NSObject()
+    var i4 = 0
+    var j4: CGFloat = 0
+    var rect4 = CGRect.zero
+    var obj4 = NSObject()
+    var i5 = 0
+    var j5: CGFloat = 0
+    var rect5 = CGRect.zero
+    var obj5 = NSObject()
+    var i6 = 0
+    var j6: CGFloat = 0
+    var rect6 = CGRect.zero
+    var obj6 = NSObject()
+    var i7 = 0
+    var j7: CGFloat = 0
+    var rect7 = CGRect.zero
+    var obj7 = NSObject()
+    var i8 = 0
+    var j8: CGFloat = 0
+    var rect8 = CGRect.zero
+    var obj8 = NSObject()
+    var i9 = 0
+    var j9: CGFloat = 0
+    var rect9 = CGRect.zero
+    var obj9 = NSObject()
+}
