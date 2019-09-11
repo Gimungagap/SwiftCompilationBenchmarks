@@ -20,7 +20,7 @@ final class TypeSpecification: NSObject {
 
     func arrayTypeSpecificationWarmup() {
         let values = [1, 2, 3, 4]
-        
+
         let arr0: [Int] = Array(Array(values[..<2])[..<2])
         print(String(describing: arr0.first?.description))
         let arr1: [Int] = Array(Array(values[..<2])[..<2])
@@ -221,407 +221,9 @@ final class TypeSpecification: NSObject {
         print(String(describing: arr98.first?.description))
         let arr99: [Int] = Array(Array(values[..<2])[..<2])
         print(String(describing: arr99.first?.description))
-        let arr100: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr100.first?.description))
-        let arr101: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr101.first?.description))
-        let arr102: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr102.first?.description))
-        let arr103: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr103.first?.description))
-        let arr104: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr104.first?.description))
-        let arr105: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr105.first?.description))
-        let arr106: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr106.first?.description))
-        let arr107: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr107.first?.description))
-        let arr108: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr108.first?.description))
-        let arr109: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr109.first?.description))
-        let arr110: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr110.first?.description))
-        let arr111: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr111.first?.description))
-        let arr112: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr112.first?.description))
-        let arr113: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr113.first?.description))
-        let arr114: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr114.first?.description))
-        let arr115: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr115.first?.description))
-        let arr116: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr116.first?.description))
-        let arr117: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr117.first?.description))
-        let arr118: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr118.first?.description))
-        let arr119: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr119.first?.description))
-        let arr120: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr120.first?.description))
-        let arr121: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr121.first?.description))
-        let arr122: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr122.first?.description))
-        let arr123: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr123.first?.description))
-        let arr124: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr124.first?.description))
-        let arr125: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr125.first?.description))
-        let arr126: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr126.first?.description))
-        let arr127: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr127.first?.description))
-        let arr128: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr128.first?.description))
-        let arr129: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr129.first?.description))
-        let arr130: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr130.first?.description))
-        let arr131: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr131.first?.description))
-        let arr132: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr132.first?.description))
-        let arr133: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr133.first?.description))
-        let arr134: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr134.first?.description))
-        let arr135: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr135.first?.description))
-        let arr136: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr136.first?.description))
-        let arr137: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr137.first?.description))
-        let arr138: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr138.first?.description))
-        let arr139: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr139.first?.description))
-        let arr140: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr140.first?.description))
-        let arr141: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr141.first?.description))
-        let arr142: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr142.first?.description))
-        let arr143: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr143.first?.description))
-        let arr144: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr144.first?.description))
-        let arr145: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr145.first?.description))
-        let arr146: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr146.first?.description))
-        let arr147: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr147.first?.description))
-        let arr148: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr148.first?.description))
-        let arr149: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr149.first?.description))
-        let arr150: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr150.first?.description))
-        let arr151: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr151.first?.description))
-        let arr152: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr152.first?.description))
-        let arr153: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr153.first?.description))
-        let arr154: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr154.first?.description))
-        let arr155: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr155.first?.description))
-        let arr156: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr156.first?.description))
-        let arr157: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr157.first?.description))
-        let arr158: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr158.first?.description))
-        let arr159: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr159.first?.description))
-        let arr160: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr160.first?.description))
-        let arr161: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr161.first?.description))
-        let arr162: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr162.first?.description))
-        let arr163: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr163.first?.description))
-        let arr164: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr164.first?.description))
-        let arr165: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr165.first?.description))
-        let arr166: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr166.first?.description))
-        let arr167: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr167.first?.description))
-        let arr168: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr168.first?.description))
-        let arr169: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr169.first?.description))
-        let arr170: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr170.first?.description))
-        let arr171: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr171.first?.description))
-        let arr172: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr172.first?.description))
-        let arr173: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr173.first?.description))
-        let arr174: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr174.first?.description))
-        let arr175: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr175.first?.description))
-        let arr176: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr176.first?.description))
-        let arr177: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr177.first?.description))
-        let arr178: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr178.first?.description))
-        let arr179: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr179.first?.description))
-        let arr180: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr180.first?.description))
-        let arr181: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr181.first?.description))
-        let arr182: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr182.first?.description))
-        let arr183: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr183.first?.description))
-        let arr184: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr184.first?.description))
-        let arr185: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr185.first?.description))
-        let arr186: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr186.first?.description))
-        let arr187: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr187.first?.description))
-        let arr188: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr188.first?.description))
-        let arr189: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr189.first?.description))
-        let arr190: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr190.first?.description))
-        let arr191: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr191.first?.description))
-        let arr192: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr192.first?.description))
-        let arr193: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr193.first?.description))
-        let arr194: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr194.first?.description))
-        let arr195: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr195.first?.description))
-        let arr196: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr196.first?.description))
-        let arr197: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr197.first?.description))
-        let arr198: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr198.first?.description))
-        let arr199: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr199.first?.description))
-        let arr200: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr200.first?.description))
-        let arr201: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr201.first?.description))
-        let arr202: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr202.first?.description))
-        let arr203: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr203.first?.description))
-        let arr204: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr204.first?.description))
-        let arr205: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr205.first?.description))
-        let arr206: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr206.first?.description))
-        let arr207: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr207.first?.description))
-        let arr208: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr208.first?.description))
-        let arr209: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr209.first?.description))
-        let arr210: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr210.first?.description))
-        let arr211: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr211.first?.description))
-        let arr212: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr212.first?.description))
-        let arr213: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr213.first?.description))
-        let arr214: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr214.first?.description))
-        let arr215: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr215.first?.description))
-        let arr216: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr216.first?.description))
-        let arr217: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr217.first?.description))
-        let arr218: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr218.first?.description))
-        let arr219: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr219.first?.description))
-        let arr220: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr220.first?.description))
-        let arr221: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr221.first?.description))
-        let arr222: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr222.first?.description))
-        let arr223: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr223.first?.description))
-        let arr224: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr224.first?.description))
-        let arr225: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr225.first?.description))
-        let arr226: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr226.first?.description))
-        let arr227: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr227.first?.description))
-        let arr228: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr228.first?.description))
-        let arr229: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr229.first?.description))
-        let arr230: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr230.first?.description))
-        let arr231: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr231.first?.description))
-        let arr232: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr232.first?.description))
-        let arr233: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr233.first?.description))
-        let arr234: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr234.first?.description))
-        let arr235: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr235.first?.description))
-        let arr236: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr236.first?.description))
-        let arr237: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr237.first?.description))
-        let arr238: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr238.first?.description))
-        let arr239: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr239.first?.description))
-        let arr240: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr240.first?.description))
-        let arr241: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr241.first?.description))
-        let arr242: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr242.first?.description))
-        let arr243: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr243.first?.description))
-        let arr244: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr244.first?.description))
-        let arr245: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr245.first?.description))
-        let arr246: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr246.first?.description))
-        let arr247: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr247.first?.description))
-        let arr248: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr248.first?.description))
-        let arr249: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr249.first?.description))
-        let arr250: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr250.first?.description))
-        let arr251: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr251.first?.description))
-        let arr252: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr252.first?.description))
-        let arr253: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr253.first?.description))
-        let arr254: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr254.first?.description))
-        let arr255: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr255.first?.description))
-        let arr256: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr256.first?.description))
-        let arr257: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr257.first?.description))
-        let arr258: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr258.first?.description))
-        let arr259: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr259.first?.description))
-        let arr260: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr260.first?.description))
-        let arr261: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr261.first?.description))
-        let arr262: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr262.first?.description))
-        let arr263: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr263.first?.description))
-        let arr264: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr264.first?.description))
-        let arr265: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr265.first?.description))
-        let arr266: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr266.first?.description))
-        let arr267: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr267.first?.description))
-        let arr268: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr268.first?.description))
-        let arr269: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr269.first?.description))
-        let arr270: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr270.first?.description))
-        let arr271: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr271.first?.description))
-        let arr272: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr272.first?.description))
-        let arr273: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr273.first?.description))
-        let arr274: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr274.first?.description))
-        let arr275: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr275.first?.description))
-        let arr276: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr276.first?.description))
-        let arr277: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr277.first?.description))
-        let arr278: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr278.first?.description))
-        let arr279: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr279.first?.description))
-        let arr280: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr280.first?.description))
-        let arr281: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr281.first?.description))
-        let arr282: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr282.first?.description))
-        let arr283: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr283.first?.description))
-        let arr284: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr284.first?.description))
-        let arr285: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr285.first?.description))
-        let arr286: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr286.first?.description))
-        let arr287: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr287.first?.description))
-        let arr288: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr288.first?.description))
-        let arr289: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr289.first?.description))
-        let arr290: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr290.first?.description))
-        let arr291: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr291.first?.description))
-        let arr292: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr292.first?.description))
-        let arr293: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr293.first?.description))
-        let arr294: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr294.first?.description))
-        let arr295: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr295.first?.description))
-        let arr296: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr296.first?.description))
-        let arr297: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr297.first?.description))
-        let arr298: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr298.first?.description))
-        let arr299: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr299.first?.description))
     }
+    
+    // MARK: - Array
     
     func arrayTypeSpecification() {
         let values = [1, 2, 3, 4]
@@ -826,408 +428,8 @@ final class TypeSpecification: NSObject {
         print(String(describing: arr98.first?.description))
         let arr99: [Int] = Array(Array(values[..<2])[..<2])
         print(String(describing: arr99.first?.description))
-        let arr100: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr100.first?.description))
-        let arr101: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr101.first?.description))
-        let arr102: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr102.first?.description))
-        let arr103: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr103.first?.description))
-        let arr104: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr104.first?.description))
-        let arr105: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr105.first?.description))
-        let arr106: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr106.first?.description))
-        let arr107: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr107.first?.description))
-        let arr108: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr108.first?.description))
-        let arr109: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr109.first?.description))
-        let arr110: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr110.first?.description))
-        let arr111: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr111.first?.description))
-        let arr112: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr112.first?.description))
-        let arr113: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr113.first?.description))
-        let arr114: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr114.first?.description))
-        let arr115: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr115.first?.description))
-        let arr116: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr116.first?.description))
-        let arr117: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr117.first?.description))
-        let arr118: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr118.first?.description))
-        let arr119: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr119.first?.description))
-        let arr120: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr120.first?.description))
-        let arr121: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr121.first?.description))
-        let arr122: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr122.first?.description))
-        let arr123: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr123.first?.description))
-        let arr124: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr124.first?.description))
-        let arr125: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr125.first?.description))
-        let arr126: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr126.first?.description))
-        let arr127: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr127.first?.description))
-        let arr128: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr128.first?.description))
-        let arr129: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr129.first?.description))
-        let arr130: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr130.first?.description))
-        let arr131: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr131.first?.description))
-        let arr132: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr132.first?.description))
-        let arr133: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr133.first?.description))
-        let arr134: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr134.first?.description))
-        let arr135: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr135.first?.description))
-        let arr136: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr136.first?.description))
-        let arr137: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr137.first?.description))
-        let arr138: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr138.first?.description))
-        let arr139: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr139.first?.description))
-        let arr140: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr140.first?.description))
-        let arr141: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr141.first?.description))
-        let arr142: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr142.first?.description))
-        let arr143: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr143.first?.description))
-        let arr144: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr144.first?.description))
-        let arr145: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr145.first?.description))
-        let arr146: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr146.first?.description))
-        let arr147: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr147.first?.description))
-        let arr148: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr148.first?.description))
-        let arr149: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr149.first?.description))
-        let arr150: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr150.first?.description))
-        let arr151: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr151.first?.description))
-        let arr152: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr152.first?.description))
-        let arr153: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr153.first?.description))
-        let arr154: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr154.first?.description))
-        let arr155: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr155.first?.description))
-        let arr156: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr156.first?.description))
-        let arr157: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr157.first?.description))
-        let arr158: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr158.first?.description))
-        let arr159: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr159.first?.description))
-        let arr160: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr160.first?.description))
-        let arr161: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr161.first?.description))
-        let arr162: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr162.first?.description))
-        let arr163: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr163.first?.description))
-        let arr164: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr164.first?.description))
-        let arr165: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr165.first?.description))
-        let arr166: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr166.first?.description))
-        let arr167: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr167.first?.description))
-        let arr168: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr168.first?.description))
-        let arr169: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr169.first?.description))
-        let arr170: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr170.first?.description))
-        let arr171: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr171.first?.description))
-        let arr172: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr172.first?.description))
-        let arr173: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr173.first?.description))
-        let arr174: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr174.first?.description))
-        let arr175: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr175.first?.description))
-        let arr176: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr176.first?.description))
-        let arr177: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr177.first?.description))
-        let arr178: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr178.first?.description))
-        let arr179: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr179.first?.description))
-        let arr180: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr180.first?.description))
-        let arr181: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr181.first?.description))
-        let arr182: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr182.first?.description))
-        let arr183: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr183.first?.description))
-        let arr184: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr184.first?.description))
-        let arr185: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr185.first?.description))
-        let arr186: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr186.first?.description))
-        let arr187: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr187.first?.description))
-        let arr188: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr188.first?.description))
-        let arr189: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr189.first?.description))
-        let arr190: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr190.first?.description))
-        let arr191: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr191.first?.description))
-        let arr192: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr192.first?.description))
-        let arr193: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr193.first?.description))
-        let arr194: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr194.first?.description))
-        let arr195: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr195.first?.description))
-        let arr196: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr196.first?.description))
-        let arr197: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr197.first?.description))
-        let arr198: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr198.first?.description))
-        let arr199: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr199.first?.description))
-        let arr200: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr200.first?.description))
-        let arr201: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr201.first?.description))
-        let arr202: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr202.first?.description))
-        let arr203: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr203.first?.description))
-        let arr204: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr204.first?.description))
-        let arr205: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr205.first?.description))
-        let arr206: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr206.first?.description))
-        let arr207: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr207.first?.description))
-        let arr208: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr208.first?.description))
-        let arr209: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr209.first?.description))
-        let arr210: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr210.first?.description))
-        let arr211: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr211.first?.description))
-        let arr212: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr212.first?.description))
-        let arr213: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr213.first?.description))
-        let arr214: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr214.first?.description))
-        let arr215: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr215.first?.description))
-        let arr216: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr216.first?.description))
-        let arr217: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr217.first?.description))
-        let arr218: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr218.first?.description))
-        let arr219: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr219.first?.description))
-        let arr220: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr220.first?.description))
-        let arr221: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr221.first?.description))
-        let arr222: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr222.first?.description))
-        let arr223: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr223.first?.description))
-        let arr224: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr224.first?.description))
-        let arr225: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr225.first?.description))
-        let arr226: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr226.first?.description))
-        let arr227: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr227.first?.description))
-        let arr228: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr228.first?.description))
-        let arr229: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr229.first?.description))
-        let arr230: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr230.first?.description))
-        let arr231: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr231.first?.description))
-        let arr232: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr232.first?.description))
-        let arr233: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr233.first?.description))
-        let arr234: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr234.first?.description))
-        let arr235: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr235.first?.description))
-        let arr236: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr236.first?.description))
-        let arr237: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr237.first?.description))
-        let arr238: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr238.first?.description))
-        let arr239: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr239.first?.description))
-        let arr240: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr240.first?.description))
-        let arr241: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr241.first?.description))
-        let arr242: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr242.first?.description))
-        let arr243: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr243.first?.description))
-        let arr244: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr244.first?.description))
-        let arr245: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr245.first?.description))
-        let arr246: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr246.first?.description))
-        let arr247: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr247.first?.description))
-        let arr248: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr248.first?.description))
-        let arr249: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr249.first?.description))
-        let arr250: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr250.first?.description))
-        let arr251: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr251.first?.description))
-        let arr252: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr252.first?.description))
-        let arr253: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr253.first?.description))
-        let arr254: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr254.first?.description))
-        let arr255: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr255.first?.description))
-        let arr256: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr256.first?.description))
-        let arr257: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr257.first?.description))
-        let arr258: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr258.first?.description))
-        let arr259: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr259.first?.description))
-        let arr260: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr260.first?.description))
-        let arr261: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr261.first?.description))
-        let arr262: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr262.first?.description))
-        let arr263: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr263.first?.description))
-        let arr264: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr264.first?.description))
-        let arr265: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr265.first?.description))
-        let arr266: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr266.first?.description))
-        let arr267: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr267.first?.description))
-        let arr268: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr268.first?.description))
-        let arr269: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr269.first?.description))
-        let arr270: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr270.first?.description))
-        let arr271: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr271.first?.description))
-        let arr272: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr272.first?.description))
-        let arr273: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr273.first?.description))
-        let arr274: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr274.first?.description))
-        let arr275: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr275.first?.description))
-        let arr276: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr276.first?.description))
-        let arr277: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr277.first?.description))
-        let arr278: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr278.first?.description))
-        let arr279: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr279.first?.description))
-        let arr280: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr280.first?.description))
-        let arr281: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr281.first?.description))
-        let arr282: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr282.first?.description))
-        let arr283: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr283.first?.description))
-        let arr284: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr284.first?.description))
-        let arr285: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr285.first?.description))
-        let arr286: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr286.first?.description))
-        let arr287: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr287.first?.description))
-        let arr288: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr288.first?.description))
-        let arr289: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr289.first?.description))
-        let arr290: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr290.first?.description))
-        let arr291: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr291.first?.description))
-        let arr292: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr292.first?.description))
-        let arr293: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr293.first?.description))
-        let arr294: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr294.first?.description))
-        let arr295: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr295.first?.description))
-        let arr296: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr296.first?.description))
-        let arr297: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr297.first?.description))
-        let arr298: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr298.first?.description))
-        let arr299: [Int] = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr299.first?.description))
     }
-    
+
     func arrayTypeInferrence() {
         let values = [1, 2, 3, 4]
         
@@ -1431,408 +633,10 @@ final class TypeSpecification: NSObject {
         print(String(describing: arr98.first?.description))
         let arr99 = Array(Array(values[..<2])[..<2])
         print(String(describing: arr99.first?.description))
-        let arr100 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr100.first?.description))
-        let arr101 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr101.first?.description))
-        let arr102 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr102.first?.description))
-        let arr103 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr103.first?.description))
-        let arr104 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr104.first?.description))
-        let arr105 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr105.first?.description))
-        let arr106 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr106.first?.description))
-        let arr107 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr107.first?.description))
-        let arr108 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr108.first?.description))
-        let arr109 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr109.first?.description))
-        let arr110 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr110.first?.description))
-        let arr111 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr111.first?.description))
-        let arr112 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr112.first?.description))
-        let arr113 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr113.first?.description))
-        let arr114 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr114.first?.description))
-        let arr115 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr115.first?.description))
-        let arr116 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr116.first?.description))
-        let arr117 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr117.first?.description))
-        let arr118 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr118.first?.description))
-        let arr119 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr119.first?.description))
-        let arr120 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr120.first?.description))
-        let arr121 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr121.first?.description))
-        let arr122 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr122.first?.description))
-        let arr123 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr123.first?.description))
-        let arr124 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr124.first?.description))
-        let arr125 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr125.first?.description))
-        let arr126 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr126.first?.description))
-        let arr127 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr127.first?.description))
-        let arr128 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr128.first?.description))
-        let arr129 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr129.first?.description))
-        let arr130 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr130.first?.description))
-        let arr131 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr131.first?.description))
-        let arr132 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr132.first?.description))
-        let arr133 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr133.first?.description))
-        let arr134 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr134.first?.description))
-        let arr135 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr135.first?.description))
-        let arr136 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr136.first?.description))
-        let arr137 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr137.first?.description))
-        let arr138 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr138.first?.description))
-        let arr139 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr139.first?.description))
-        let arr140 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr140.first?.description))
-        let arr141 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr141.first?.description))
-        let arr142 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr142.first?.description))
-        let arr143 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr143.first?.description))
-        let arr144 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr144.first?.description))
-        let arr145 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr145.first?.description))
-        let arr146 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr146.first?.description))
-        let arr147 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr147.first?.description))
-        let arr148 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr148.first?.description))
-        let arr149 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr149.first?.description))
-        let arr150 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr150.first?.description))
-        let arr151 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr151.first?.description))
-        let arr152 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr152.first?.description))
-        let arr153 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr153.first?.description))
-        let arr154 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr154.first?.description))
-        let arr155 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr155.first?.description))
-        let arr156 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr156.first?.description))
-        let arr157 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr157.first?.description))
-        let arr158 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr158.first?.description))
-        let arr159 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr159.first?.description))
-        let arr160 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr160.first?.description))
-        let arr161 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr161.first?.description))
-        let arr162 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr162.first?.description))
-        let arr163 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr163.first?.description))
-        let arr164 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr164.first?.description))
-        let arr165 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr165.first?.description))
-        let arr166 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr166.first?.description))
-        let arr167 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr167.first?.description))
-        let arr168 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr168.first?.description))
-        let arr169 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr169.first?.description))
-        let arr170 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr170.first?.description))
-        let arr171 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr171.first?.description))
-        let arr172 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr172.first?.description))
-        let arr173 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr173.first?.description))
-        let arr174 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr174.first?.description))
-        let arr175 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr175.first?.description))
-        let arr176 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr176.first?.description))
-        let arr177 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr177.first?.description))
-        let arr178 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr178.first?.description))
-        let arr179 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr179.first?.description))
-        let arr180 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr180.first?.description))
-        let arr181 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr181.first?.description))
-        let arr182 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr182.first?.description))
-        let arr183 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr183.first?.description))
-        let arr184 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr184.first?.description))
-        let arr185 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr185.first?.description))
-        let arr186 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr186.first?.description))
-        let arr187 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr187.first?.description))
-        let arr188 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr188.first?.description))
-        let arr189 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr189.first?.description))
-        let arr190 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr190.first?.description))
-        let arr191 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr191.first?.description))
-        let arr192 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr192.first?.description))
-        let arr193 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr193.first?.description))
-        let arr194 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr194.first?.description))
-        let arr195 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr195.first?.description))
-        let arr196 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr196.first?.description))
-        let arr197 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr197.first?.description))
-        let arr198 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr198.first?.description))
-        let arr199 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr199.first?.description))
-        let arr200 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr200.first?.description))
-        let arr201 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr201.first?.description))
-        let arr202 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr202.first?.description))
-        let arr203 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr203.first?.description))
-        let arr204 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr204.first?.description))
-        let arr205 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr205.first?.description))
-        let arr206 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr206.first?.description))
-        let arr207 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr207.first?.description))
-        let arr208 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr208.first?.description))
-        let arr209 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr209.first?.description))
-        let arr210 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr210.first?.description))
-        let arr211 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr211.first?.description))
-        let arr212 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr212.first?.description))
-        let arr213 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr213.first?.description))
-        let arr214 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr214.first?.description))
-        let arr215 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr215.first?.description))
-        let arr216 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr216.first?.description))
-        let arr217 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr217.first?.description))
-        let arr218 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr218.first?.description))
-        let arr219 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr219.first?.description))
-        let arr220 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr220.first?.description))
-        let arr221 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr221.first?.description))
-        let arr222 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr222.first?.description))
-        let arr223 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr223.first?.description))
-        let arr224 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr224.first?.description))
-        let arr225 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr225.first?.description))
-        let arr226 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr226.first?.description))
-        let arr227 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr227.first?.description))
-        let arr228 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr228.first?.description))
-        let arr229 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr229.first?.description))
-        let arr230 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr230.first?.description))
-        let arr231 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr231.first?.description))
-        let arr232 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr232.first?.description))
-        let arr233 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr233.first?.description))
-        let arr234 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr234.first?.description))
-        let arr235 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr235.first?.description))
-        let arr236 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr236.first?.description))
-        let arr237 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr237.first?.description))
-        let arr238 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr238.first?.description))
-        let arr239 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr239.first?.description))
-        let arr240 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr240.first?.description))
-        let arr241 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr241.first?.description))
-        let arr242 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr242.first?.description))
-        let arr243 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr243.first?.description))
-        let arr244 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr244.first?.description))
-        let arr245 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr245.first?.description))
-        let arr246 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr246.first?.description))
-        let arr247 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr247.first?.description))
-        let arr248 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr248.first?.description))
-        let arr249 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr249.first?.description))
-        let arr250 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr250.first?.description))
-        let arr251 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr251.first?.description))
-        let arr252 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr252.first?.description))
-        let arr253 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr253.first?.description))
-        let arr254 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr254.first?.description))
-        let arr255 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr255.first?.description))
-        let arr256 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr256.first?.description))
-        let arr257 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr257.first?.description))
-        let arr258 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr258.first?.description))
-        let arr259 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr259.first?.description))
-        let arr260 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr260.first?.description))
-        let arr261 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr261.first?.description))
-        let arr262 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr262.first?.description))
-        let arr263 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr263.first?.description))
-        let arr264 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr264.first?.description))
-        let arr265 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr265.first?.description))
-        let arr266 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr266.first?.description))
-        let arr267 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr267.first?.description))
-        let arr268 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr268.first?.description))
-        let arr269 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr269.first?.description))
-        let arr270 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr270.first?.description))
-        let arr271 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr271.first?.description))
-        let arr272 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr272.first?.description))
-        let arr273 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr273.first?.description))
-        let arr274 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr274.first?.description))
-        let arr275 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr275.first?.description))
-        let arr276 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr276.first?.description))
-        let arr277 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr277.first?.description))
-        let arr278 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr278.first?.description))
-        let arr279 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr279.first?.description))
-        let arr280 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr280.first?.description))
-        let arr281 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr281.first?.description))
-        let arr282 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr282.first?.description))
-        let arr283 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr283.first?.description))
-        let arr284 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr284.first?.description))
-        let arr285 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr285.first?.description))
-        let arr286 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr286.first?.description))
-        let arr287 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr287.first?.description))
-        let arr288 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr288.first?.description))
-        let arr289 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr289.first?.description))
-        let arr290 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr290.first?.description))
-        let arr291 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr291.first?.description))
-        let arr292 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr292.first?.description))
-        let arr293 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr293.first?.description))
-        let arr294 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr294.first?.description))
-        let arr295 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr295.first?.description))
-        let arr296 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr296.first?.description))
-        let arr297 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr297.first?.description))
-        let arr298 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr298.first?.description))
-        let arr299 = Array(Array(values[..<2])[..<2])
-        print(String(describing: arr299.first?.description))
     }
 
+    // MARK: - Reduce Simple
+    
     func reduceTypeSpecification() {
         let values = [1, 2, 3, 4]
         
@@ -2036,406 +840,6 @@ final class TypeSpecification: NSObject {
         print(String(describing: dict98.keys.first))
         let dict99: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict99.keys.first))
-        let dict100: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict100.keys.first))
-        let dict101: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict101.keys.first))
-        let dict102: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict102.keys.first))
-        let dict103: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict103.keys.first))
-        let dict104: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict104.keys.first))
-        let dict105: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict105.keys.first))
-        let dict106: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict106.keys.first))
-        let dict107: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict107.keys.first))
-        let dict108: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict108.keys.first))
-        let dict109: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict109.keys.first))
-        let dict110: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict110.keys.first))
-        let dict111: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict111.keys.first))
-        let dict112: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict112.keys.first))
-        let dict113: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict113.keys.first))
-        let dict114: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict114.keys.first))
-        let dict115: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict115.keys.first))
-        let dict116: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict116.keys.first))
-        let dict117: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict117.keys.first))
-        let dict118: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict118.keys.first))
-        let dict119: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict119.keys.first))
-        let dict120: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict120.keys.first))
-        let dict121: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict121.keys.first))
-        let dict122: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict122.keys.first))
-        let dict123: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict123.keys.first))
-        let dict124: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict124.keys.first))
-        let dict125: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict125.keys.first))
-        let dict126: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict126.keys.first))
-        let dict127: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict127.keys.first))
-        let dict128: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict128.keys.first))
-        let dict129: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict129.keys.first))
-        let dict130: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict130.keys.first))
-        let dict131: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict131.keys.first))
-        let dict132: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict132.keys.first))
-        let dict133: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict133.keys.first))
-        let dict134: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict134.keys.first))
-        let dict135: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict135.keys.first))
-        let dict136: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict136.keys.first))
-        let dict137: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict137.keys.first))
-        let dict138: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict138.keys.first))
-        let dict139: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict139.keys.first))
-        let dict140: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict140.keys.first))
-        let dict141: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict141.keys.first))
-        let dict142: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict142.keys.first))
-        let dict143: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict143.keys.first))
-        let dict144: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict144.keys.first))
-        let dict145: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict145.keys.first))
-        let dict146: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict146.keys.first))
-        let dict147: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict147.keys.first))
-        let dict148: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict148.keys.first))
-        let dict149: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict149.keys.first))
-        let dict150: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict150.keys.first))
-        let dict151: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict151.keys.first))
-        let dict152: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict152.keys.first))
-        let dict153: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict153.keys.first))
-        let dict154: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict154.keys.first))
-        let dict155: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict155.keys.first))
-        let dict156: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict156.keys.first))
-        let dict157: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict157.keys.first))
-        let dict158: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict158.keys.first))
-        let dict159: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict159.keys.first))
-        let dict160: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict160.keys.first))
-        let dict161: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict161.keys.first))
-        let dict162: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict162.keys.first))
-        let dict163: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict163.keys.first))
-        let dict164: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict164.keys.first))
-        let dict165: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict165.keys.first))
-        let dict166: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict166.keys.first))
-        let dict167: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict167.keys.first))
-        let dict168: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict168.keys.first))
-        let dict169: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict169.keys.first))
-        let dict170: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict170.keys.first))
-        let dict171: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict171.keys.first))
-        let dict172: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict172.keys.first))
-        let dict173: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict173.keys.first))
-        let dict174: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict174.keys.first))
-        let dict175: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict175.keys.first))
-        let dict176: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict176.keys.first))
-        let dict177: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict177.keys.first))
-        let dict178: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict178.keys.first))
-        let dict179: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict179.keys.first))
-        let dict180: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict180.keys.first))
-        let dict181: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict181.keys.first))
-        let dict182: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict182.keys.first))
-        let dict183: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict183.keys.first))
-        let dict184: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict184.keys.first))
-        let dict185: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict185.keys.first))
-        let dict186: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict186.keys.first))
-        let dict187: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict187.keys.first))
-        let dict188: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict188.keys.first))
-        let dict189: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict189.keys.first))
-        let dict190: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict190.keys.first))
-        let dict191: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict191.keys.first))
-        let dict192: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict192.keys.first))
-        let dict193: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict193.keys.first))
-        let dict194: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict194.keys.first))
-        let dict195: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict195.keys.first))
-        let dict196: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict196.keys.first))
-        let dict197: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict197.keys.first))
-        let dict198: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict198.keys.first))
-        let dict199: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict199.keys.first))
-        let dict200: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict200.keys.first))
-        let dict201: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict201.keys.first))
-        let dict202: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict202.keys.first))
-        let dict203: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict203.keys.first))
-        let dict204: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict204.keys.first))
-        let dict205: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict205.keys.first))
-        let dict206: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict206.keys.first))
-        let dict207: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict207.keys.first))
-        let dict208: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict208.keys.first))
-        let dict209: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict209.keys.first))
-        let dict210: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict210.keys.first))
-        let dict211: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict211.keys.first))
-        let dict212: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict212.keys.first))
-        let dict213: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict213.keys.first))
-        let dict214: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict214.keys.first))
-        let dict215: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict215.keys.first))
-        let dict216: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict216.keys.first))
-        let dict217: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict217.keys.first))
-        let dict218: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict218.keys.first))
-        let dict219: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict219.keys.first))
-        let dict220: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict220.keys.first))
-        let dict221: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict221.keys.first))
-        let dict222: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict222.keys.first))
-        let dict223: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict223.keys.first))
-        let dict224: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict224.keys.first))
-        let dict225: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict225.keys.first))
-        let dict226: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict226.keys.first))
-        let dict227: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict227.keys.first))
-        let dict228: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict228.keys.first))
-        let dict229: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict229.keys.first))
-        let dict230: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict230.keys.first))
-        let dict231: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict231.keys.first))
-        let dict232: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict232.keys.first))
-        let dict233: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict233.keys.first))
-        let dict234: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict234.keys.first))
-        let dict235: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict235.keys.first))
-        let dict236: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict236.keys.first))
-        let dict237: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict237.keys.first))
-        let dict238: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict238.keys.first))
-        let dict239: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict239.keys.first))
-        let dict240: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict240.keys.first))
-        let dict241: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict241.keys.first))
-        let dict242: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict242.keys.first))
-        let dict243: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict243.keys.first))
-        let dict244: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict244.keys.first))
-        let dict245: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict245.keys.first))
-        let dict246: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict246.keys.first))
-        let dict247: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict247.keys.first))
-        let dict248: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict248.keys.first))
-        let dict249: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict249.keys.first))
-        let dict250: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict250.keys.first))
-        let dict251: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict251.keys.first))
-        let dict252: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict252.keys.first))
-        let dict253: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict253.keys.first))
-        let dict254: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict254.keys.first))
-        let dict255: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict255.keys.first))
-        let dict256: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict256.keys.first))
-        let dict257: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict257.keys.first))
-        let dict258: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict258.keys.first))
-        let dict259: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict259.keys.first))
-        let dict260: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict260.keys.first))
-        let dict261: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict261.keys.first))
-        let dict262: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict262.keys.first))
-        let dict263: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict263.keys.first))
-        let dict264: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict264.keys.first))
-        let dict265: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict265.keys.first))
-        let dict266: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict266.keys.first))
-        let dict267: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict267.keys.first))
-        let dict268: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict268.keys.first))
-        let dict269: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict269.keys.first))
-        let dict270: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict270.keys.first))
-        let dict271: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict271.keys.first))
-        let dict272: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict272.keys.first))
-        let dict273: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict273.keys.first))
-        let dict274: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict274.keys.first))
-        let dict275: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict275.keys.first))
-        let dict276: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict276.keys.first))
-        let dict277: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict277.keys.first))
-        let dict278: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict278.keys.first))
-        let dict279: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict279.keys.first))
-        let dict280: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict280.keys.first))
-        let dict281: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict281.keys.first))
-        let dict282: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict282.keys.first))
-        let dict283: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict283.keys.first))
-        let dict284: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict284.keys.first))
-        let dict285: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict285.keys.first))
-        let dict286: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict286.keys.first))
-        let dict287: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict287.keys.first))
-        let dict288: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict288.keys.first))
-        let dict289: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict289.keys.first))
-        let dict290: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict290.keys.first))
-        let dict291: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict291.keys.first))
-        let dict292: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict292.keys.first))
-        let dict293: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict293.keys.first))
-        let dict294: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict294.keys.first))
-        let dict295: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict295.keys.first))
-        let dict296: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict296.keys.first))
-        let dict297: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict297.keys.first))
-        let dict298: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict298.keys.first))
-        let dict299: [Int: Int] = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict299.keys.first))
     }
     
     func reduceTypeInferrence() {
@@ -2641,408 +1045,10 @@ final class TypeSpecification: NSObject {
         print(String(describing: dict98.keys.first))
         let dict99 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
         print(String(describing: dict99.keys.first))
-        let dict100 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict100.keys.first))
-        let dict101 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict101.keys.first))
-        let dict102 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict102.keys.first))
-        let dict103 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict103.keys.first))
-        let dict104 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict104.keys.first))
-        let dict105 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict105.keys.first))
-        let dict106 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict106.keys.first))
-        let dict107 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict107.keys.first))
-        let dict108 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict108.keys.first))
-        let dict109 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict109.keys.first))
-        let dict110 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict110.keys.first))
-        let dict111 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict111.keys.first))
-        let dict112 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict112.keys.first))
-        let dict113 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict113.keys.first))
-        let dict114 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict114.keys.first))
-        let dict115 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict115.keys.first))
-        let dict116 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict116.keys.first))
-        let dict117 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict117.keys.first))
-        let dict118 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict118.keys.first))
-        let dict119 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict119.keys.first))
-        let dict120 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict120.keys.first))
-        let dict121 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict121.keys.first))
-        let dict122 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict122.keys.first))
-        let dict123 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict123.keys.first))
-        let dict124 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict124.keys.first))
-        let dict125 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict125.keys.first))
-        let dict126 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict126.keys.first))
-        let dict127 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict127.keys.first))
-        let dict128 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict128.keys.first))
-        let dict129 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict129.keys.first))
-        let dict130 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict130.keys.first))
-        let dict131 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict131.keys.first))
-        let dict132 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict132.keys.first))
-        let dict133 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict133.keys.first))
-        let dict134 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict134.keys.first))
-        let dict135 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict135.keys.first))
-        let dict136 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict136.keys.first))
-        let dict137 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict137.keys.first))
-        let dict138 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict138.keys.first))
-        let dict139 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict139.keys.first))
-        let dict140 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict140.keys.first))
-        let dict141 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict141.keys.first))
-        let dict142 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict142.keys.first))
-        let dict143 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict143.keys.first))
-        let dict144 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict144.keys.first))
-        let dict145 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict145.keys.first))
-        let dict146 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict146.keys.first))
-        let dict147 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict147.keys.first))
-        let dict148 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict148.keys.first))
-        let dict149 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict149.keys.first))
-        let dict150 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict150.keys.first))
-        let dict151 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict151.keys.first))
-        let dict152 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict152.keys.first))
-        let dict153 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict153.keys.first))
-        let dict154 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict154.keys.first))
-        let dict155 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict155.keys.first))
-        let dict156 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict156.keys.first))
-        let dict157 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict157.keys.first))
-        let dict158 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict158.keys.first))
-        let dict159 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict159.keys.first))
-        let dict160 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict160.keys.first))
-        let dict161 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict161.keys.first))
-        let dict162 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict162.keys.first))
-        let dict163 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict163.keys.first))
-        let dict164 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict164.keys.first))
-        let dict165 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict165.keys.first))
-        let dict166 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict166.keys.first))
-        let dict167 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict167.keys.first))
-        let dict168 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict168.keys.first))
-        let dict169 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict169.keys.first))
-        let dict170 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict170.keys.first))
-        let dict171 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict171.keys.first))
-        let dict172 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict172.keys.first))
-        let dict173 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict173.keys.first))
-        let dict174 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict174.keys.first))
-        let dict175 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict175.keys.first))
-        let dict176 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict176.keys.first))
-        let dict177 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict177.keys.first))
-        let dict178 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict178.keys.first))
-        let dict179 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict179.keys.first))
-        let dict180 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict180.keys.first))
-        let dict181 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict181.keys.first))
-        let dict182 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict182.keys.first))
-        let dict183 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict183.keys.first))
-        let dict184 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict184.keys.first))
-        let dict185 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict185.keys.first))
-        let dict186 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict186.keys.first))
-        let dict187 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict187.keys.first))
-        let dict188 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict188.keys.first))
-        let dict189 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict189.keys.first))
-        let dict190 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict190.keys.first))
-        let dict191 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict191.keys.first))
-        let dict192 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict192.keys.first))
-        let dict193 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict193.keys.first))
-        let dict194 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict194.keys.first))
-        let dict195 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict195.keys.first))
-        let dict196 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict196.keys.first))
-        let dict197 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict197.keys.first))
-        let dict198 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict198.keys.first))
-        let dict199 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict199.keys.first))
-        let dict200 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict200.keys.first))
-        let dict201 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict201.keys.first))
-        let dict202 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict202.keys.first))
-        let dict203 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict203.keys.first))
-        let dict204 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict204.keys.first))
-        let dict205 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict205.keys.first))
-        let dict206 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict206.keys.first))
-        let dict207 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict207.keys.first))
-        let dict208 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict208.keys.first))
-        let dict209 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict209.keys.first))
-        let dict210 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict210.keys.first))
-        let dict211 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict211.keys.first))
-        let dict212 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict212.keys.first))
-        let dict213 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict213.keys.first))
-        let dict214 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict214.keys.first))
-        let dict215 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict215.keys.first))
-        let dict216 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict216.keys.first))
-        let dict217 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict217.keys.first))
-        let dict218 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict218.keys.first))
-        let dict219 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict219.keys.first))
-        let dict220 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict220.keys.first))
-        let dict221 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict221.keys.first))
-        let dict222 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict222.keys.first))
-        let dict223 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict223.keys.first))
-        let dict224 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict224.keys.first))
-        let dict225 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict225.keys.first))
-        let dict226 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict226.keys.first))
-        let dict227 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict227.keys.first))
-        let dict228 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict228.keys.first))
-        let dict229 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict229.keys.first))
-        let dict230 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict230.keys.first))
-        let dict231 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict231.keys.first))
-        let dict232 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict232.keys.first))
-        let dict233 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict233.keys.first))
-        let dict234 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict234.keys.first))
-        let dict235 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict235.keys.first))
-        let dict236 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict236.keys.first))
-        let dict237 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict237.keys.first))
-        let dict238 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict238.keys.first))
-        let dict239 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict239.keys.first))
-        let dict240 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict240.keys.first))
-        let dict241 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict241.keys.first))
-        let dict242 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict242.keys.first))
-        let dict243 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict243.keys.first))
-        let dict244 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict244.keys.first))
-        let dict245 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict245.keys.first))
-        let dict246 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict246.keys.first))
-        let dict247 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict247.keys.first))
-        let dict248 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict248.keys.first))
-        let dict249 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict249.keys.first))
-        let dict250 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict250.keys.first))
-        let dict251 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict251.keys.first))
-        let dict252 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict252.keys.first))
-        let dict253 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict253.keys.first))
-        let dict254 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict254.keys.first))
-        let dict255 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict255.keys.first))
-        let dict256 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict256.keys.first))
-        let dict257 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict257.keys.first))
-        let dict258 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict258.keys.first))
-        let dict259 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict259.keys.first))
-        let dict260 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict260.keys.first))
-        let dict261 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict261.keys.first))
-        let dict262 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict262.keys.first))
-        let dict263 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict263.keys.first))
-        let dict264 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict264.keys.first))
-        let dict265 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict265.keys.first))
-        let dict266 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict266.keys.first))
-        let dict267 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict267.keys.first))
-        let dict268 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict268.keys.first))
-        let dict269 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict269.keys.first))
-        let dict270 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict270.keys.first))
-        let dict271 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict271.keys.first))
-        let dict272 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict272.keys.first))
-        let dict273 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict273.keys.first))
-        let dict274 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict274.keys.first))
-        let dict275 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict275.keys.first))
-        let dict276 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict276.keys.first))
-        let dict277 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict277.keys.first))
-        let dict278 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict278.keys.first))
-        let dict279 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict279.keys.first))
-        let dict280 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict280.keys.first))
-        let dict281 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict281.keys.first))
-        let dict282 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict282.keys.first))
-        let dict283 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict283.keys.first))
-        let dict284 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict284.keys.first))
-        let dict285 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict285.keys.first))
-        let dict286 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict286.keys.first))
-        let dict287 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict287.keys.first))
-        let dict288 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict288.keys.first))
-        let dict289 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict289.keys.first))
-        let dict290 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict290.keys.first))
-        let dict291 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict291.keys.first))
-        let dict292 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict292.keys.first))
-        let dict293 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict293.keys.first))
-        let dict294 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict294.keys.first))
-        let dict295 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict295.keys.first))
-        let dict296 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict296.keys.first))
-        let dict297 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict297.keys.first))
-        let dict298 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict298.keys.first))
-        let dict299 = values.reduce([:]) { $0.adding(value: $1, forKey: $1) }
-        print(String(describing: dict299.keys.first))
     }
 
+    // MARK: - Reduce ForEach
+    
     func reduceForEachInterimVar() {
         let values = [1, 2, 3, 4]
 
@@ -3558,6 +1564,8 @@ final class TypeSpecification: NSObject {
         values.reduce([:]) { $0.adding(value: $1, forKey: $1) }.forEach { print(String(describing: $0)) }
     }
 
+    // MARK: - Reduce Nested Result ForEach
+    
     func reduceNestedResultInterimVar() {
         let values = [1, 2, 3, 4]
 
@@ -4071,5 +2079,525 @@ final class TypeSpecification: NSObject {
         values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
         values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
         values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}.forEach { print(String(describing: $0)) }
+    }
+
+    // MARK: - Reduce Nested Result Subscript
+
+    func reduceNestedResultSubscriptInterimVar() {
+        let obj = NestedFinalClass10()
+        let values = [1, 2, 3, 4]
+        
+        let i0 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i0]))
+        let i1 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i1]))
+        let i2 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i2]))
+        let i3 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i3]))
+        let i4 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i4]))
+        let i5 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i5]))
+        let i6 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i6]))
+        let i7 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i7]))
+        let i8 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i8]))
+        let i9 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i9]))
+        let i10 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i10]))
+        let i11 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i11]))
+        let i12 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i12]))
+        let i13 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i13]))
+        let i14 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i14]))
+        let i15 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i15]))
+        let i16 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i16]))
+        let i17 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i17]))
+        let i18 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i18]))
+        let i19 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i19]))
+        let i20 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i20]))
+        let i21 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i21]))
+        let i22 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i22]))
+        let i23 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i23]))
+        let i24 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i24]))
+        let i25 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i25]))
+        let i26 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i26]))
+        let i27 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i27]))
+        let i28 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i28]))
+        let i29 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i29]))
+        let i30 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i30]))
+        let i31 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i31]))
+        let i32 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i32]))
+        let i33 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i33]))
+        let i34 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i34]))
+        let i35 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i35]))
+        let i36 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i36]))
+        let i37 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i37]))
+        let i38 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i38]))
+        let i39 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i39]))
+        let i40 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i40]))
+        let i41 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i41]))
+        let i42 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i42]))
+        let i43 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i43]))
+        let i44 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i44]))
+        let i45 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i45]))
+        let i46 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i46]))
+        let i47 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i47]))
+        let i48 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i48]))
+        let i49 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i49]))
+        let i50 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i50]))
+        let i51 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i51]))
+        let i52 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i52]))
+        let i53 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i53]))
+        let i54 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i54]))
+        let i55 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i55]))
+        let i56 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i56]))
+        let i57 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i57]))
+        let i58 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i58]))
+        let i59 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i59]))
+        let i60 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i60]))
+        let i61 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i61]))
+        let i62 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i62]))
+        let i63 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i63]))
+        let i64 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i64]))
+        let i65 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i65]))
+        let i66 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i66]))
+        let i67 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i67]))
+        let i68 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i68]))
+        let i69 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i69]))
+        let i70 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i70]))
+        let i71 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i71]))
+        let i72 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i72]))
+        let i73 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i73]))
+        let i74 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i74]))
+        let i75 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i75]))
+        let i76 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i76]))
+        let i77 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i77]))
+        let i78 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i78]))
+        let i79 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i79]))
+        let i80 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i80]))
+        let i81 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i81]))
+        let i82 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i82]))
+        let i83 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i83]))
+        let i84 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i84]))
+        let i85 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i85]))
+        let i86 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i86]))
+        let i87 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i87]))
+        let i88 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i88]))
+        let i89 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i89]))
+        let i90 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i90]))
+        let i91 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i91]))
+        let i92 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i92]))
+        let i93 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i93]))
+        let i94 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i94]))
+        let i95 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i95]))
+        let i96 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i96]))
+        let i97 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i97]))
+        let i98 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i98]))
+        let i99 = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i99]))
+    }
+    
+    func reduceNestedResultSubscriptInterimVarSpecifiedType() {
+        let obj = NestedFinalClass10()
+        let values = [1, 2, 3, 4]
+        
+        let i0: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i0]))
+        let i1: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i1]))
+        let i2: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i2]))
+        let i3: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i3]))
+        let i4: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i4]))
+        let i5: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i5]))
+        let i6: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i6]))
+        let i7: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i7]))
+        let i8: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i8]))
+        let i9: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i9]))
+        let i10: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i10]))
+        let i11: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i11]))
+        let i12: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i12]))
+        let i13: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i13]))
+        let i14: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i14]))
+        let i15: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i15]))
+        let i16: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i16]))
+        let i17: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i17]))
+        let i18: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i18]))
+        let i19: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i19]))
+        let i20: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i20]))
+        let i21: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i21]))
+        let i22: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i22]))
+        let i23: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i23]))
+        let i24: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i24]))
+        let i25: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i25]))
+        let i26: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i26]))
+        let i27: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i27]))
+        let i28: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i28]))
+        let i29: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i29]))
+        let i30: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i30]))
+        let i31: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i31]))
+        let i32: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i32]))
+        let i33: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i33]))
+        let i34: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i34]))
+        let i35: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i35]))
+        let i36: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i36]))
+        let i37: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i37]))
+        let i38: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i38]))
+        let i39: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i39]))
+        let i40: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i40]))
+        let i41: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i41]))
+        let i42: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i42]))
+        let i43: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i43]))
+        let i44: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i44]))
+        let i45: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i45]))
+        let i46: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i46]))
+        let i47: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i47]))
+        let i48: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i48]))
+        let i49: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i49]))
+        let i50: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i50]))
+        let i51: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i51]))
+        let i52: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i52]))
+        let i53: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i53]))
+        let i54: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i54]))
+        let i55: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i55]))
+        let i56: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i56]))
+        let i57: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i57]))
+        let i58: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i58]))
+        let i59: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i59]))
+        let i60: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i60]))
+        let i61: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i61]))
+        let i62: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i62]))
+        let i63: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i63]))
+        let i64: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i64]))
+        let i65: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i65]))
+        let i66: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i66]))
+        let i67: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i67]))
+        let i68: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i68]))
+        let i69: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i69]))
+        let i70: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i70]))
+        let i71: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i71]))
+        let i72: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i72]))
+        let i73: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i73]))
+        let i74: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i74]))
+        let i75: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i75]))
+        let i76: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i76]))
+        let i77: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i77]))
+        let i78: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i78]))
+        let i79: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i79]))
+        let i80: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i80]))
+        let i81: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i81]))
+        let i82: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i82]))
+        let i83: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i83]))
+        let i84: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i84]))
+        let i85: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i85]))
+        let i86: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i86]))
+        let i87: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i87]))
+        let i88: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i88]))
+        let i89: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i89]))
+        let i90: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i90]))
+        let i91: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i91]))
+        let i92: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i92]))
+        let i93: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i93]))
+        let i94: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i94]))
+        let i95: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i95]))
+        let i96: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i96]))
+        let i97: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i97]))
+        let i98: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i98]))
+        let i99: Int = obj.subVar.subVar.subVar.i
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[i99]))
+    }
+    
+    func reduceNestedResultSubscriptTypeInferrence() {
+        let obj = NestedFinalClass10()
+        let values = [1, 2, 3, 4]
+        
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
+        print(String(describing: values.reduce([:]) { $0.merging([$1: [$1]]) { $0 + $1 }}[obj.subVar.subVar.subVar.i]))
     }
 }
