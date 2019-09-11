@@ -96,6 +96,8 @@
 		19AF7F8D2326A9BE0011AFB2 /* SwiftOptionalVarClassChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalVarClassChaining.swift; sourceTree = "<group>"; };
 		19B8A395231C5EDF009FE625 /* EnumSwiftFinalClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftFinalClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		19CCCDC82326DA5600DED0DB /* LayoutCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutCase.swift; sourceTree = "<group>"; };
+		19D06BBA2329021E00C81463 /* SumPropertiesToVarInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesToVarInferred.swift; sourceTree = "<group>"; };
+		19D06BBC2329023000C81463 /* SumPropertiesToVarSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesToVarSpecified.swift; sourceTree = "<group>"; };
 		19D2A904231C6C6E000F3F39 /* EnumSwiftPublicClassPropertyAssignFuncResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwiftPublicClassPropertyAssignFuncResults.swift; sourceTree = "<group>"; };
 		19DD01212327D5C8007863CC /* ObjCClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCClass.swift; sourceTree = "<group>"; };
 		19DD01332327DBBE007863CC /* PropertyNestedSwiftNSObjectSubclassExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyNestedSwiftNSObjectSubclassExtensionVar.swift; sourceTree = "<group>"; };
@@ -222,6 +224,8 @@
 				3702BFDE231F146A009A15AB /* SumToPropertySpecified.swift */,
 				37C0E54D2289FB5A00DDDB9E /* SumVarsInferred.swift */,
 				19EDDA5A2310705F00FC511D /* SumVarsSpecified.swift */,
+				19D06BBA2329021E00C81463 /* SumPropertiesToVarInferred.swift */,
+				19D06BBC2329023000C81463 /* SumPropertiesToVarSpecified.swift */,
 			);
 			path = Expressions;
 			sourceTree = "<group>";
