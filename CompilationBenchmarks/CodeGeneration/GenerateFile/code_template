@@ -1,3 +1,4 @@
+300
 {r}
 extension NestedFinalClass{i} {
     var subExtVar: NestedFinalClass{i} {

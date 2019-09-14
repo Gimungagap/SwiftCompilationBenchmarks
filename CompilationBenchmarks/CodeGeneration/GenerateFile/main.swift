@@ -20,13 +20,21 @@ let input = CommandLine.arguments[1]
 
 let kRepeatMark = "{r}"
 let kIndexMark = "{i}"
-let count = 1000
+let kDefaultCount = 1000
 
 
 
 var result = ""
 
-let lines = input.components(separatedBy: .newlines)
+var lines = input.components(separatedBy: .newlines)
+
+var count = kDefaultCount
+if let firstLine = lines.first,
+   let templateCount = Int(firstLine),
+   templateCount > 0 {
+    count = templateCount
+    lines.remove(at: 0)
+}
 
 let repeatMarksCount = lines.filter { $0 == kRepeatMark }.count
 guard repeatMarksCount % 2 == 0 else {
