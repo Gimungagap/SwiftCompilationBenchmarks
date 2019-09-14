@@ -54,7 +54,10 @@ while i < lines.count {
 
         i = j + 1
     } else {
-        result += line + "\n"
+        result += line
+        if i < lines.count - 1 {
+            result += "\n"
+        }
         i += 1
     }
 }
