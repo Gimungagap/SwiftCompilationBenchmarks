@@ -157,6 +157,9 @@
 		376D8A40231DBB2E004495C8 /* NestedSwiftObjcClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSwiftObjcClasses.swift; sourceTree = "<group>"; };
 		376D8A42231DBB47004495C8 /* NestedPublicClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedPublicClasses.swift; sourceTree = "<group>"; };
 		376D8A44231DBB61004495C8 /* NestedFinalClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedFinalClasses.swift; sourceTree = "<group>"; };
+		37713292232D5E9100434306 /* DictStringLiteralsInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictStringLiteralsInferred.swift; sourceTree = "<group>"; };
+		37713294232D696D00434306 /* DictStringLiteralsSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictStringLiteralsSpecified.swift; sourceTree = "<group>"; };
+		37713296232D697C00434306 /* DictStringLiteralsSpecifiedAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictStringLiteralsSpecifiedAny.swift; sourceTree = "<group>"; };
 		379583E3232048A7009BBA32 /* SwiftClosureParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClosureParams.swift; sourceTree = "<group>"; };
 		379583E523204DC2009BBA32 /* SwiftClosureChaining0Params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClosureChaining0Params.swift; sourceTree = "<group>"; };
 		379583E82320511A009BBA32 /* SwiftClosureParamsFull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClosureParamsFull.swift; sourceTree = "<group>"; };
@@ -374,6 +377,7 @@
 				375A525E232D83C300BA0D2C /* Enum Dict Literals */,
 				198E1F61231C545100BE88FC /* Expressions */,
 				198E1F57231C462A00BE88FC /* Func Calls */,
+				37713291232D5CBB00434306 /* Generics */,
 				19AF7F8A2326A8980011AFB2 /* Optionals */,
 				198E1F62231C549100BE88FC /* Other */,
 				372A95A2231DC0F600B1B4E4 /* Property Access */,
@@ -413,6 +417,16 @@
 				19DD01212327D5C8007863CC /* ObjCClass.swift */,
 			);
 			path = "Nested Entities";
+			sourceTree = "<group>";
+		};
+		37713291232D5CBB00434306 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				37713292232D5E9100434306 /* DictStringLiteralsInferred.swift */,
+				37713294232D696D00434306 /* DictStringLiteralsSpecified.swift */,
+				37713296232D697C00434306 /* DictStringLiteralsSpecifiedAny.swift */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 		379583E2232044A5009BBA32 /* Closures */ = {
