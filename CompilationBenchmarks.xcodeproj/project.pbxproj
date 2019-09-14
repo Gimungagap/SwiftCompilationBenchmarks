@@ -149,6 +149,10 @@
 		372B29ED231DBC720004408B /* NestedSwiftNSObjectSubclasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSwiftNSObjectSubclasses.swift; sourceTree = "<group>"; };
 		372B29EF231DBD180004408B /* NestedSwiftBridgedClassSubclasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSwiftBridgedClassSubclasses.swift; sourceTree = "<group>"; };
 		372B29F1231DBE100004408B /* NestedSwiftStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSwiftStructs.swift; sourceTree = "<group>"; };
+		375A525F232D84AE00BA0D2C /* EnumDictLiteralsFirstFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsFirstFull.swift; sourceTree = "<group>"; };
+		375A5261232D84FD00BA0D2C /* EnumDictLiteralsAllFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsAllFull.swift; sourceTree = "<group>"; };
+		375A5263232D851300BA0D2C /* EnumDictLiteralsSpecifiedShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsSpecifiedShort.swift; sourceTree = "<group>"; };
+		375A5265232D852400BA0D2C /* EnumDictLiteralsSpecifiedFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsSpecifiedFull.swift; sourceTree = "<group>"; };
 		376D8A3B231DB4D6004495C8 /* ReplaceOccurrences */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReplaceOccurrences; sourceTree = "<group>"; };
 		376D8A40231DBB2E004495C8 /* NestedSwiftObjcClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSwiftObjcClasses.swift; sourceTree = "<group>"; };
 		376D8A42231DBB47004495C8 /* NestedPublicClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedPublicClasses.swift; sourceTree = "<group>"; };
@@ -367,6 +371,7 @@
 				198E1F58231C466D00BE88FC /* Enum As Func Parameters */,
 				1997319D231C768D006EBC02 /* Enum Assign Complex Expressions */,
 				198E1F63231C552B00BE88FC /* Enum Assign Func Results */,
+				375A525E232D83C300BA0D2C /* Enum Dict Literals */,
 				198E1F61231C545100BE88FC /* Expressions */,
 				198E1F57231C462A00BE88FC /* Func Calls */,
 				19AF7F8A2326A8980011AFB2 /* Optionals */,
@@ -374,6 +379,17 @@
 				372A95A2231DC0F600B1B4E4 /* Property Access */,
 			);
 			path = Benchmarks;
+			sourceTree = "<group>";
+		};
+		375A525E232D83C300BA0D2C /* Enum Dict Literals */ = {
+			isa = PBXGroup;
+			children = (
+				375A5261232D84FD00BA0D2C /* EnumDictLiteralsAllFull.swift */,
+				375A525F232D84AE00BA0D2C /* EnumDictLiteralsFirstFull.swift */,
+				375A5265232D852400BA0D2C /* EnumDictLiteralsSpecifiedFull.swift */,
+				375A5263232D851300BA0D2C /* EnumDictLiteralsSpecifiedShort.swift */,
+			);
+			path = "Enum Dict Literals";
 			sourceTree = "<group>";
 		};
 		376D8A32231DAD1C004495C8 /* CodeGeneration */ = {
