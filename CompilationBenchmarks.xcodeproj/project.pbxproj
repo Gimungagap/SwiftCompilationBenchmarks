@@ -74,6 +74,7 @@
 		196926432327E087008437B7 /* PropertySwiftBridgedInheritedPropertyClassObjcExtensionVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassObjcExtensionVar.swift; sourceTree = "<group>"; };
 		1969264E2327E552008437B7 /* PropertySwiftBridgedInheritedPropertyClassCategoryVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertySwiftBridgedInheritedPropertyClassCategoryVar.swift; sourceTree = "<group>"; };
 		1969264F2327E552008437B7 /* PropertyObjCClassCategoryVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyObjCClassCategoryVar.swift; sourceTree = "<group>"; };
+		1979559F233194D7001EC8A5 /* SelfUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUsage.swift; sourceTree = "<group>"; };
 		198214B22326AE5C00D9CB8B /* SwiftOptionalVarStructChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOptionalVarStructChaining.swift; sourceTree = "<group>"; };
 		198214B62326B13400D9CB8B /* UnspecifiedNullability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnspecifiedNullability.h; sourceTree = "<group>"; };
 		198214B72326B13400D9CB8B /* UnspecifiedNullability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnspecifiedNullability.m; sourceTree = "<group>"; };
@@ -240,10 +241,11 @@
 		198E1F62231C549100BE88FC /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				19043022232832E500187814 /* InterfacesQuantity.swift */,
 				19CCCDC82326DA5600DED0DB /* LayoutCase.swift */,
+				1979559F233194D7001EC8A5 /* SelfUsage.swift */,
 				193027AB2326E6A900C0016A /* TypeSpecification.swift */,
 				19EDDA5C23107E4000FC511D /* UnusedVars.swift */,
-				19043022232832E500187814 /* InterfacesQuantity.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
