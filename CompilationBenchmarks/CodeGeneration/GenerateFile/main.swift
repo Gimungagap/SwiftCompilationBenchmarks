@@ -36,7 +36,7 @@ if let firstLine = lines.first,
     lines.remove(at: 0)
 }
 
-let repeatMarksCount = lines.filter { $0 == kRepeatMark }.count
+let repeatMarksCount = lines.filter { $0.trimmingCharacters(in: .whitespaces) == kRepeatMark }.count
 guard repeatMarksCount % 2 == 0 else {
     print("Error: repeat scope not closed")
     exit(1)
@@ -47,11 +47,11 @@ var i = 0
 while i < lines.count {
     let line = lines[i]
 
-    if line == kRepeatMark {
+    if line.trimmingCharacters(in: .whitespaces) == kRepeatMark {
         var repeatedLines = ""
         var j = i + 1
 
-        while j < lines.count && lines[j] != kRepeatMark {
+        while j < lines.count && lines[j].trimmingCharacters(in: .whitespaces) != kRepeatMark {
             repeatedLines += lines[j] + "\n"
             j += 1
         }
