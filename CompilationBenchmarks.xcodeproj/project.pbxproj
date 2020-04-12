@@ -18,6 +18,17 @@
 			name = GenerateFile;
 			productName = GenerateFile;
 		};
+		19CFE7C6243A4A1B00AEDD4F /* SeveralRuns */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 19CFE7C9243A4A1B00AEDD4F /* Build configuration list for PBXAggregateTarget "SeveralRuns" */;
+			buildPhases = (
+				19CFE7CA243A4AFE00AEDD4F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = SeveralRuns;
+			productName = SeveralRuns;
+		};
 		372A95C0231EF3ED00B1B4E4 /* ReplaceOccurrences */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 372A95C1231EF3ED00B1B4E4 /* Build configuration list for PBXAggregateTarget "ReplaceOccurrences" */;
@@ -79,6 +90,7 @@
 		198214B62326B13400D9CB8B /* UnspecifiedNullability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnspecifiedNullability.h; sourceTree = "<group>"; };
 		198214B72326B13400D9CB8B /* UnspecifiedNullability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnspecifiedNullability.m; sourceTree = "<group>"; };
 		198214B92326B46D00D9CB8B /* ObjcForceUnwrappedVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcForceUnwrappedVarChaining.swift; sourceTree = "<group>"; };
+		19892A8324435BF800E4069A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		198E1F59231C469000BE88FC /* EnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersInferred.swift; sourceTree = "<group>"; };
 		198E1F5B231C474300BE88FC /* EnumFuncParametersSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumFuncParametersSpecified.swift; sourceTree = "<group>"; };
 		198E1F5D231C48FD00BE88FC /* ObjcEnumFuncParametersInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParametersInferred.swift; sourceTree = "<group>"; };
@@ -89,7 +101,7 @@
 		199731A1231C7C3D006EBC02 /* EnumPropertyAssignSwiftSpecifiedTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumPropertyAssignSwiftSpecifiedTernaryResults.swift; sourceTree = "<group>"; };
 		199731A3231C7E36006EBC02 /* ObjcEnumPropertyAssignSwiftSpecifiedTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjcEnumPropertyAssignSwiftSpecifiedTernaryResults.swift; sourceTree = "<group>"; };
 		199731A5231C7E91006EBC02 /* ObjcEnumPropertyAssignSwiftInferredTernaryResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjcEnumPropertyAssignSwiftInferredTernaryResults.swift; sourceTree = "<group>"; };
-		199A263623265FE50005B628 /* GenerateFile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GenerateFile; sourceTree = "<group>"; };
+		199A263623265FE50005B628 /* Generate File */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Generate File"; sourceTree = "<group>"; };
 		19AF54A0231088810014375B /* Inits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inits.swift; sourceTree = "<group>"; };
 		19AF54A4231088B40014375B /* SumPropertiesObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesObjc.swift; sourceTree = "<group>"; };
 		19AF54A6231088C10014375B /* SumPropertiesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPropertiesSwift.swift; sourceTree = "<group>"; };
@@ -117,6 +129,7 @@
 		19EDDA5823106E7500FC511D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		19EDDA5A2310705F00FC511D /* SumVarsSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumVarsSpecified.swift; sourceTree = "<group>"; };
 		19EDDA5C23107E4000FC511D /* UnusedVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusedVars.swift; sourceTree = "<group>"; };
+		19FF9049243A543900E4BD99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3702BFD9231F08F2009A15AB /* SumToPropertyInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumToPropertyInferred.swift; sourceTree = "<group>"; };
 		3702BFDE231F146A009A15AB /* SumToPropertySpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumToPropertySpecified.swift; sourceTree = "<group>"; };
 		3702BFE1231F1644009A15AB /* PropertyAssignFuncResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAssignFuncResult.swift; sourceTree = "<group>"; };
@@ -154,7 +167,7 @@
 		375A5261232D84FD00BA0D2C /* EnumDictLiteralsAllFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsAllFull.swift; sourceTree = "<group>"; };
 		375A5263232D851300BA0D2C /* EnumDictLiteralsSpecifiedShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsSpecifiedShort.swift; sourceTree = "<group>"; };
 		375A5265232D852400BA0D2C /* EnumDictLiteralsSpecifiedFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDictLiteralsSpecifiedFull.swift; sourceTree = "<group>"; };
-		376D8A3B231DB4D6004495C8 /* ReplaceOccurrences */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReplaceOccurrences; sourceTree = "<group>"; };
+		376D8A3B231DB4D6004495C8 /* Replace Occurrences */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Replace Occurrences"; sourceTree = "<group>"; };
 		376D8A40231DBB2E004495C8 /* NestedSwiftObjcClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedSwiftObjcClasses.swift; sourceTree = "<group>"; };
 		376D8A42231DBB47004495C8 /* NestedPublicClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedPublicClasses.swift; sourceTree = "<group>"; };
 		376D8A44231DBB61004495C8 /* NestedFinalClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedFinalClasses.swift; sourceTree = "<group>"; };
@@ -194,6 +207,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19892A8224435BE900E4069A /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				19892A8324435BF800E4069A /* .gitignore */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
 		198E1F57231C462A00BE88FC /* Func Calls */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +311,14 @@
 			path = Optionals;
 			sourceTree = "<group>";
 		};
+		19CFE7CB243A4BCF00AEDD4F /* Several Runs */ = {
+			isa = PBXGroup;
+			children = (
+				19FF9049243A543900E4BD99 /* main.swift */,
+			);
+			path = "Several Runs";
+			sourceTree = "<group>";
+		};
 		19EDDA5723106E6000FC511D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +390,7 @@
 		375793C222639082004CCE42 /* iOS App */ = {
 			isa = PBXGroup;
 			children = (
+				37A8B42D2263B6350058A602 /* Default-568h@2x.png */,
 				37FFDDBC22638C1100BAFB9C /* AppDelegate.swift */,
 				37FFDDBE22638C1100BAFB9C /* ViewController.swift */,
 				37FFDDC322638C1300BAFB9C /* Assets.xcassets */,
@@ -398,13 +428,13 @@
 			path = "Enum Dict Literals";
 			sourceTree = "<group>";
 		};
-		376D8A32231DAD1C004495C8 /* CodeGeneration */ = {
+		376D8A32231DAD1C004495C8 /* Code Generation */ = {
 			isa = PBXGroup;
 			children = (
-				199A263623265FE50005B628 /* GenerateFile */,
-				376D8A3B231DB4D6004495C8 /* ReplaceOccurrences */,
+				199A263623265FE50005B628 /* Generate File */,
+				376D8A3B231DB4D6004495C8 /* Replace Occurrences */,
 			);
-			path = CodeGeneration;
+			path = "Code Generation";
 			sourceTree = "<group>";
 		};
 		376D8A3F231DBB19004495C8 /* Nested Entities */ = {
@@ -450,9 +480,11 @@
 		37FFDDB022638C1100BAFB9C = {
 			isa = PBXGroup;
 			children = (
-				37A8B42D2263B6350058A602 /* Default-568h@2x.png */,
+				376D8A32231DAD1C004495C8 /* Code Generation */,
 				37FFDDBB22638C1100BAFB9C /* CompilationBenchmarks */,
 				37FFDDBA22638C1100BAFB9C /* Products */,
+				19892A8224435BE900E4069A /* Repo */,
+				19CFE7CB243A4BCF00AEDD4F /* Several Runs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -468,9 +500,8 @@
 			isa = PBXGroup;
 			children = (
 				375793C322639090004CCE42 /* Benchmarks */,
-				376D8A32231DAD1C004495C8 /* CodeGeneration */,
-				375793C222639082004CCE42 /* iOS App */,
 				19EDDA5723106E6000FC511D /* Utils */,
+				375793C222639082004CCE42 /* iOS App */,
 			);
 			path = CompilationBenchmarks;
 			sourceTree = "<group>";
@@ -508,6 +539,9 @@
 					199A263C232661B60005B628 = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					19CFE7C6243A4A1B00AEDD4F = {
+						CreatedOnToolsVersion = 11.4;
+					};
 					372A95C0231EF3ED00B1B4E4 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -531,6 +565,7 @@
 			projectRoot = "";
 			targets = (
 				37FFDDB822638C1100BAFB9C /* CompilationBenchmarks */,
+				19CFE7C6243A4A1B00AEDD4F /* SeveralRuns */,
 				199A263C232661B60005B628 /* GenerateFile */,
 				372A95C0231EF3ED00B1B4E4 /* ReplaceOccurrences */,
 			);
@@ -565,7 +600,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SCRIPT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/main.swift\"\nTEMPLATE_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/code_template\"\nTEMPLATE=$(cat $TEMPLATE_PATH)\nOUTPUT_PATH=\"CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output\"\n\n/usr/bin/swift $SCRIPT_PATH \"$TEMPLATE\" > $OUTPUT_PATH \n";
+			shellScript = "SCRIPT_PATH=\"Code Generation/Generate File/main.swift\"\nTEMPLATE_PATH=\"Code Generation/Generate File/code_template\"\nTEMPLATE=$(cat \"$TEMPLATE_PATH\")\nOUTPUT_PATH=\"Code Generation/Generate File/generation_output\"\n\n/usr/bin/swift \"$SCRIPT_PATH\" \"$TEMPLATE\" > \"$OUTPUT_PATH\" \n";
+		};
+		19CFE7CA243A4AFE00AEDD4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_PATH=\"Several Runs/main.swift\"\n/usr/bin/swift \"$SCRIPT_PATH\" \n";
 		};
 		372A95C4231EF3F400B1B4E4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -582,7 +634,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd CompilationBenchmarks/CodeGeneration/ReplaceOccurrences/\n./execute.sh\n";
+			shellScript = "cd \"Code Generation/Replace Occurrences/\"\n./execute.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -620,6 +672,24 @@
 			name = Debug;
 		};
 		199A263F232661B60005B628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19CFE7C7243A4A1B00AEDD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19CFE7C8243A4A1B00AEDD4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -815,6 +885,15 @@
 			buildConfigurations = (
 				199A263E232661B60005B628 /* Debug */,
 				199A263F232661B60005B628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CFE7C9243A4A1B00AEDD4F /* Build configuration list for PBXAggregateTarget "SeveralRuns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CFE7C7243A4A1B00AEDD4F /* Debug */,
+				19CFE7C8243A4A1B00AEDD4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
