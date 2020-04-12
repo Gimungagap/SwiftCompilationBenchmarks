@@ -1,7 +1,7 @@
 # OS X
 .DS_Store
  
-# Xcode
+# IDE
 *.xccheckout
 *.DS_Store
 *xcuserdata*
@@ -11,12 +11,6 @@
 !*/xcshareddata/*
 *.xccheckout
 */xcuserdata/*
- 
-# fastlane
-fastlane/report.xml
-fastlane/*report*
-*app.dSYM.zip
 
-CompilationBenchmarks/CodeGeneration/GenerateFile/generation_output
-CompilationBenchmarks/CodeGeneration/GenerateLines/generation_output
-CompilationBenchmarks/CodeGeneration/ReplaceOccurrences/*
+Code Generation/Generate File/generation_output
+Code Generation/Replace Occurrences/*
