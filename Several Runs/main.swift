@@ -15,7 +15,7 @@ import Darwin
 let preferredSimulator: String? = "iPhone 11 Pro Max"
 
 let numberOfRuns = 3
-let minTime: Double = 1
+let minPrintedTimeInMs: Double = 1
 let sort = PrintSort.location
 let printIntermediateResults = true
 
@@ -132,8 +132,8 @@ enum PrintSort {
 }
 
 func print(_ measures: [String: Measure] = [:]) {
-    let filteredMeasures = minTime > 0
-        ? measures.filter { $0.value.timeSum >= minTime }
+    let filteredMeasures = minPrintedTimeInMs > 0
+        ? measures.filter { $0.value.timeSum >= minPrintedTimeInMs }
         : measures
     
     let sortedPairs = filteredMeasures
