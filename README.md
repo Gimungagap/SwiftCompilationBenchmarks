@@ -21,7 +21,7 @@ The expressions are always repeated lots of times to minimize measurement errors
 * [Utils](CompilationBenchmarks/Utils) contains files with utility code used for the benchmarks. These files are included in target too.
 * [iOS App](CompilationBenchmarks/iOS%20App) contains iOS app-related files.
 
-## Several Runs
+## Several Builds
 
 **SeveralRuns** target can be used to automatically run several sequential builds of the main target and to calculate average measurement results.
 To execute launch just build the target. Results will be printed in build log.
