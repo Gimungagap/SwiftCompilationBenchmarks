@@ -74,6 +74,7 @@
 		190CEE34232410EF00FE4B71 /* ObjcEnumFuncParameterCallInferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallInferred.swift; sourceTree = "<group>"; };
 		190CEE36232410FB00FE4B71 /* ObjcEnumFuncParameterCallSpecified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcEnumFuncParameterCallSpecified.swift; sourceTree = "<group>"; };
 		1920568F2326B66B00F03FFC /* ObjcForceUnwrappedVarChainingManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcForceUnwrappedVarChainingManual.swift; sourceTree = "<group>"; };
+		1924591C244B3B1F00F268CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		193027AB2326E6A900C0016A /* TypeSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSpecification.swift; sourceTree = "<group>"; };
 		194CDBC42326B86900B7E734 /* ObjcNonnullVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcNonnullVarChaining.swift; sourceTree = "<group>"; };
 		194CDBC62326B8D300B7E734 /* ObjcOptionalVarChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjcOptionalVarChaining.swift; sourceTree = "<group>"; };
@@ -211,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				19892A8324435BF800E4069A /* .gitignore */,
+				1924591C244B3B1F00F268CC /* README.md */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
