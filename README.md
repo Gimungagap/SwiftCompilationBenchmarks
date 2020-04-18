@@ -23,12 +23,12 @@ The expressions are always repeated lots of times to minimize measurement errors
 
 ## Several Runs
 
-**SeveralRuns** target can be used to automatically run several builds of the main target and to calculate average measurement results.
+**SeveralRuns** target can be used to automatically run several sequential builds of the main target and to calculate average measurement results.
 To execute launch just build the target. Results will be printed in build log.
 The runs are performed via [main.swift](Several%20Runs/main.swift) script file.
 There are several complete settings in the beginning of the script:
 * `preferredSimulator` can be used to specify name of simulator for `xcodebuild` (see `xcrun simctl list`)
-* `numberOfRuns` amount of sequential runs to perform.
+* `numberOfRuns` amount of runs to perform.
 * `minPrintedTimeInMs` minimal value in milliseconds to print in results. 
 Lesser values will be omitted. 
 Set zero to print all results.
